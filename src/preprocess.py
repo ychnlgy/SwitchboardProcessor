@@ -1,7 +1,6 @@
 from tqdm import tqdm
 
 from os import path, listdir, makedirs
-from project.Path import Path
 from util.Struct import Struct
 from util.Util import intround
 from filesys.WavFile import WavFile
@@ -21,7 +20,7 @@ def preprocess(root, target):
         sliceIntoWaves(entry.id + "-B", entry.phoneB, entry.wave, target)
 
 def collectWavs(root):
-    phones = str(Path(root) + PHONES)
+    phones = path.join(root, PHONES)
     for f in listdir(root):
         if f.startswith("Disc"):
             p = path.join(root, f)
