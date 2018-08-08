@@ -22,10 +22,12 @@ def preprocess(root, target):
 def collectWavs(root):
     phones = path.join(root, PHONES)
     skipped = 0
+    total = 0
     for f in listdir(root):
         if f.startswith("Disc"):
             p = path.join(root, f)
             for wav in listdir(p):
+                total += 1
                 num, ext = wav.split(".")
                 assert num.isdigit()
                 assert ext == "wav"
@@ -34,10 +36,9 @@ def collectWavs(root):
                 pfileB = phones.format(num, "B")
                 if not path.isfile(pfileA) or not path.isfile(pfileB):
                     skipped += 1
-                    print("Skipped")
                     continue
                 yield Entry(num, fname, pfileA, pfileB)
-    print("Skipped %d files." % skipped)
+    print("Skipped %d/%d files." % (skipped, total))
 
 def sliceIntoWaves(num, phonef, wavf, target):
     wave = WavFile.load(wavf)
