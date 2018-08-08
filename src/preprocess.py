@@ -14,7 +14,7 @@ Entry = Struct("id", "wave", "phoneA", "phoneB")
 PhonemeSlice = Struct("value", "start", "end")
 
 def preprocess(root, target):
-    entries = list(tqdm(collectWavs(root), desc="Previewing data", ncols=NCOLS))
+    entries = list(collectWavs(root))
     for entry in tqdm(entries, desc="Loading data", ncols=NCOLS):
         sliceIntoWaves(entry.id + "-A", entry.phoneA, entry.wave, target)
         sliceIntoWaves(entry.id + "-B", entry.phoneB, entry.wave, target)
@@ -36,6 +36,7 @@ def collectWavs(root):
                 pfileB = phones.format(num, "B")
                 if not path.isfile(pfileA) or not path.isfile(pfileB):
                     skipped += 1
+                    print(
                     continue
                 yield Entry(num, fname, pfileA, pfileB)
     print("Skipped %d/%d files." % (skipped, total))
