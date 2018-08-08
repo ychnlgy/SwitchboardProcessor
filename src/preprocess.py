@@ -28,7 +28,7 @@ def collectWavs(root):
             for wav in listdir(p):
                 num, ext = wav.split(".")
                 assert num.isdigit()
-                assert ext == ".wav"
+                assert ext == "wav"
                 fname = path.join(p, wav)
                 pfileA = PHONES.format(num, "A")
                 pfileB = PHONES.format(num, "B")
