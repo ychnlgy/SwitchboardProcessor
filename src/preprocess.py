@@ -29,8 +29,8 @@ def collectWavs(root):
                 assert num.isdigit()
                 assert ext == "wav"
                 fname = path.join(p, wav)
-                pfileA = PHONES.format(num, "A")
-                pfileB = PHONES.format(num, "B")
+                pfileA = phones.format(num, "A")
+                pfileB = phones.format(num, "B")
                 yield Entry(num, fname, pfileA, pfileB)
 
 def sliceIntoWaves(num, phonef, wavf, target):
