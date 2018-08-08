@@ -60,9 +60,9 @@ def parsePhoneFile(phonef, rate):
 
 if __name__ == "__main__":
     
-    from project.Path import mainmethod
+    from project.mainmethod import mainmethod
     
-    @mainmethod
+    @mainmethod(__file__)
     def main(DIR, args):
         if len(args) != 2:
             raise SystemExit("Input input and output directories.")
