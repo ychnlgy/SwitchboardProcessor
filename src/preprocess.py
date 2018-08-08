@@ -36,7 +36,7 @@ def collectWavs(root):
 
 def sliceIntoWaves(num, phonef, wavf, target):
     wave = WavFile.load(wavf)
-    for phoneSlice in parsePhoneFile(phonef, wav.rate):
+    for phoneSlice in parsePhoneFile(phonef, wave.rate):
         dname = path.join(target, phoneSlice.value)
         if not path.isdir(dname):
             makedirs(dname)
@@ -55,7 +55,7 @@ def parsePhoneFile(phonef, rate):
     for child in root:
         assert child.tag == "ph"
         s = intround(float(child.get(start))*rate)
-        e = intround(float(child.get(end)))
+        e = intround(float(child.get(end))*rate)
         yield PhonemeSlice(child.text, s, e)
 
 if __name__ == "__main__":
