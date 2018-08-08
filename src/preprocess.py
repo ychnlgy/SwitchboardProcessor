@@ -9,7 +9,7 @@ from filesys.io import xmlparse
 
 NCOLS = 80
 
-PHONES = "nxt_switchboard_ann/xml/phones/sw{num}.{speaker}.phones.xml"
+PHONES = "nxt_switchboard_ann/xml/phones/sw{}.{}.phones.xml"
 
 Entry = Struct("id", "wave", "phoneA", "phoneB")
 PhonemeSlice = Struct("value", "start", "end")
