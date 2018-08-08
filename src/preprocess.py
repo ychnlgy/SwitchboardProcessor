@@ -34,6 +34,7 @@ def collectWavs(root):
                 pfileB = phones.format(num, "B")
                 if not path.isfile(pfileA) or not path.isfile(pfileB):
                     skipped += 1
+                    print("Skipped")
                     continue
                 yield Entry(num, fname, pfileA, pfileB)
     print("Skipped %d files." % skipped)
