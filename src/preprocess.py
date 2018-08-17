@@ -30,7 +30,7 @@ def collectWavs(root, wavroot):
                 total += 1
                 sw0num, ext = wav.split(".")
                 assert sw0num.startswith("sw0")
-                assert ext == "wav"
+                assert ext == "sph"
                 num = sw0num[3:]
                 assert num.isdigit()
                 
