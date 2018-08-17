@@ -1,32 +1,38 @@
 from tqdm import tqdm
 
-from os import path, listdir, makedirs
+from os import path, listdir, makedirs, system
 from util.Struct import Struct
 from util.Util import intround
+from util.TempFile import TempFile
 from filesys.WavFile import WavFile
 from filesys.io import xmlparse
+
+from scipy.io import wavfile
 
 NCOLS = 80
 
 PHONES = "nxt_switchboard_ann/xml/phones/sw{}.{}.phones.xml"
 
-Entry = Struct("id", "wave", "phoneA", "phoneB")
+Entry = Struct("id", "rate", "waveA", "waveB", "phoneA", "phoneB")
 PhonemeSlice = Struct("value", "start", "end")
 
-def preprocess(root, wavroot, target):
-    entries = list(collectWavs(root, wavroot))
+def preprocess(sph2pipe, root, wavroot, target):
+    entries = list(collectWavs(sph2pipe, root, wavroot, target))
     for entry in tqdm(entries, desc="Loading data", ncols=NCOLS):
-        sliceIntoWaves(entry.id + "-A", entry.phoneA, entry.wave, target)
-        sliceIntoWaves(entry.id + "-B", entry.phoneB, entry.wave, target)
+        sliceIntoWaves(entry.id + "-A", entry.phoneA, entry.waveA, entry.rate, target)
+        sliceIntoWaves(entry.id + "-B", entry.phoneB, entry.waveB, entry.rate, target)
 
-def collectWavs(root, wavroot):
+def collectWavs(sph2pipe, root, wavroot, target):
     phones = path.join(root, PHONES)
     skipped = 0
     total = 0
+    
+    CONVERT_SPH = "%s -p -f wav %s %s"
+    
     for f in listdir(wavroot):
         if f.startswith("swb1_"):
             p = path.join(wavroot, f, "data")
-            for wav in listdir(p):
+            for wav in tqdm(listdir(p), desc=f, ncols=80):
                 total += 1
                 sw0num, ext = wav.split(".")
                 assert sw0num.startswith("sw0")
@@ -34,27 +40,40 @@ def collectWavs(root, wavroot):
                 num = sw0num[3:]
                 assert num.isdigit()
                 
-                fname = path.join(p, wav)
-                pfileA = phones.format(num, "A")
-                pfileB = phones.format(num, "B")
-                if not path.isfile(pfileA) or not path.isfile(pfileB):
-                    skipped += 1
-                    print(pfileA)
-                    continue
-                yield Entry(num, fname, pfileA, pfileB)
-    input("Skipped %d/%d files (press enter to continue)." % (skipped, total))
+                with TempFile(".wav") as wavf:
+                    system(CONVERT_SPH % (sph2pipe, wav, wavf)
+                    assert path.isfile(wavf)
+                    rate, data = wavfile.read(wavf)
+                    
+                    waveA = data[:,0]
+                    waveB = data[:,1]
+                    
+                    outA = path.join(target, "audio", num + ".A.wav")
+                    outB = path.join(target, "audio", num + ".B.wav")
+                    assert not path.isfile(outA)
+                    assert not path.isfile(outB)
+                    wavfile.write(outA, rate, waveA)
+                    wavfile.write(outB, rate, waveB)
+                    
+                    fname = path.join(p, wav)
+                    pfileA = phones.format(num, "A")
+                    pfileB = phones.format(num, "B")
+                    if not path.isfile(pfileA) or not path.isfile(pfileB):
+                        skipped += 1
+                        continue
+                    yield Entry(num, rate, waveA, waveB, pfileA, pfileB)
+    print("Skipped %d/%d files." % (skipped, total))
 
-def sliceIntoWaves(num, phonef, wavf, target):
-    wave = WavFile.load(wavf)
-    for phoneSlice in parsePhoneFile(phonef, wave.rate):
-        dname = path.join(target, phoneSlice.value)
+def sliceIntoWaves(num, phonef, wave, rate, target):
+    for phoneSlice in parsePhoneFile(phonef, rate):
+        dname = path.join(target, "phones", phoneSlice.value)
         if not path.isdir(dname):
             makedirs(dname)
         
         fname = path.join(dname, "%s-%s-%s.wav" % (num, phoneSlice.start, phoneSlice.end))
         assert not path.isfile(fname)
         
-        wave[phoneSlice.start:phoneSlice.end].save(fname)
+        wavfile.write(fname, rate, wave[phoneSlice.start:phoneSlice.end])
 
 def parsePhoneFile(phonef, rate):
     root = xmlparse(phonef)
@@ -74,6 +93,6 @@ if __name__ == "__main__":
     
     @mainmethod(__file__)
     def main(DIR, args):
-        if len(args) != 3:
+        if len(args) != 4:
             raise SystemExit("Input input phoneme and wave folders, and output directory.")
         preprocess(*args)
