@@ -28,9 +28,6 @@ def collectWavs(sph2pipe, root, wavroot, target):
     total = 0
     
     CONVERT_SPH = "%s -p -f wav %s %s"
-    AUDIO_DIR = path.join(target, "audio")
-    if not path.isdir(AUDIO_DIR):
-        makedirs(AUDIO_DIR)
 
     for f in listdir(wavroot):
         if f.startswith("swb1_"):
@@ -64,7 +61,7 @@ def collectWavs(sph2pipe, root, wavroot, target):
 
 def sliceIntoWaves(num, phonef, wave, rate, target):
     for phoneSlice in parsePhoneFile(phonef, rate):
-        dname = path.join(target, "phones", phoneSlice.value)
+        dname = path.join(target, phoneSlice.value)
         if not path.isdir(dname):
             makedirs(dname)
         
