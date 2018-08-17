@@ -39,15 +39,6 @@ def collectWavs(sph2pipe, root, wavroot, target):
                 assert ext == "sph"
                 num = sw0num[3:]
                 assert num.isdigit()
-                
-                with TempFile(num + ".wav") as wavf:
-                    inpf = path.join(p, wav)
-                    system(CONVERT_SPH % (sph2pipe, inpf, wavf))
-                    assert path.isfile(wavf)
-                    rate, data = wavfile.read(wavf)
-                    
-                waveA = data[:,0]
-                waveB = data[:,1]
                     
                 fname = path.join(p, wav)
                 pfileA = phones.format(num, "A")
@@ -55,6 +46,16 @@ def collectWavs(sph2pipe, root, wavroot, target):
                 if not path.isfile(pfileA) or not path.isfile(pfileB):
                     skipped += 1
                     continue
+                    
+                with TempFile(num + ".wav") as wavf:
+                    inpf = path.join(p, wav)
+                    system(CONVERT_SPH % (sph2pipe, inpf, wavf))
+                    assert path.isfile(wavf)
+                    rate, data = wavfile.read(wavf)
+                
+                waveA = data[:,0]
+                waveB = data[:,1]
+                
                 yield Entry(num, rate, waveA, waveB, pfileA, pfileB)
                 
     print("Skipped %d/%d files." % (skipped, total))
