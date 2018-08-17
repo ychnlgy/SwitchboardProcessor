@@ -74,6 +74,6 @@ if __name__ == "__main__":
     
     @mainmethod(__file__)
     def main(DIR, args):
-        if len(args) != 2:
-            raise SystemExit("Input input and output directories.")
+        if len(args) != 3:
+            raise SystemExit("Input input phoneme and wave folders, and output directory.")
         preprocess(*args)
