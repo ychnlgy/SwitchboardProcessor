@@ -9,20 +9,42 @@ from filesys.io import xmlparse
 
 from scipy.io import wavfile
 
+from collections import Counter
+
 NCOLS = 80
 
 PHONES = "nxt_switchboard_ann/xml/phones/sw{}.{}.phones.xml"
 
 Entry = Struct("id", "rate", "waveA", "waveB", "phoneA", "phoneB")
 PhonemeSlice = Struct("value", "start", "end")
+MIN_LEN = 120
+MAX_LEN = 4480
 
 def preprocess(sph2pipe, root, wavroot, target):
-    entries = list(collectWavs(sph2pipe, root, wavroot, target))
+    entries = list(collectWavs(sph2pipe, root, wavroot))
+    alldata = []
     for entry in tqdm(entries, desc="Loading data", ncols=NCOLS):
-        sliceIntoWaves(entry.id + "-A", entry.phoneA, entry.waveA, entry.rate, target)
-        sliceIntoWaves(entry.id + "-B", entry.phoneB, entry.waveB, entry.rate, target)
+        alldata.extend(sliceIntoWaves(entry.phoneA, entry.waveA, entry.rate))
+        alldata.extend(sliceIntoWaves(entry.phoneB, entry.waveB, entry.rate))
+    
+    dataf = target + ".npy"
+    
+    print("Saving to %s" % target)
+    with open(target, "wb") as f:
+        numpy.save(f, alldata)
 
-def collectWavs(sph2pipe, root, wavroot, target):
+    classcounter = Counter()
+    for d, label in alldata:
+        classcounter[label] += 1
+    
+    classf = target + "-class.txt"
+    form = "{: <20}"*2 + "\n"
+    with open(classf, "w") as f:
+        f.write(form.format("Class", "Count"))
+        for v, k in sorted([(v, k) for k, v in classcounter.items()]):
+            f.write(form.format(k, v))
+
+def collectWavs(sph2pipe, root, wavroot):
     phones = path.join(root, PHONES)
     skipped = 0
     total = 0
@@ -60,16 +82,14 @@ def collectWavs(sph2pipe, root, wavroot, target):
                 
     print("Skipped %d/%d files." % (skipped, total))
 
-def sliceIntoWaves(num, phonef, wave, rate, target):
+def sliceIntoWaves(phonef, wave, rate):
     for phoneSlice in parsePhoneFile(phonef, rate):
-        dname = path.join(target, phoneSlice.value)
-        if not path.isdir(dname):
-            makedirs(dname)
         
-        fname = path.join(dname, "%s-%s-%s.wav" % (num, phoneSlice.start, phoneSlice.end))
-        assert not path.isfile(fname)
+        d = phoneSlice.end - phoneSlice.start
+        if d <= MIN_LEN or d >= MAX_DATALEN:
+            continue
         
-        wavfile.write(fname, rate, wave[phoneSlice.start:phoneSlice.end])
+        yield [wave[phoneSlice.start:phoneSlice.end], phoneSlice.value]
 
 def parsePhoneFile(phonef, rate):
     root = xmlparse(phonef)
