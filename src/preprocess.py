@@ -41,7 +41,8 @@ def collectWavs(sph2pipe, root, wavroot, target):
                 assert num.isdigit()
                 
                 with TempFile(".wav") as wavf:
-                    system(CONVERT_SPH % (sph2pipe, wav, wavf))
+                    inpf = path.join(p, wav)
+                    system(CONVERT_SPH % (sph2pipe, inpf, wavf))
                     assert path.isfile(wavf)
                     rate, data = wavfile.read(wavf)
                     
