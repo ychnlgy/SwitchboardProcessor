@@ -13,24 +13,27 @@ PHONES = "nxt_switchboard_ann/xml/phones/sw{}.{}.phones.xml"
 Entry = Struct("id", "wave", "phoneA", "phoneB")
 PhonemeSlice = Struct("value", "start", "end")
 
-def preprocess(root, target):
-    entries = list(collectWavs(root))
+def preprocess(root, wavroot, target):
+    entries = list(collectWavs(root, wavroot))
     for entry in tqdm(entries, desc="Loading data", ncols=NCOLS):
         sliceIntoWaves(entry.id + "-A", entry.phoneA, entry.wave, target)
         sliceIntoWaves(entry.id + "-B", entry.phoneB, entry.wave, target)
 
-def collectWavs(root):
+def collectWavs(root, wavroot):
     phones = path.join(root, PHONES)
     skipped = 0
     total = 0
-    for f in listdir(root):
-        if f.startswith("Disc"):
-            p = path.join(root, f)
+    for f in listdir(wavroot):
+        if f.startswith("swb1_"):
+            p = path.join(wavroot, f, "data")
             for wav in listdir(p):
                 total += 1
-                num, ext = wav.split(".")
-                assert num.isdigit()
+                sw0num, ext = wav.split(".")
+                assert sw0num.startswith("sw0")
                 assert ext == "wav"
+                num = sw0num[3:]
+                assert num.isdigit()
+                
                 fname = path.join(p, wav)
                 pfileA = phones.format(num, "A")
                 pfileB = phones.format(num, "B")
@@ -39,7 +42,7 @@ def collectWavs(root):
                     print(pfileA)
                     continue
                 yield Entry(num, fname, pfileA, pfileB)
-    print("Skipped %d/%d files." % (skipped, total))
+    input("Skipped %d/%d files (press enter to continue)." % (skipped, total))
 
 def sliceIntoWaves(num, phonef, wavf, target):
     wave = WavFile.load(wavf)
