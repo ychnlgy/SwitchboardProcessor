@@ -28,7 +28,10 @@ def collectWavs(sph2pipe, root, wavroot, target):
     total = 0
     
     CONVERT_SPH = "%s -p -f wav %s %s"
-    
+    AUDIO_DIR = path.join(target, "audio")
+    if not path.isdir(AUDIO_DIR):
+        makedirs(AUDIO_DIR)
+
     for f in listdir(wavroot):
         if f.startswith("swb1_"):
             p = path.join(wavroot, f, "data")
@@ -49,8 +52,8 @@ def collectWavs(sph2pipe, root, wavroot, target):
                     waveA = data[:,0]
                     waveB = data[:,1]
                     
-                    outA = path.join(target, "audio", num + ".A.wav")
-                    outB = path.join(target, "audio", num + ".B.wav")
+                    outA = path.join(AUDIO_DIR, num + ".A.wav")
+                    outB = path.join(AUDIO_DIR, num + ".B.wav")
                     assert not path.isfile(outA)
                     assert not path.isfile(outB)
                     wavfile.write(outA, rate, waveA)
