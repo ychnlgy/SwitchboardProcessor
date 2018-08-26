@@ -1,3 +1,5 @@
+import numpy
+
 from tqdm import tqdm
 
 from os import path, listdir, makedirs, system
