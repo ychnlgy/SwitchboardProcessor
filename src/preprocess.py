@@ -86,7 +86,7 @@ def sliceIntoWaves(phonef, wave, rate):
     for phoneSlice in parsePhoneFile(phonef, rate):
         
         d = phoneSlice.end - phoneSlice.start
-        if d <= MIN_LEN or d >= MAX_DATALEN:
+        if d <= MIN_LEN or d >= MAX_LEN:
             continue
         
         yield [wave[phoneSlice.start:phoneSlice.end], phoneSlice.value]
