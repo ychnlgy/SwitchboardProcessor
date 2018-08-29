@@ -16,6 +16,29 @@ HREF = "href"
 PHONE_NAME = None
 PHONE_FILE = None
 
+VOWELS = {
+    "iy", 
+    "ih",
+    "eh",
+    "ey",
+    "ae",
+    "aa",
+    "aw",
+    "ay",
+    "ah",
+    "ao",
+    "oy",
+    "ow",
+    "uh",
+    "uw",
+    "ux",
+    "er",
+    "ax", 
+    "ix", 
+    "axr",
+    "ax-h"
+}
+
 def main():
     import sys
     args = dict([a.split("=") for a in sys.argv[1:]])
@@ -27,8 +50,12 @@ def main():
         fname = path.join(syllable, f)
         for phones in parseSyllableFile(fname, phonedir):
             counter[tuple(phones)] += 1
-    for k, v in sorted(counter.items()):
-        print(k, v)
+    
+    with open(OUTPUT, "w") as f:
+        for k, v in sorted(counter.items()):
+            vcs = "".join(["V" if p in VOWELS else "C" for p in k])
+            phs = ", ".join(k)
+            f.write("{: <10}{: <10}{: <10}\n".format(vcs, v, phs))
 
 def xmlparse(fname):
     return ET.parse(fname).getroot()
