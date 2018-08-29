@@ -42,6 +42,7 @@ def parseSyllableFile(fname, phonedir):
         yield phones # list of string phones
 
 def seekPhoneFile(phoneRef, phonedir):
+    print(phoneRef)
     phonef, ids = phoneRef.split("#")
     phonefname = path.join(phonedir, phonef)
     if phonefname != PHONE_NAME:
