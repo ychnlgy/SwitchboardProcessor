@@ -43,6 +43,8 @@ def parseSyllableFile(fname, phonedir):
         yield phones # list of string phones
 
 def seekPhoneFile(child, phonedir):
+    global PHONE_NAME
+    global PHONE_FILE
     nodes = list(child)
     assert len(nodes) == 1
     phoneRef = nodes[0].attrib[HREF]
