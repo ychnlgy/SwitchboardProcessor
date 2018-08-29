@@ -1,4 +1,6 @@
 from os import path, listdir
+from collections import Counter
+from tqdm import tqdm
 import xml.etree.ElementTree as ET
 
 NITE = "{http://nite.sourceforge.net/}"
@@ -20,11 +22,13 @@ def main():
     p = args["path"]
     phonedir = path.join(p, "phones")
     syllable = path.join(p, "syllables")
-    for f in listdir(syllable):
+    counter = Counter()
+    for f in tqdm(listdir(syllable), ncols=60):
         fname = path.join(syllable, f)
         for phones in parseSyllableFile(fname, phonedir):
-            print(phones)
-            input("Next?")
+            counter[tuple(phones)] += 1
+    for k, v in sorted(counter.items()):
+        print(k, v)
 
 def xmlparse(fname):
     return ET.parse(fname).getroot()
