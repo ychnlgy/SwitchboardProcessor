@@ -86,3 +86,5 @@ def parsePhoneFile(phonef):
         out[key] = child.text
     return out
 
+if __name__ == "__main__":
+    main()
