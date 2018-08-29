@@ -39,10 +39,13 @@ def parseSyllableFile(fname, phonedir):
     name, speaker, dtype, ext = bname.split(".")
     for child in root:
         assert child.tag == SYLLABLE
-        phones = seekPhoneFile(child.attrib[HREF], phonedir)
+        phones = seekPhoneFile(child, phonedir)
         yield phones # list of string phones
 
-def seekPhoneFile(phoneRef, phonedir):
+def seekPhoneFile(child, phonedir):
+    nodes = list(child)
+    assert len(nodes) == 1
+    phoneRef = nodes[0].attrib[HREF]
     phonef, ids = phoneRef.split("#")
     phonefname = path.join(phonedir, phonef)
     if phonefname != PHONE_NAME:
