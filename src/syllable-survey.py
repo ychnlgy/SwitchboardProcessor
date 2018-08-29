@@ -17,6 +17,7 @@ PHONE_NAME = None
 PHONE_FILE = None
 
 OUTPUT = "syllable-survey.txt"
+SUMMARY = "syllable-summary.txt"
 
 VOWELS = {
     "iy", 
@@ -53,12 +54,24 @@ def main():
         for phones in parseSyllableFile(fname, phonedir):
             counter[tuple(phones)] += 1
     
+    out = []
+    for k, v in sorted(counter.items()):
+        vcs = "".join(["V" if p in VOWELS else "C" for p in k])
+        phs = ", ".join(k)
+        out.append((vcs, v, phs))
+    
     with open(OUTPUT, "w") as f:
-        for k, v in sorted(counter.items()):
-            vcs = "".join(["V" if p in VOWELS else "C" for p in k])
-            phs = ", ".join(k)
-            f.write("{: <10}{: <10}{: <10}\n".format(vcs, v, phs))
-
+        for args in out:
+            f.write("{: <10}{: <10}{: <10}\n".format(*args))
+    
+    summary = Counter()
+    for vcs, v, phs in out:
+        summary[vcs] += v
+    
+    with open(SUMMARY, "w") as f:
+        for k, v in sorted(summary.items()):
+            f.write("{: <10}{: <10}\n".format(k, v))
+        
 def xmlparse(fname):
     return ET.parse(fname).getroot()
 
