@@ -9,6 +9,7 @@ NITE_END = NITE + "end"
 
 SYLLABLE = "syllable"
 PHONE = "ph"
+HREF = "href"
 
 PHONE_NAME = None
 PHONE_FILE = None
@@ -38,11 +39,10 @@ def parseSyllableFile(fname, phonedir):
     name, speaker, dtype, ext = bname.split(".")
     for child in root:
         assert child.tag == SYLLABLE
-        phones = seekPhoneFile(child.attrib[NITE_ID], phonedir)
+        phones = seekPhoneFile(child.attrib[HREF], phonedir)
         yield phones # list of string phones
 
 def seekPhoneFile(phoneRef, phonedir):
-    print(phoneRef)
     phonef, ids = phoneRef.split("#")
     phonefname = path.join(phonedir, phonef)
     if phonefname != PHONE_NAME:
