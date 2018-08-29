@@ -16,8 +16,9 @@ PHONE_FILE = None
 def main():
     import sys
     args = dict([a.split("=") for a in sys.argv[1:]])
-    phonedir = args["phone"]
-    syllable = args["syllable"]
+    p = args["path"]
+    phonedir = path.join(p, "phones")
+    syllable = path.join(p, "syllables")
     for f in listdir(syllable):
         fname = path.join(syllable, f)
         for phones in parseSyllableFile(fname, phonedir):
