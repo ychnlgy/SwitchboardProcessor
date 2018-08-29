@@ -1,0 +1,5886 @@
+V         484       aa        
+VC        96        aa, b     
+VC        26        aa, d     
+VCC       1         aa, d, z  
+VC        4         aa, g     
+VC        1         aa, hh    
+VC        32        aa, k     
+VC        4         aa, l     
+VC        5         aa, m     
+VC        4245      aa, n     
+VCC       33        aa, n, d  
+VCC       2         aa, n, z  
+VC        47        aa, p     
+VCC       2         aa, p, t  
+VC        4949      aa, r     
+VCC       1         aa, r, k  
+VCC       21        aa, r, m  
+VCCC      7         aa, r, m, d
+VCCC      11        aa, r, m, z
+VCCC      144       aa, r, n, t
+VCC       3         aa, r, s  
+VCC       14        aa, r, t  
+VCCC      11        aa, r, t, s
+VCC       92        aa, r, z  
+VC        2         aa, s     
+VC        1         aa, t     
+V         910       ae        
+VC        151       ae, b     
+VCC       1         ae, b, s  
+VC        317       ae, d     
+VCC       18        ae, d, z  
+VC        503       ae, f     
+VCC       2         ae, f, t  
+VC        1037      ae, k     
+VCC       2         ae, k, ch 
+VCC       4         ae, k, s  
+VCC       42        ae, k, t  
+VCCC      4         ae, k, t, s
+VC        61        ae, l     
+VCCC      1         ae, l, p, s
+VC        341       ae, m     
+VC        1779      ae, n     
+VCC       27671     ae, n, d  
+VCCC      1         ae, n, d, z
+VCC       1         ae, n, s  
+VCC       9         ae, n, t  
+VCCC      15        ae, n, t, s
+VC        41        ae, ng    
+VCC       6         ae, ng, k 
+VC        2         ae, p     
+VCC       8         ae, p, t  
+VC        7         ae, s     
+VCC       91        ae, s, k  
+VCCC      4         ae, s, k, s
+VCCC      64        ae, s, k, t
+VCC       1         ae, s, t  
+VCCC      1         ae, s, t, s
+VC        4         ae, sh    
+VC        2834      ae, t     
+VCC       6         ae, t, s  
+VCC       2         ae, t, sh 
+VC        11        ae, th    
+VC        48        ae, v     
+VC        2579      ae, z     
+V         22535     ah        
+VC        6         ah, dh    
+VC        9         ah, g     
+VC        15        ah, l     
+VC        9764      ah, m     
+VC        508       ah, n     
+VCC       1         ah, n, k  
+VC        23        ah, ng    
+VC        2537      ah, p     
+VCC       11        ah, p, s  
+VC        475       ah, s     
+VCC       2         ah, s, t  
+VC        1         ah, t     
+VC        14311     ah, v     
+VC        1         ah, z     
+V         690       ao        
+VC        691       ao, f     
+VCC       27        ao, f, s  
+VC        2         ao, g     
+VC        5         ao, k     
+VC        5070      ao, l     
+VCC       7         ao, l, s  
+VCC       3         ao, l, w  
+VCC       2         ao, l, z  
+VC        3         ao, n     
+VC        97        ao, t     
+V         318       aw        
+VC        4         aw, ch    
+VC        1         aw, l     
+VCC       7         aw, n, s  
+VC        2980      aw, t     
+VCC       8         aw, t, s  
+VC        2         aw, z     
+V         34156     ax        
+VC        47        ax, b     
+VC        75        ax, d     
+VCC       7         ax, d, z  
+VC        10        ax, g     
+VCC       1         ax, g, r  
+VCC       1         ax, k, w  
+VC        316       ax, l     
+VCC       37        ax, l, z  
+VC        75        ax, m     
+VCC       16        ax, m, z  
+VC        605       ax, n     
+VCC       6         ax, n, s  
+VCC       25        ax, n, z  
+VC        16        ax, p     
+VC        6         ax, r     
+VC        96        ax, s     
+VC        42        ax, t     
+VCC       6         ax, t, s  
+VC        2         ax, v     
+VC        1         ax, w     
+VC        145       ax, z     
+V         33879     ay        
+VC        522       ay, d     
+VC        1         ay, dh    
+VC        7         ay, k     
+VC        445       ay, l     
+VCC       1         ay, l, z  
+VC        3243      ay, m     
+VC        2         ay, n     
+VC        10        ay, r     
+VCC       17        ay, r, n  
+VCCC      2         ay, r, n, z
+VC        39        ay, s     
+VCC       1         ay, t, s  
+VC        1896      ay, v     
+VC        30        ay, z     
+C         58        b         
+CV        717       b, aa     
+CVC       10        b, aa, b  
+CVCC      1         b, aa, b, z
+CVCC      1         b, aa, ch, t
+CVC       41        b, aa, k  
+CVCC      41        b, aa, k, s
+CVC       4         b, aa, m  
+CVCC      2         b, aa, m, d
+CVCC      4         b, aa, m, z
+CVC       8         b, aa, n  
+CVCC      9         b, aa, n, d
+CVCCC     3         b, aa, n, d, z
+CVC       71        b, aa, r  
+CVCC      1         b, aa, r, b
+CVCCC     1         b, aa, r, b, d
+CVCC      1         b, aa, r, d
+CVCC      4         b, aa, r, jh
+CVCC      7         b, aa, r, k
+CVCCC     3         b, aa, r, k, s
+CVCC      4         b, aa, r, n
+CVCC      2         b, aa, r, t
+CVCC      5         b, aa, r, z
+CVC       1         b, aa, t  
+CVCC      1         b, aa, t, s
+CVC       1         b, aa, th 
+CV        292       b, ae     
+CVC       482       b, ae, d  
+CVCC      7         b, ae, dh, z
+CVC       36        b, ae, g  
+CVCC      1         b, ae, g, d
+CVCC      46        b, ae, g, z
+CVC       1110      b, ae, k  
+CVCC      11        b, ae, k, s
+CVCC      7         b, ae, k, t
+CVC       4         b, ae, l  
+CVC       2         b, ae, m  
+CVC       27        b, ae, n  
+CVCC      24        b, ae, n, d
+CVCCC     7         b, ae, n, d, z
+CVCC      1         b, ae, n, f
+CVC       26        b, ae, ng 
+CVCC      54        b, ae, ng, k
+CVCCC     9         b, ae, ng, k, s
+CVCCC     1         b, ae, ng, k, t
+CVC       3         b, ae, p  
+CVC       12        b, ae, s  
+CVC       1         b, ae, sh 
+CVC       12        b, ae, t  
+CVC       21        b, ae, th 
+CV        824       b, ah     
+CVC       4         b, ah, d  
+CVCC      3         b, ah, d, z
+CVC       4         b, ah, f  
+CVC       5         b, ah, g  
+CVCC      24        b, ah, g, z
+CVC       1         b, ah, jh 
+CVC       3         b, ah, k  
+CVCC      33        b, ah, k, s
+CVC       2         b, ah, l  
+CVCC      6         b, ah, l, b
+CVCCC     6         b, ah, l, b, z
+CVCC      1         b, ah, l, ch
+CVCC      3         b, ah, l, jh
+CVCC      2         b, ah, l, k
+CVC       8         b, ah, m  
+CVCC      2         b, ah, m, p
+CVCCC     1         b, ah, m, p, t
+CVCC      1         b, ah, m, z
+CVC       8         b, ah, n  
+CVCC      85        b, ah, n, ch
+CVCC      2         b, ah, n, z
+CVC       1         b, ah, ng 
+CVCC      2         b, ah, ng, k
+CVC       24        b, ah, s  
+CVCC      5         b, ah, s, t
+CVC       7541      b, ah, t  
+CVCC      3         b, ah, t, s
+CVC       24        b, ah, v  
+CVC       1         b, ah, z  
+CV        42        b, ao     
+CVC       2         b, ao, d  
+CVC       2         b, ao, g  
+CVCC      2         b, ao, g, d
+CVC       328       b, ao, l  
+CVCC      2         b, ao, l, d
+CVCC      15        b, ao, l, z
+CVC       24        b, ao, s  
+CVC       221       b, ao, t  
+CV        5         b, aw     
+CVC       17        b, aw, n  
+CVCC      5         b, aw, n, d
+CVCCC     3         b, aw, n, d, z
+CVCC      2         b, aw, n, s
+CVCCC     1         b, aw, n, s, t
+CVC       3204      b, aw, t  
+CVCC      5         b, aw, t, s
+CVC       3         b, aw, z  
+CV        4456      b, ax     
+CVC       2         b, ax, b  
+CVC       4         b, ax, f  
+CVC       21        b, ax, k  
+CVC       1384      b, ax, l  
+CVCC      24        b, ax, l, d
+CVCC      39        b, ax, l, z
+CVC       6         b, ax, m  
+CVCC      1         b, ax, m, z
+CVC       34        b, ax, n  
+CVCC      301       b, ax, n, d
+CVCCC     67        b, ax, n, d, z
+CVCC      10        b, ax, n, z
+CV        1825      b, ay     
+CVC       2         b, ay, d  
+CVC       53        b, ay, k  
+CVCC      2         b, ay, k, s
+CVC       7         b, ay, n  
+CVCC      7         b, ay, n, d
+CVC       3         b, ay, r  
+CVCC      3         b, ay, r, z
+CVC       14        b, ay, t  
+CVCC      5         b, ay, t, s
+CVC       3         b, ay, z  
+CV        701       b, eh     
+CVC       37        b, eh, d  
+CVCC      14        b, eh, d, z
+CVC       8         b, eh, g  
+CVC       4         b, eh, k  
+CVC       29        b, eh, l  
+CVCC      1         b, eh, l, ch
+CVCC      1         b, eh, l, d
+CVCC      22        b, eh, l, t
+CVCCC     5         b, eh, l, t, s
+CVCC      2         b, eh, l, z
+CVC       5         b, eh, n  
+CVCC      7         b, eh, n, ch
+CVCC      9         b, eh, n, d
+CVCCC     1         b, eh, n, d, z
+CVCC      3         b, eh, n, t
+CVCC      210       b, eh, s, t
+CVC       127       b, eh, t  
+CVCC      1         b, eh, t, s
+CVC       2         b, eh, th 
+CV        899       b, er     
+CVC       15        b, er, b  
+CVCC      10        b, er, b, z
+CVC       33        b, er, d  
+CVCC      13        b, er, d, z
+CVC       34        b, er, g  
+CVCC      2         b, er, g, z
+CVC       2         b, er, k  
+CVC       1         b, er, l  
+CVC       28        b, er, n  
+CVCC      14        b, er, n, d
+CVCC      2         b, er, n, t
+CVCC      3         b, er, n, z
+CVC       3         b, er, s  
+CVCC      5         b, er, s, t
+CVC       14        b, er, t  
+CVCC      3         b, er, t, s
+CVC       27        b, er, th 
+CVC       92        b, er, z  
+CV        580       b, ey     
+CVC       2         b, ey, b  
+CVC       1         b, ey, dh 
+CVC       11        b, ey, k  
+CVCC      1         b, ey, k, s
+CVCC      10        b, ey, k, t
+CVC       5         b, ey, l  
+CVC       1         b, ey, n  
+CVC       33        b, ey, r  
+CVCC      4         b, ey, r, z
+CVC       145       b, ey, s  
+CVCC      56        b, ey, s, t
+CVC       11        b, ey, t  
+CVCC      2         b, ey, t, s
+CVC       1         b, ey, z  
+CVC       1         b, ey, zh 
+CV        923       b, ih     
+CVC       1         b, ih, b  
+CVCC      4         b, ih, b, z
+CVC       1         b, ih, ch 
+CVC       7         b, ih, d  
+CVCC      1         b, ih, d, z
+CVC       685       b, ih, g  
+CVC       44        b, ih, jh 
+CVC       17        b, ih, k  
+CVCC      69        b, ih, k, s
+CVC       188       b, ih, l  
+CVCC      69        b, ih, l, d
+CVCCC     3         b, ih, l, d, z
+CVCC      93        b, ih, l, t
+CVCC      53        b, ih, l, z
+CVC       1716      b, ih, n  
+CVCC      1         b, ih, n, t
+CVCC      35        b, ih, n, z
+CVC       27        b, ih, ng 
+CVC       1         b, ih, sh 
+CVC       589       b, ih, t  
+CVCC      22        b, ih, t, s
+CVC       194       b, ih, z  
+CV        5276      b, iy     
+CVC       37        b, iy, ch 
+CVC       18        b, iy, f  
+CVCC      1         b, iy, f, t
+CVC       26        b, iy, l  
+CVCC      20        b, iy, l, z
+CVC       3         b, iy, m  
+CVC       8         b, iy, n  
+CVCC      15        b, iy, n, z
+CVC       3         b, iy, p  
+CVCC      2         b, iy, p, t
+CVC       22        b, iy, r  
+CVCC      6         b, iy, r, d
+CVCCC     2         b, iy, r, d, z
+CVC       54        b, iy, t  
+CVCC      13        b, iy, t, s
+CVC       91        b, iy, z  
+CC        4         b, l      
+CCV       4         b, l, aa  
+CCVC      22        b, l, aa, k
+CCVCC     14        b, l, aa, k, s
+CCVCC     9         b, l, aa, n, d
+CCV       12        b, l, ae  
+CCVC      70        b, l, ae, k
+CCVCC     12        b, l, ae, k, s
+CCVCC     2         b, l, ae, n, d
+CCVC      9         b, l, ae, ng
+CCVCC     10        b, l, ae, ng, k
+CCVCCC    2         b, l, ae, ng, k, s
+CCVCC     6         b, l, ae, s, t
+CCV       1         b, l, ah  
+CCVC      28        b, l, ah, d
+CCVCC     1         b, l, ah, f, t
+CCVCC     2         b, l, ah, n, t
+CCV       5         b, l, aw  
+CCVC      3         b, l, aw, s
+CCVC      523       b, l, ax, m
+CCVCC     231       b, l, ax, m, z
+CCVC      1         b, l, ay, dh
+CCVCC     4         b, l, ay, jh, d
+CCVC      1         b, l, ay, n
+CCVCC     1         b, l, ay, n, d
+CCV       11        b, l, eh  
+CCVC      1         b, l, eh, d
+CCVC      5         b, l, eh, n
+CCVCC     1         b, l, eh, n, d
+CCVC      8         b, l, eh, s
+CCV       2         b, l, er  
+CCVC      3         b, l, er, b
+CCVCC     2         b, l, er, b, z
+CCVC      1         b, l, er, d
+CCVC      1         b, l, er, z
+CCV       5         b, l, ey  
+CCVC      8         b, l, ey, d
+CCVCC     2         b, l, ey, d, z
+CCVC      29        b, l, ey, m
+CCVCC     1         b, l, ey, m, d
+CCV       64        b, l, ih  
+CCVC      205       b, l, ih, k
+CCVCC     8         b, l, ih, k, s
+CCVC      2         b, l, ih, n
+CCVC      5         b, l, ih, ng
+CCVCC     3         b, l, ih, ng, k
+CCVC      1         b, l, ih, s
+CCVC      6         b, l, ih, sh
+CCVCC     20        b, l, ih, sh, t
+CCVCC     1         b, l, ih, t, s
+CCV       1167      b, l, iy  
+CCVC      1         b, l, iy, d
+CCVC      1         b, l, iy, p
+CCV       38        b, l, ow  
+CCVC      10        b, l, ow, n
+CCVC      6         b, l, ow, z
+CCVCC     1         b, l, uh, m, z
+CCV       80        b, l, uw  
+CCVC      11        b, l, uw, m
+CCVCC     3         b, l, uw, m, d
+CCVCC     3         b, l, uw, m, z
+CCVC      9         b, l, uw, z
+CV        82        b, ow     
+CVC       30        b, ow, l  
+CVCC      2         b, ow, l, d
+CVCC      2         b, ow, l, t
+CVCCC     4         b, ow, l, t, s
+CVCC      1         b, ow, l, z
+CVC       5         b, ow, n  
+CVCC      1         b, ow, n, z
+CVC       45        b, ow, r  
+CVCC      75        b, ow, r, d
+CVCCC     13        b, ow, r, d, z
+CVCC      41        b, ow, r, n
+CVCC      1         b, ow, r, t
+CVC       43        b, ow, t  
+CVCC      13        b, ow, t, s
+CVC       306       b, ow, th 
+CV        238       b, oy     
+CVC       6         b, oy, l  
+CVCC      1         b, oy, l, d
+CVCC      2         b, oy, l, z
+CVC       133       b, oy, z  
+CC        4         b, r      
+CCV       11        b, r, aa  
+CCVCC     1         b, r, aa, n, z
+CCVC      6         b, r, aa, ng
+CCVCCC    1         b, r, aa, ng, k, s
+CCV       21        b, r, ae  
+CCVCC     1         b, r, ae, g, z
+CCVC      6         b, r, ae, n
+CCVCC     8         b, r, ae, n, ch
+CCVCCC    1         b, r, ae, n, ch, t
+CCVCC     35        b, r, ae, n, d
+CCVCCC    5         b, r, ae, n, d, z
+CCVC      2         b, r, ae, s
+CCVC      1         b, r, ae, sh
+CCVC      1         b, r, ae, t
+CCVCC     1         b, r, ae, t, s
+CCV       138       b, r, ah  
+CCVC      1         b, r, ah, dh
+CCVCC     1         b, r, ah, n, ch
+CCVCC     2         b, r, ah, n, t
+CCVCC     1         b, r, ah, p, t
+CCVC      10        b, r, ah, sh
+CCVCC     1         b, r, ah, sh, t
+CCV       7         b, r, ao  
+CCVC      27        b, r, ao, d
+CCVC      1         b, r, ao, n
+CCVC      77        b, r, ao, t
+CCVC      3         b, r, ao, th
+CCV       10        b, r, aw  
+CCVC      35        b, r, aw, n
+CCVCC     1         b, r, aw, n, d
+CCVCC     3         b, r, aw, n, z
+CCV       13        b, r, ax  
+CCV       18        b, r, ay  
+CCVC      1         b, r, ay, d
+CCVC      2         b, r, ay, s
+CCVC      11        b, r, ay, t
+CCV       21        b, r, eh  
+CCVC      33        b, r, eh, d
+CCVCC     2         b, r, eh, d, z
+CCVC      7         b, r, eh, k
+CCVCC     7         b, r, eh, s, t
+CCVCCC    2         b, r, eh, s, t, s
+CCVC      1         b, r, eh, t
+CCVC      3         b, r, eh, th
+CCV       43        b, r, ey  
+CCVC      86        b, r, ey, k
+CCVCC     28        b, r, ey, k, s
+CCVC      9         b, r, ey, n
+CCVCC     3         b, r, ey, n, z
+CCVC      2         b, r, ey, s
+CCVC      1         b, r, ey, t
+CCVCC     2         b, r, ey, t, s
+CCVC      3         b, r, ey, v
+CCVCC     1         b, r, ey, v, d
+CCVCC     3         b, r, ey, v, z
+CCV       18        b, r, ih  
+CCVC      3         b, r, ih, d
+CCVC      12        b, r, ih, jh
+CCVCC     1         b, r, ih, jh, d
+CCVC      35        b, r, ih, k
+CCVCC     10        b, r, ih, k, s
+CCVC      3         b, r, ih, l
+CCVC      1         b, r, ih, m
+CCVC      1         b, r, ih, n
+CCVC      136       b, r, ih, ng
+CCVCC     1         b, r, ih, ng, k
+CCVCC     25        b, r, ih, ng, z
+CCV       10        b, r, iy  
+CCVC      1         b, r, iy, ch
+CCVC      9         b, r, iy, d
+CCVC      1         b, r, iy, dh
+CCVC      10        b, r, iy, f
+CCVC      3         b, r, iy, z
+CCV       30        b, r, ow  
+CCVC      24        b, r, ow, k
+CCV       4         b, r, oy  
+CCVC      6         b, r, uh, k
+CCVCC     4         b, r, uh, k, s
+CCV       17        b, r, uw  
+CCVC      6         b, r, uw, s
+CV        28        b, uh     
+CVC       207       b, uh, k  
+CVCC      131       b, uh, k, s
+CVCC      3         b, uh, k, t
+CVC       11        b, uh, l  
+CVCC      9         b, uh, l, z
+CVCCCV    1         b, uh, r, zh, w, aa
+CVC       43        b, uh, sh 
+CV        9         b, uw     
+CVC       1         b, uw, dh 
+CVCC      1         b, uw, dh, z
+CVC       3         b, uw, l  
+CVC       3         b, uw, m  
+CVC       1         b, uw, r  
+CVCC      5         b, uw, s, t
+CVC       8         b, uw, t  
+CVCC      5         b, uw, t, s
+CVC       1         b, uw, th 
+CVC       6         b, uw, z  
+CCV       2         b, w, ey  
+CCV       30        b, y, ax  
+CCV       26        b, y, uh  
+CCV       143       b, y, uw  
+CCVC      1         b, y, uw, n
+CCVC      21        b, y, uw, s
+CCVC      15        b, y, uw, t
+CCVCC     2         b, y, uw, t, s
+CCVCC     11        b, y, uw, z, d
+C         10        ch        
+CV        1         ch, aa    
+CVC       1         ch, aa, m 
+CVC       13        ch, aa, p 
+CVCC      1         ch, aa, p, s
+CVCC      7         ch, aa, p, t
+CVC       23        ch, aa, r 
+CVCC      58        ch, aa, r, jh
+CVCCC     14        ch, aa, r, jh, d
+CVCC      4         ch, aa, r, l
+CVCCC     3         ch, aa, r, l, z
+CVCC      2         ch, aa, r, m
+CVCCC     1         ch, aa, r, m, z
+CVCCC     3         ch, aa, r, t, s
+CV        85        ch, ae    
+CVC       5         ch, ae, m 
+CVCCC     1         ch, ae, m, p, s
+CVC       16        ch, ae, n 
+CVCC      87        ch, ae, n, s
+CVC       4         ch, ae, p 
+CVC       2         ch, ae, t 
+CVC       9         ch, ah, k 
+CVCC      6         ch, ah, ng, k
+CVCCC     3         ch, ah, ng, k, s
+CV        13        ch, ao    
+CVC       9         ch, ao, f 
+CVCC      2         ch, ao, f, s
+CVC       1         ch, ao, k 
+CVC       1         ch, ao, l 
+CV        5         ch, aw    
+CVC       3         ch, aw, z 
+CV        152       ch, ax    
+CVC       9         ch, ax, l 
+CVC       2         ch, ax, p 
+CV        62        ch, ay    
+CVC       2         ch, ay, l 
+CVCC      257       ch, ay, l, d
+CVCCC     11        ch, ay, l, d, z
+CVC       1         ch, ay, n 
+CVC       2         ch, ay, z 
+CV        61        ch, eh    
+CVC       113       ch, eh, k 
+CVCC      29        ch, eh, k, s
+CVCC      24        ch, eh, k, t
+CVC       1         ch, eh, ng
+CVC       1         ch, eh, s 
+CVCC      5         ch, eh, s, t
+CV        366       ch, er    
+CVC       61        ch, er, ch
+CVC       78        ch, er, d 
+CVCC      3         ch, er, d, z
+CVC       1         ch, er, n 
+CVC       176       ch, er, z 
+CV        8         ch, ey    
+CVC       12        ch, ey, m 
+CVC       142       ch, ey, n 
+CVCC      3         ch, ey, n, d
+CVCC      215       ch, ey, n, jh
+CVCCC     101       ch, ey, n, jh, d
+CVCC      1         ch, ey, n, z
+CVC       15        ch, ey, r 
+CVCC      5         ch, ey, r, z
+CVC       6         ch, ey, s 
+CVCC      2         ch, ey, s, t
+CV        239       ch, ih    
+CVC       1         ch, ih, d 
+CVC       1         ch, ih, f 
+CVC       1         ch, ih, k 
+CVC       501       ch, ih, l 
+CVCC      1         ch, ih, l, d
+CVC       5         ch, ih, m 
+CVC       196       ch, ih, n 
+CVCC      6         ch, ih, n, d
+CVCC      1         ch, ih, n, t
+CVCC      38        ch, ih, n, z
+CVC       272       ch, ih, ng
+CVCC      2         ch, ih, ng, z
+CVC       3         ch, ih, p 
+CVCC      7         ch, ih, p, s
+CVCC      2         ch, ih, p, t
+CVC       26        ch, ih, s 
+CVCC      12        ch, ih, s, t
+CVC       109       ch, ih, z 
+CV        66        ch, iy    
+CVC       1         ch, iy, ch
+CVC       2         ch, iy, f 
+CVCC      3         ch, iy, f, s
+CVC       1         ch, iy, k 
+CVCC      1         ch, iy, k, s
+CVC       38        ch, iy, p 
+CVC       7         ch, iy, r 
+CVCC      3         ch, iy, r, z
+CVC       1         ch, iy, t 
+CVC       6         ch, iy, v 
+CVC       29        ch, iy, z 
+CV        15        ch, ow    
+CVC       10        ch, ow, r 
+CVCC      2         ch, ow, r, z
+CVC       9         ch, ow, z 
+CV        13        ch, oy    
+CVC       58        ch, oy, s 
+CV        4         ch, uh    
+CVC       14        ch, uh, r 
+CVCC      1         ch, uh, r, z
+CV        1068      ch, uw    
+CVC       3         ch, uw, d 
+CVC       40        ch, uw, z 
+C         92        d         
+CV        85        d, aa     
+CVCC      2         d, aa, f, s
+CVC       9         d, aa, jh 
+CVC       88        d, aa, k  
+CVCC      2         d, aa, k, s
+CVC       1         d, aa, l  
+CVC       4         d, aa, m  
+CVC       7         d, aa, n  
+CVCC      1         d, aa, n, t
+CVC       16        d, aa, p  
+CVCC      6         d, aa, p, t
+CVCCC     1         d, aa, p, t, s
+CVC       4         d, aa, r  
+CVCC      37        d, aa, r, k
+CVCC      8         d, aa, r, n
+CVCCC     8         d, aa, r, n, d
+CVCC      2         d, aa, r, t
+CVC       1         d, aa, sh 
+CVC       4         d, aa, t  
+CVCC      1         d, aa, t, s
+CV        412       d, ae     
+CVC       84        d, ae, d  
+CVCC      18        d, ae, d, z
+CVC       2         d, ae, k  
+CVC       3         d, ae, l  
+CVC       11        d, ae, m  
+CVCC      4         d, ae, m, p
+CVC       38        d, ae, n  
+CVCC      11        d, ae, n, s
+CVCC      1         d, ae, n, z
+CVC       1         d, ae, ng 
+CVC       3         d, ae, p  
+CVCC      5         d, ae, p, t
+CVC       2         d, ae, sh 
+CV        609       d, ah     
+CVC       6         d, ah, ch 
+CVC       2         d, ah, d  
+CVC       10        d, ah, g  
+CVC       56        d, ah, k  
+CVCC      1         d, ah, k, s
+CVCC      2         d, ah, k, t
+CVC       5         d, ah, l  
+CVC       27        d, ah, m  
+CVCC      31        d, ah, m, p
+CVCCC     1         d, ah, m, p, s
+CVCCC     6         d, ah, m, p, t
+CVC       545       d, ah, n  
+CVC       4         d, ah, ng 
+CVCC      2         d, ah, ng, k
+CVCCC     1         d, ah, ng, k, t
+CVC       2         d, ah, p  
+CVCC      1         d, ah, s, k
+CVCC      14        d, ah, s, t
+CVC       1         d, ah, v  
+CVCC      1         d, ah, v, z
+CVC       574       d, ah, z  
+CV        559       d, ao     
+CVC       1         d, ao, f  
+CVCC      1         d, ao, f, s
+CVC       179       d, ao, g  
+CVCC      84        d, ao, g, z
+CVC       11        d, ao, l  
+CVCC      6         d, ao, l, z
+CVC       3         d, ao, n  
+CVCC      1         d, ao, n, d
+CVC       2         d, ao, s  
+CV        13        d, aw     
+CVC       1017      d, aw, n  
+CVCC      1         d, aw, n, z
+CVC       56        d, aw, t  
+CVCC      3         d, aw, t, s
+CV        757       d, ax     
+CVC       1         d, ax, g  
+CVC       3         d, ax, k  
+CVCC      23        d, ax, k, t
+CVCCC     28        d, ax, k, t, s
+CVC       225       d, ax, l  
+CVCC      17        d, ax, l, d
+CVCC      17        d, ax, l, t
+CVCCC     16        d, ax, l, t, s
+CVCC      22        d, ax, l, z
+CVC       90        d, ax, m  
+CVCC      10        d, ax, m, z
+CVC       8         d, ax, n  
+CVC       3         d, ax, p  
+CVC       4         d, ax, r  
+CVC       3         d, ax, s  
+CVC       38        d, ax, v  
+CVC       19        d, ax, z  
+CV        158       d, ay     
+CVC       47        d, ay, d  
+CVC       2         d, ay, k  
+CVC       11        d, ay, l  
+CVCC      1         d, ay, l, d
+CVC       2         d, ay, m  
+CVCC      2         d, ay, m, z
+CVC       2         d, ay, n  
+CVCC      1         d, ay, n, z
+CVC       1         d, ay, r  
+CVC       1         d, ay, t  
+CVC       4         d, ay, v  
+CVCC      1         d, ay, v, z
+CVC       18        d, ay, z  
+CVCC      6         d, ay, z, d
+CV        446       d, eh     
+CVC       1         d, eh, b  
+CVC       47        d, eh, d  
+CVC       2         d, eh, f  
+CVC       15        d, eh, k  
+CVCC      3         d, eh, k, s
+CVC       20        d, eh, l  
+CVCC      10        d, eh, l, t
+CVCC      1         d, eh, l, z
+CVC       1         d, eh, m  
+CVC       105       d, eh, n  
+CVCC      3         d, eh, n, d
+CVCC      1         d, eh, n, s
+CVCC      31        d, eh, n, t
+CVCCC     8         d, eh, n, t, s
+CVCC      1         d, eh, n, z
+CVCC      11        d, eh, p, th
+CVCC      21        d, eh, s, k
+CVCCC     2         d, eh, s, k, s
+CVC       2         d, eh, sh 
+CVC       27        d, eh, t  
+CVCC      4         d, eh, t, s
+CVC       133       d, eh, th 
+CVCC      9         d, eh, th, s
+CVC       2         d, eh, v  
+CVC       1         d, eh, z  
+CC        12        d, el     
+CCC       1         d, el, d  
+CCC       2         d, el, z  
+CC        144       d, en     
+CCC       2         d, en, d  
+CCC       1         d, en, s  
+CCC       1722      d, en, t  
+CCC       10        d, en, z  
+CV        1454      d, er     
+CVC       126       d, er, d  
+CVCC      17        d, er, d, z
+CVC       21        d, er, n  
+CVC       11        d, er, s  
+CVCC      2         d, er, s, t
+CVC       20        d, er, t  
+CVC       2         d, er, v  
+CVCC      3         d, er, v, z
+CVC       92        d, er, z  
+CV        1249      d, ey     
+CVC       1         d, ey, d  
+CVC       3         d, ey, k  
+CVC       3         d, ey, l  
+CVC       2         d, ey, m  
+CVC       37        d, ey, n  
+CVC       4         d, ey, r  
+CVC       42        d, ey, t  
+CVCC      13        d, ey, t, s
+CVC       1         d, ey, v  
+CVC       345       d, ey, z  
+CV        4449      d, ih     
+CVC       2         d, ih, b  
+CVCC      1         d, ih, ch, t
+CVC       1898      d, ih, d  
+CVC       3         d, ih, f  
+CVC       17        d, ih, g  
+CVCC      1         d, ih, g, z
+CVC       1         d, ih, jh 
+CVC       41        d, ih, k  
+CVCC      27        d, ih, k, t
+CVCCC     5         d, ih, k, t, s
+CVC       2         d, ih, l  
+CVCC      2         d, ih, l, z
+CVC       65        d, ih, n  
+CVCC      6         d, ih, n, d
+CVCC      53        d, ih, n, s
+CVCC      166       d, ih, n, t
+CVCCC     91        d, ih, n, t, s
+CVCC      1         d, ih, n, z
+CVC       820       d, ih, ng 
+CVCC      1         d, ih, ng, k
+CVCC      32        d, ih, ng, z
+CVC       8         d, ih, p  
+CVCC      2         d, ih, p, t
+CVC       59        d, ih, s  
+CVCC      11        d, ih, s, k
+CVCCC     2         d, ih, s, k, s
+CVCC      73        d, ih, s, t
+CVC       25        d, ih, sh 
+CVC       161       d, ih, t  
+CVCC      2         d, ih, t, s
+CVC       2         d, ih, th 
+CVC       1         d, ih, v  
+CVC       28        d, ih, z  
+CV        2328      d, iy     
+CVC       17        d, iy, d  
+CVC       186       d, iy, l  
+CVCC      7         d, iy, l, z
+CVC       3         d, iy, m  
+CVC       6         d, iy, n  
+CVCC      1         d, iy, n, z
+CVC       21        d, iy, p  
+CVC       33        d, iy, r  
+CVCC      4         d, iy, s, t
+CVC       163       d, iy, z  
+CV        172       d, ow     
+CVC       1         d, ow, d  
+CVC       2         d, ow, k  
+CVC       1         d, ow, l  
+CVC       2         d, ow, m  
+CVC       26        d, ow, n  
+CVCC      4811      d, ow, n, t
+CVC       3         d, ow, p  
+CVC       137       d, ow, r  
+CVCC      3         d, ow, r, d
+CVCC      2         d, ow, r, m
+CVCCC     1         d, ow, r, m, z
+CVCC      1         d, ow, r, n
+CVCC      1         d, ow, r, s
+CVCC      42        d, ow, r, z
+CVC       2         d, ow, s  
+CVC       49        d, ow, z  
+CC        9         d, r      
+CCV       10        d, r, aa  
+CCVC      38        d, r, aa, p
+CCVCC     3         d, r, aa, p, s
+CCVCC     13        d, r, aa, p, t
+CCV       25        d, r, ae  
+CCVC      16        d, r, ae, f
+CCVCC     24        d, r, ae, f, t
+CCVCCC    1         d, r, ae, f, t, s
+CCVC      11        d, r, ae, g
+CCVCC     2         d, r, ae, g, d
+CCVCC     2         d, r, ae, g, z
+CCVCC     1         d, r, ae, ng, k
+CCV       7         d, r, ah  
+CCVC      193       d, r, ah, g
+CCVCC     151       d, r, ah, g, z
+CCVC      2         d, r, ah, m
+CCVCC     1         d, r, ah, m, d
+CCVCC     1         d, r, ah, m, z
+CCVC      1         d, r, ah, ng
+CCVCC     15        d, r, ah, ng, k
+CCVCCC    1         d, r, ah, ng, k, s
+CCV       40        d, r, ao  
+CCVC      3         d, r, ao, n
+CCV       1         d, r, aw  
+CCVC      6         d, r, aw, t
+CCV       13        d, r, ax  
+CCVC      4         d, r, ax, l
+CCVCC     1         d, r, ax, l, z
+CCVC      5         d, r, ax, m
+CCVCC     1         d, r, ax, m, z
+CCVC      450       d, r, ax, n
+CCVCC     21        d, r, ax, n, z
+CCV       175       d, r, ay  
+CCVC      12        d, r, ay, d
+CCVC      9         d, r, ay, r
+CCVCC     5         d, r, ay, r, z
+CCVC      153       d, r, ay, v
+CCVCC     17        d, r, ay, v, z
+CCVC      3         d, r, ay, z
+CCV       37        d, r, eh  
+CCVC      106       d, r, eh, s
+CCVCC     27        d, r, eh, s, t
+CCV       7         d, r, ey  
+CCVC      10        d, r, ey, n
+CCVCC     2         d, r, ey, p, s
+CCVCC     1         d, r, ey, t, s
+CCV       24        d, r, ih  
+CCVC      370       d, r, ih, d
+CCVCC     19        d, r, ih, d, z
+CCVCC     1         d, r, ih, f, t
+CCVC      1         d, r, ih, k
+CCVCC     4         d, r, ih, k, s
+CCVC      5         d, r, ih, l
+CCVCC     1         d, r, ih, l, d
+CCVCC     1         d, r, ih, l, z
+CCVC      26        d, r, ih, n
+CCVCC     1         d, r, ih, n, z
+CCVC      8         d, r, ih, ng
+CCVCC     30        d, r, ih, ng, k
+CCVCCC    4         d, r, ih, ng, k, s
+CCVC      7         d, r, ih, p
+CCVCC     1         d, r, ih, p, s
+CCVCC     1         d, r, ih, p, t
+CCV       17        d, r, iy  
+CCVC      10        d, r, iy, m
+CCVCC     2         d, r, iy, m, d
+CCVCC     7         d, r, iy, m, z
+CCV       4         d, r, ow  
+CCVC      7         d, r, ow, b
+CCVCC     2         d, r, ow, r, z
+CCVC      29        d, r, ow, v
+CCV       5         d, r, uw  
+CCVC      50        d, r, uw, m
+CCVCC     25        d, r, uw, m, z
+CCVC      2         d, r, uw, z
+CV        202       d, uh     
+CVC       1         d, uh, r  
+CV        6486      d, uw     
+CVC       1         d, uw, d  
+CVC       4         d, uw, k  
+CVCC      1         d, uw, k, s
+CVC       1         d, uw, l  
+CVC       2         d, uw, n  
+CVC       20        d, uw, s  
+CVCC      25        d, uw, s, t
+CVC       4         d, uw, z  
+CCV       1         d, w, ao  
+CCVC      4         d, w, ay, d
+CCVC      1         d, w, ay, z
+CCVC      1         d, w, eh, l
+CCVCC     1         d, w, eh, l, z
+CCVCC     12        d, w, eh, s, t
+CCV       14        d, w, er  
+CCVC      3         d, w, er, d
+CCVC      5         d, w, er, k
+CCV       1         d, w, ey  
+CCVC      9         d, w, ey, r
+CCVC      2         d, w, ey, z
+CCV       2         d, w, ih  
+CCVC      5         d, w, ih, ch
+CCVC      1         d, w, ih, l
+CCVC      4         d, w, ih, n
+CCVCC     3         d, w, ow, r, f
+CCVC      5         d, w, uh, d
+CCVCC     1         d, w, uh, d, z
+C         314       dh        
+CV        191       dh, ae    
+CVC       961       dh, ae, n 
+CVC       16901     dh, ae, t 
+CVCC      5686      dh, ae, t, s
+CV        25179     dh, ah    
+CVC       2         dh, ah, s 
+CVC       1         dh, ao, l 
+CVC       141       dh, aw, t 
+CV        10        dh, ax    
+CVC       5         dh, ax, m 
+CV        27        dh, eh    
+CVC       1791      dh, eh, m 
+CVCC      2         dh, eh, m, z
+CVC       2252      dh, eh, n 
+CV        3299      dh, er    
+CVC       20        dh, er, d 
+CVC       62        dh, er, n 
+CVC       230       dh, er, z 
+CV        8282      dh, ey    
+CVC       115       dh, ey, d 
+CVC       208       dh, ey, l 
+CVC       6600      dh, ey, r 
+CVCC      21        dh, ey, r, d
+CVCC      1475      dh, ey, r, z
+CVC       432       dh, ey, v 
+CVC       1         dh, ey, z 
+CV        16        dh, ih    
+CVC       69        dh, ih, n 
+CVC       17        dh, ih, ng
+CVC       2684      dh, ih, s 
+CVCC      6         dh, ih, s, t
+CV        7         dh, iy    
+CVC       710       dh, iy, z 
+CV        633       dh, ow    
+CVC       1060      dh, ow, z 
+V         4340      eh        
+VC        1         eh, ch    
+VCC       2         eh, ch, t 
+VC        13        eh, d     
+VC        31        eh, f     
+VC        496       eh, g     
+VCC       1         eh, g, s  
+VCC       17        eh, g, z  
+VC        29        eh, jh    
+VC        1426      eh, k     
+VCC       58        eh, k, s  
+VC        115       eh, l     
+VCC       3         eh, l, k  
+VCC       361       eh, l, s  
+VCC       2         eh, l, z  
+VC        1255      eh, m     
+VCC       1         eh, m, f  
+VCC       12        eh, m, p  
+VCC       3         eh, m, z  
+VC        1144      eh, n     
+VCC       273       eh, n, d  
+VCCC      30        eh, n, d, z
+VCC       4         eh, n, jh 
+VCC       1         eh, n, k  
+VCC       1         eh, n, t  
+VCC       1         eh, n, th 
+VC        1         eh, p     
+VC        5         eh, r     
+VC        81        eh, s     
+VC        65        eh, t     
+VCC       4         eh, t, s  
+VC        7         eh, th    
+VC        1735      eh, v     
+VCC       4         eh, v, r  
+CC        1         en, t     
+V         799       er        
+VC        1         er, b     
+VC        8         er, d     
+VC        1         er, jh    
+VCC       2         er, k, s  
+VC        14        er, n     
+VCC       2         er, n, d  
+VCC       4         er, n, z  
+VC        2         er, s     
+VC        3         er, t     
+VC        24        er, th    
+VC        258       er, z     
+V         1765      ey        
+VC        1         ey, b     
+VC        24        ey, ch    
+VC        24        ey, d     
+VCC       34        ey, d, z  
+VC        126       ey, jh    
+VCC       3         ey, jh, d 
+VC        1         ey, k     
+VCC       1         ey, k, s  
+VC        1         ey, l     
+VC        1         ey, m     
+VCC       2         ey, m, d  
+VC        5         ey, n     
+VCC       4         ey, n, t  
+VCC       1         ey, n, z  
+VCC       1         ey, p, s  
+VC        201       ey, r     
+VCC       5         ey, r, z  
+VC        398       ey, t     
+VCC       20        ey, t, s  
+VCC       6         ey, t, th 
+VCCC      1         ey, t, th, s
+VC        6         ey, z     
+C         93        f         
+CV        127       f, aa     
+CVC       8         f, aa, n  
+CVC       475       f, aa, r  
+CVCC      36        f, aa, r, m
+CVCCC     6         f, aa, r, m, z
+CVCC      1         f, aa, r, t
+CVCCC     1         f, aa, r, t, s
+CV        651       f, ae     
+CVC       3         f, ae, b  
+CVC       2         f, ae, d  
+CVCC      3         f, ae, d, z
+CVC       89        f, ae, k  
+CVCC      5         f, ae, k, s
+CVCC      376       f, ae, k, t
+CVCCC     22        f, ae, k, t, s
+CVC       1         f, ae, l  
+CVC       4         f, ae, m  
+CVC       134       f, ae, n  
+CVCC      14        f, ae, n, z
+CVCC      62        f, ae, s, t
+CVC       18        f, ae, t  
+CV        200       f, ah     
+CVC       3         f, ah, jh 
+CVC       357       f, ah, n  
+CVCC      28        f, ah, n, d
+CVCCC     10        f, ah, n, d, z
+CVC       2         f, ah, ng 
+CVCC      11        f, ah, ng, k
+CVCCC     1         f, ah, ng, k, t
+CV        115       f, ao     
+CVC       3         f, ao, g  
+CVC       2         f, ao, k  
+CVCC      5         f, ao, k, s
+CVC       84        f, ao, l  
+CVCC      8         f, ao, l, s
+CVCC      18        f, ao, l, t
+CVCCC     2         f, ao, l, t, s
+CVCC      14        f, ao, l, z
+CVC       4         f, ao, n  
+CVCC      4         f, ao, n, d
+CVC       7         f, ao, t  
+CV        1         f, aw     
+CVC       2         f, aw, l  
+CVCC      1         f, aw, l, z
+CVC       18        f, aw, n  
+CVCC      204       f, aw, n, d
+CV        1243      f, ax     
+CVCC      1         f, ax, k, t
+CVC       539       f, ax, l  
+CVCC      1         f, ax, l, d
+CVCCC     3         f, ax, l, d, z
+CVCC      4         f, ax, l, z
+CVC       153       f, ax, n  
+CVCC      2         f, ax, n, d
+CVCC      9         f, ax, n, t
+CVCCC     8         f, ax, n, t, s
+CVCC      2         f, ax, n, z
+CVC       3         f, ax, s  
+CVCC      7         f, ax, s, t
+CVCC      1         f, ax, t, s
+CVC       1         f, ax, z  
+CV        251       f, ay     
+CVC       48        f, ay, d  
+CVC       2         f, ay, f  
+CVC       12        f, ay, l  
+CVCC      1         f, ay, l, d
+CVCC      4         f, ay, l, z
+CVC       157       f, ay, n  
+CVCC      448       f, ay, n, d
+CVCCC     8         f, ay, n, d, z
+CVCC      1         f, ay, n, z
+CVC       63        f, ay, r  
+CVCC      10        f, ay, r, d
+CVCC      1         f, ay, r, w
+CVCC      3         f, ay, r, z
+CVC       4         f, ay, s  
+CVCC      2         f, ay, s, t
+CVC       30        f, ay, t  
+CVCC      3         f, ay, t, s
+CVC       590       f, ay, v  
+CVCC      3         f, ay, v, z
+CVC       4         f, ay, z  
+CV        209       f, eh     
+CVC       1         f, eh, ch 
+CVCC      3         f, eh, ch, t
+CVC       15        f, eh, d  
+CVCC      1         f, eh, d, z
+CVC       59        f, eh, k  
+CVCC      9         f, eh, k, s
+CVCC      88        f, eh, k, t
+CVCCC     25        f, eh, k, t, s
+CVC       30        f, eh, l  
+CVCC      102       f, eh, l, t
+CVC       4         f, eh, m  
+CVC       34        f, eh, n  
+CVCC      9         f, eh, n, d
+CVCC      72        f, eh, n, s
+CVCCC     4         f, eh, n, s, t
+CVC       2         f, eh, s  
+CVCC      3         f, eh, s, t
+CV        5360      f, er     
+CVC       24        f, er, d  
+CVC       19        f, er, m  
+CVCC      1         f, er, m, d
+CVCC      3         f, er, m, z
+CVCC      579       f, er, s, t
+CVC       44        f, er, t  
+CVCC      8         f, er, t, s
+CVC       13        f, er, z  
+CV        246       f, ey     
+CVC       1         f, ey, d  
+CVC       1         f, ey, jh 
+CVC       2         f, ey, k  
+CVC       6         f, ey, l  
+CVCC      7         f, ey, l, d
+CVCC      3         f, ey, l, z
+CVC       3         f, ey, m  
+CVCC      1         f, ey, n, t
+CVC       205       f, ey, r  
+CVCC      5         f, ey, r, z
+CVC       34        f, ey, s  
+CVCC      5         f, ey, s, t
+CVC       3         f, ey, t  
+CVC       8         f, ey, th 
+CVC       1         f, ey, v  
+CVC       10        f, ey, z  
+CV        983       f, ih     
+CVC       336       f, ih, f  
+CVCC      19        f, ih, f, th
+CVC       124       f, ih, k  
+CVCC      48        f, ih, k, s
+CVCCC     19        f, ih, k, s, t
+CVCC      16        f, ih, k, t
+CVC       54        f, ih, l  
+CVCC      19        f, ih, l, d
+CVCC      22        f, ih, l, m
+CVCCC     7         f, ih, l, m, d
+CVCCC     4         f, ih, l, m, z
+CVCC      11        f, ih, l, z
+CVC       8         f, ih, m  
+CVC       3         f, ih, n  
+CVCC      5         f, ih, n, t
+CVCC      2         f, ih, n, z
+CVC       44        f, ih, ng 
+CVC       104       f, ih, s  
+CVCC      7         f, ih, s, t
+CVC       135       f, ih, sh 
+CVCC      3         f, ih, sh, t
+CVC       123       f, ih, t  
+CVCC      91        f, ih, t, s
+CVC       2         f, ih, th 
+CVC       2         f, ih, z  
+CV        285       f, iy     
+CVC       17        f, iy, d  
+CVCC      4         f, iy, d, z
+CVC       567       f, iy, l  
+CVCC      73        f, iy, l, d
+CVCCC     11        f, iy, l, d, z
+CVCC      1         f, iy, l, t
+CVCC      27        f, iy, l, z
+CVC       2         f, iy, n  
+CVCCC     1         f, iy, n, d, z
+CVC       14        f, iy, r  
+CVCC      1         f, iy, r, d
+CVCC      1         f, iy, r, s
+CVC       58        f, iy, t  
+CVCC      2         f, iy, t, s
+CVC       15        f, iy, z  
+CC        2         f, l      
+CCV       2         f, l, aa  
+CCVC      2         f, l, aa, n
+CCVC      2         f, l, aa, p
+CCV       2         f, l, ae  
+CCVC      1         f, l, ae, g
+CCVCC     7         f, l, ae, g, z
+CCVC      1         f, l, ae, k
+CCVC      1         f, l, ae, m
+CCVC      3         f, l, ae, sh
+CCVC      38        f, l, ae, t
+CCV       10        f, l, ah  
+CCVC      8         f, l, ah, d
+CCVCC     2         f, l, ah, d, z
+CCVCC     1         f, l, ah, f, s
+CCVC      2         f, l, ah, k
+CCVCC     2         f, l, ah, k, s
+CCVCCC    1         f, l, ah, ng, k, t
+CCVCC     2         f, l, ah, sh, t
+CCVC      2         f, l, ao, n
+CCVC      3         f, l, ao, ng
+CCV       85        f, l, aw  
+CCVC      4         f, l, aw, n
+CCVC      1         f, l, aw, r
+CCVC      1         f, l, ax, s
+CCV       34        f, l, ay  
+CCVC      1         f, l, ay, k
+CCVC      1         f, l, ay, r
+CCVCC     1         f, l, ay, r, z
+CCVC      5         f, l, ay, t
+CCVCC     2         f, l, ay, t, s
+CCVC      2         f, l, ay, z
+CCVC      1         f, l, eh, jh
+CCVC      25        f, l, eh, k
+CCVCC     6         f, l, eh, k, s
+CCV       5         f, l, er  
+CCVC      1         f, l, er, z
+CCV       20        f, l, ey  
+CCVC      1         f, l, ey, g
+CCVC      2         f, l, ey, k
+CCVCC     2         f, l, ey, k, s
+CCVC      2         f, l, ey, m
+CCVC      1         f, l, ey, t
+CCV       4         f, l, ih  
+CCVC      1         f, l, ih, k
+CCVCC     15        f, l, ih, k, t
+CCVCCC    3         f, l, ih, k, t, s
+CCVC      3         f, l, ih, m
+CCVC      10        f, l, ih, p
+CCVC      1         f, l, ih, t
+CCV       16        f, l, iy  
+CCVC      2         f, l, iy, t
+CCVCC     1         f, l, iy, t, s
+CCVC      10        f, l, iy, z
+CCV       92        f, l, ow  
+CCVC      1         f, l, ow, n
+CCVC      45        f, l, ow, r
+CCVCC     2         f, l, ow, r, z
+CCVC      3         f, l, ow, t
+CCVCC     3         f, l, ow, t, s
+CCVC      1         f, l, ow, z
+CCVC      1         f, l, oy, d
+CCV       53        f, l, uw  
+CCVC      1         f, l, uw, k
+CCVC      11        f, l, uw, t
+CV        88        f, ow     
+CVC       10        f, ow, k  
+CVCC      46        f, ow, k, s
+CVC       5         f, ow, l  
+CVCC      3         f, ow, l, d
+CVC       18        f, ow, m  
+CVC       160       f, ow, n  
+CVCC      11        f, ow, n, z
+CVC       1711      f, ow, r  
+CVCC      1         f, ow, r, ch
+CVCC      103       f, ow, r, d
+CVCCC     5         f, ow, r, d, z
+CVCC      3         f, ow, r, k
+CVCC      57        f, ow, r, m
+CVCCC     20        f, ow, r, m, d
+CVCCC     21        f, ow, r, m, z
+CVCC      80        f, ow, r, s
+CVCCC     27        f, ow, r, s, t
+CVCC      19        f, ow, r, t
+CVCC      118       f, ow, r, th
+CVCCC     1         f, ow, r, th, s
+CVCC      3         f, ow, r, z
+CVCC      1         f, oy, l, d
+CC        10        f, r      
+CCVC      1         f, r, ae, f
+CCVC      1         f, r, ae, g
+CCVC      4         f, r, ae, k
+CCVCC     2         f, r, ae, m, p
+CCVC      22        f, r, ae, n
+CCVCC     29        f, r, ae, n, s
+CCVC      8         f, r, ae, ng
+CCVCC     8         f, r, ae, ng, k
+CCVCCC    3         f, r, ae, ng, k, s
+CCVC      2         f, r, ae, s
+CCVC      2         f, r, ae, t
+CCV       25        f, r, ah  
+CCVC      1762      f, r, ah, m
+CCVC      3         f, r, ah, n
+CCVCC     99        f, r, ah, n, t
+CCVCCC    1         f, r, ah, n, t, s
+CCV       1         f, r, ao  
+CCVCC     6         f, r, ao, s, t
+CCVCC     1         f, r, aw, n, d
+CCV       14        f, r, ax  
+CCVC      2         f, r, ax, n
+CCV       74        f, r, ay  
+CCVC      8         f, r, ay, d
+CCVC      2         f, r, ay, z
+CCV       34        f, r, eh  
+CCVC      2         f, r, eh, d
+CCVC      3         f, r, eh, n
+CCVCC     41        f, r, eh, n, ch
+CCVCC     182       f, r, eh, n, d
+CCVCCC    175       f, r, eh, n, d, z
+CCVC      15        f, r, eh, sh
+CCVC      1         f, r, eh, z
+CCV       11        f, r, ey  
+CCVC      49        f, r, ey, d
+CCVC      18        f, r, ey, m
+CCVCC     2         f, r, ey, m, d
+CCVCC     4         f, r, ey, m, z
+CCVC      2         f, r, ey, n
+CCVCC     1         f, r, ey, n, d
+CCVC      5         f, r, ey, z
+CCVCC     1         f, r, ey, z, d
+CCV       48        f, r, ih  
+CCVC      2         f, r, ih, k
+CCVCC     1         f, r, ih, l, z
+CCVC      4         f, r, ih, n
+CCVCC     2         f, r, ih, n, jh
+CCVCC     9         f, r, ih, n, s
+CCVCC     16        f, r, ih, n, t
+CCVCC     1         f, r, ih, t, s
+CCV       158       f, r, iy  
+CCVC      1         f, r, iy, d
+CCVC      4         f, r, iy, k
+CCVCC     1         f, r, iy, k, s
+CCVC      1         f, r, iy, r
+CCVC      17        f, r, iy, z
+CCV       3         f, r, ow  
+CCVC      7         f, r, ow, z
+CCV       5         f, r, uw  
+CCVC      11        f, r, uw, t
+CCVCC     3         f, r, uw, t, s
+CV        16        f, uh     
+CVC       149       f, uh, l  
+CVCC      1         f, uh, l, z
+CVC       145       f, uh, t  
+CV        4         f, uw     
+CVC       114       f, uw, d  
+CVCC      12        f, uw, d, z
+CVC       7         f, uw, l  
+CVCC      1         f, uw, l, z
+CCV       5         f, y, uh  
+CCV       474       f, y, uw  
+CCVC      18        f, y, uw, l
+CCVCC     4         f, y, uw, l, z
+CCVC      1         f, y, uw, m
+CCVCC     1         f, y, uw, m, d
+CCVCC     3         f, y, uw, m, z
+CCVC      9         f, y, uw, s
+CCVC      3         f, y, uw, t
+CCVC      8         f, y, uw, z
+CCVCC     12        f, y, uw, z, d
+C         52        g         
+CV        210       g, aa     
+CVC       119       g, aa, d  
+CVCC      10        g, aa, d, z
+CVC       16        g, aa, n  
+CVCC      1         g, aa, n, z
+CVC       192       g, aa, r  
+CVCC      87        g, aa, r, d
+CVCCC     8         g, aa, r, d, z
+CVCC      1         g, aa, r, f
+CVCC      1         g, aa, r, l
+CVCC      3         g, aa, r, p
+CVCC      5         g, aa, r, t
+CVCCC     1         g, aa, r, t, s
+CVCC      3         g, aa, r, th
+CVC       194       g, aa, sh 
+CVC       2080      g, aa, t  
+CV        90        g, ae     
+CVC       9         g, ae, l  
+CVCC      1         g, ae, l, z
+CVC       2         g, ae, m  
+CVC       13        g, ae, n  
+CVCC      7         g, ae, n, z
+CVC       13        g, ae, ng 
+CVCC      8         g, ae, ng, z
+CVC       7         g, ae, p  
+CVCC      2         g, ae, p, s
+CVC       46        g, ae, s  
+CVCC      2         g, ae, s, t
+CVCC      1         g, ae, t, s
+CV        674       g, ah     
+CVC       1         g, ah, l  
+CVCC      22        g, ah, l, f
+CVC       5         g, ah, m  
+CVC       153       g, ah, n  
+CVCC      1         g, ah, n, d
+CVCC      83        g, ah, n, z
+CVC       1         g, ah, ng 
+CVCC      24        g, ah, s, t
+CVC       9         g, ah, t  
+CVCC      7         g, ah, t, s
+CVC       2         g, ah, z  
+CV        15        g, ao     
+CVC       17        g, ao, l  
+CVCC      65        g, ao, l, f
+CVCCC     1         g, ao, l, f, s
+CVC       2         g, ao, m  
+CVC       238       g, ao, n  
+CV        1         g, aw     
+CVC       1         g, aw, jh 
+CV        333       g, ax     
+CVC       180       g, ax, l  
+CVCC      10        g, ax, l, d
+CVCC      21        g, ax, l, z
+CVC       58        g, ax, n  
+CVCC      3         g, ax, n, d
+CVCC      11        g, ax, n, t
+CVCC      7         g, ax, n, z
+CVC       1         g, ax, r  
+CVC       15        g, ax, s  
+CVCC      70        g, ax, s, t
+CVC       1         g, ax, sh 
+CV        240       g, ay     
+CVC       15        g, ay, d  
+CVC       168       g, ay, z  
+CV        896       g, eh     
+CVC       323       g, eh, n  
+CVCCC     136       g, eh, n, s, t
+CVC       1597      g, eh, s  
+CVCC      4         g, eh, s, t
+CVCCC     4         g, eh, s, t, s
+CVC       3024      g, eh, t  
+CVCC      250       g, eh, t, s
+CVC       1         g, eh, z  
+CV        263       g, er     
+CVC       4         g, er, d  
+CVC       91        g, er, l  
+CVCC      53        g, er, l, z
+CVC       4         g, er, t  
+CVC       13        g, er, z  
+CV        41        g, ey     
+CVC       1         g, ey, d  
+CVC       4         g, ey, jh 
+CVCC      4         g, ey, jh, d
+CVC       1         g, ey, l  
+CVC       133       g, ey, m  
+CVCC      58        g, ey, m, z
+CVC       14        g, ey, n  
+CVCC      5         g, ey, n, d
+CVCC      3         g, ey, n, z
+CVC       11        g, ey, t  
+CVCC      7         g, ey, t, s
+CVC       78        g, ey, v  
+CV        226       g, ih     
+CVC       4         g, ih, d  
+CVC       9         g, ih, f  
+CVCC      11        g, ih, f, s
+CVCC      7         g, ih, f, t
+CVC       7         g, ih, jh 
+CVC       69        g, ih, l  
+CVCC      8         g, ih, l, t
+CVC       27        g, ih, n  
+CVCC      3         g, ih, n, z
+CVC       32        g, ih, ng 
+CVCC      1         g, ih, ng, z
+CVCC      33        g, ih, s, t
+CVC       14        g, ih, t  
+CVCC      5         g, ih, t, s
+CVC       321       g, ih, v  
+CVCC      59        g, ih, v, z
+CV        16        g, iy     
+CVC       5         g, iy, r  
+CVCC      5         g, iy, r, d
+CVCC      1         g, iy, r, z
+CVC       3         g, iy, z  
+CCVCC     1         g, l, aa, b, z
+CCV       7         g, l, ae  
+CCVC      77        g, l, ae, d
+CCVCCC    1         g, l, ae, n, d, z
+CCVCCC    1         g, l, ae, n, s, t
+CCVC      56        g, l, ae, s
+CCVC      2         g, l, ae, z
+CCV       1         g, l, ah  
+CCVC      2         g, l, ah, t
+CCVC      1         g, l, ah, v
+CCVCC     1         g, l, ah, v, z
+CCV       1         g, l, ao  
+CCVC      7         g, l, ao, s
+CCV       4         g, l, ax  
+CCVCC     45        g, l, ax, n, d
+CCVCCC    1         g, l, ax, n, d, z
+CCVC      6         g, l, ax, s
+CCV       2         g, l, ay  
+CCVC      3         g, l, eh, k
+CCVCC     4         g, l, eh, k, t
+CCVC      3         g, l, eh, n
+CCV       7         g, l, er  
+CCVC      3         g, l, ey, z
+CCV       3         g, l, ih  
+CCVCCC    1         g, l, ih, m, p, s
+CCVC      1         g, l, ih, ng
+CCVC      49        g, l, ih, sh
+CCVC      2         g, l, ih, t
+CCVCC     4         g, l, ih, t, s
+CCV       13        g, l, iy  
+CCV       13        g, l, ow  
+CCVC      1         g, l, ow, b
+CCV       8         g, l, uw  
+CCVC      4         g, l, uw, d
+CCVC      1         g, l, uw, z
+CV        4606      g, ow     
+CVC       31        g, ow, l  
+CVCC      13        g, ow, l, d
+CVCCC     2         g, ow, l, d, z
+CVCC      8         g, ow, l, z
+CVC       48        g, ow, r  
+CVCCC     1         g, ow, r, d, z
+CVC       1         g, ow, s  
+CVCC      9         g, ow, s, t
+CVCCC     1         g, ow, s, t, s
+CVC       255       g, ow, z  
+CC        11        g, r      
+CCV       5         g, r, aa  
+CCVC      1         g, r, aa, n
+CCV       182       g, r, ae  
+CCVC      15        g, r, ae, b
+CCVCC     2         g, r, ae, b, d
+CCVCC     2         g, r, ae, b, z
+CCVC      4         g, r, ae, d
+CCVC      6         g, r, ae, f
+CCVCC     5         g, r, ae, f, s
+CCVC      178       g, r, ae, m
+CCVCC     96        g, r, ae, m, z
+CCVC      18        g, r, ae, n
+CCVCC     159       g, r, ae, n, d
+CCVCC     11        g, r, ae, n, t
+CCVCCC    3         g, r, ae, n, t, s
+CCVC      34        g, r, ae, s
+CCVCC     3         g, r, ae, s, p
+CCV       1         g, r, ah  
+CCVC      2         g, r, ah, b
+CCVC      1         g, r, ah, jh
+CCVC      3         g, r, ah, n
+CCV       4         g, r, aw  
+CCVC      2         g, r, aw, n
+CCVCC     110       g, r, aw, n, d
+CCVCCC    7         g, r, aw, n, d, z
+CCV       45        g, r, ax  
+CCVC      1         g, r, ax, l
+CCV       1         g, r, ay  
+CCVCC     7         g, r, ay, n, d
+CCVC      5         g, r, ay, p
+CCV       38        g, r, eh  
+CCVC      10        g, r, eh, s
+CCVCC     1         g, r, eh, s, t
+CCVC      2         g, r, eh, t
+CCV       109       g, r, ey  
+CCVC      86        g, r, ey, d
+CCVCC     20        g, r, ey, d, z
+CCVC      2         g, r, ey, n
+CCVCC     1         g, r, ey, n, d
+CCVC      4         g, r, ey, p
+CCVCC     3         g, r, ey, p, s
+CCVC      3         g, r, ey, s
+CCVC      586       g, r, ey, t
+CCVCC     1         g, r, ey, t, s
+CCVC      1         g, r, ey, v
+CCVC      1         g, r, ey, z
+CCVCC     1         g, r, ey, z, d
+CCV       22        g, r, ih  
+CCVC      15        g, r, ih, l
+CCVCC     1         g, r, ih, l, d
+CCVC      2         g, r, ih, n
+CCVCC     9         g, r, ih, n, t
+CCVCCC    2         g, r, ih, n, t, s
+CCVC      1         g, r, ih, p
+CCVCC     2         g, r, ih, p, s
+CCVC      26        g, r, ih, s
+CCVC      4         g, r, ih, t
+CCVC      2         g, r, ih, z
+CCV       395       g, r, iy  
+CCVC      9         g, r, iy, d
+CCVC      11        g, r, iy, f
+CCVC      5         g, r, iy, k
+CCVC      72        g, r, iy, n
+CCVCC     4         g, r, iy, n, z
+CCVC      1         g, r, iy, s
+CCVCC     1         g, r, iy, t, s
+CCVC      2         g, r, iy, v
+CCVCC     1         g, r, iy, v, z
+CCVC      49        g, r, iy, z
+CCV       184       g, r, ow  
+CCVC      40        g, r, ow, n
+CCVC      9         g, r, ow, s
+CCVCC     2         g, r, ow, s, t
+CCVC      8         g, r, ow, th
+CCVC      1         g, r, ow, v
+CCVCC     1         g, r, ow, v, z
+CCVC      8         g, r, ow, z
+CCV       106       g, r, uw  
+CCVC      106       g, r, uw, p
+CCVCC     39        g, r, uw, p, s
+CCVC      1         g, r, uw, v
+CV        13        g, uh     
+CVC       2315      g, uh, d  
+CVCC      13        g, uh, d, z
+CV        4         g, uw     
+CVCC      1         g, uw, f, s
+CVCC      4         g, uw, f, t
+CVC       1         g, uw, k  
+CVC       1         g, uw, n  
+CVC       1         g, uw, p  
+CCV       6         g, w, aa  
+CCV       1         g, w, ax  
+CCVC      1         g, w, ax, l
+CCVCC     1         g, w, ax, n, z
+CCV       19        g, w, ih  
+CCVC      29        g, w, ih, jh
+CCVC      1         g, w, ih, n
+CCVCC     1         g, w, ih, s, t
+CCVC      2         g, w, ih, sh
+CCVCC     1         g, w, ih, sh, t
+CCV       1         g, w, iy  
+CCVCC     1         g, w, uh, d, z
+CCV       173       g, y, ax  
+CCVC      1         g, y, ax, l
+CCV       108       g, y, er  
+CCVC      43        g, y, er, d
+CCVC      10        g, y, er, z
+CCV       3         g, y, uh  
+CCV       13        g, y, uw  
+CCVC      1         g, y, uw, z
+C         76        hh        
+CV        190       hh, aa    
+CVC       1         hh, aa, k 
+CVC       45        hh, aa, n 
+CVC       3         hh, aa, p 
+CVC       89        hh, aa, r 
+CVCC      466       hh, aa, r, d
+CVCCC     1         hh, aa, r, k, s
+CVCC      6         hh, aa, r, m
+CVCCC     2         hh, aa, r, m, d
+CVCC      4         hh, aa, r, p
+CVCC      59        hh, aa, r, t
+CVCCC     3         hh, aa, r, t, s
+CVC       93        hh, aa, t 
+CV        1810      hh, ae    
+CVC       3         hh, ae, b 
+CVC       3         hh, ae, ch
+CVC       2695      hh, ae, d 
+CVC       271       hh, ae, f 
+CVC       5         hh, ae, k 
+CVC       2         hh, ae, l 
+CVC       25        hh, ae, m 
+CVCC      22        hh, ae, m, p
+CVC       135       hh, ae, n 
+CVCC      176       hh, ae, n, d
+CVCCC     44        hh, ae, n, d, z
+CVCCC     1         hh, ae, n, s, t
+CVCC      2         hh, ae, n, z
+CVC       58        hh, ae, ng
+CVCC      7         hh, ae, ng, k
+CVCC      1         hh, ae, ng, z
+CVC       2         hh, ae, p 
+CVCC      52        hh, ae, p, s
+CVC       6         hh, ae, t 
+CVCC      2         hh, ae, t, s
+CVC       7508      hh, ae, v 
+CVCC      1         hh, ae, v, z
+CVC       1001      hh, ae, z 
+CV        4881      hh, ah    
+CVC       1         hh, ah, b 
+CVC       1         hh, ah, f 
+CVC       1         hh, ah, g 
+CVCC      1         hh, ah, g, z
+CVC       1         hh, ah, l 
+CVC       3923      hh, ah, m 
+CVCC      4         hh, ah, m, p
+CVC       439       hh, ah, n 
+CVCC      1         hh, ah, n, ch
+CVCC      18        hh, ah, n, t
+CVCCC     2         hh, ah, n, t, s
+CVC       16        hh, ah, ng
+CVCC      2         hh, ah, ng, k
+CVC       370       hh, ah, z 
+CVCC      1         hh, ah, z, b
+CV        54        hh, ao    
+CVC       6         hh, ao, f 
+CVC       3         hh, ao, g 
+CVCC      7         hh, ao, k, s
+CVC       53        hh, ao, l 
+CVCC      4         hh, ao, l, d
+CVCC      3         hh, ao, l, z
+CVC       2         hh, ao, n 
+CVC       4         hh, ao, ng
+CVCC      1         hh, ao, ng, k
+CVC       1         hh, ao, t 
+CV        1818      hh, aw    
+CVC       14        hh, aw, d 
+CVC       5         hh, aw, l 
+CVCC      2         hh, aw, n, d
+CVC       543       hh, aw, s 
+CVC       1         hh, aw, t 
+CVC       18        hh, aw, z 
+CV        84        hh, ax    
+CV        605       hh, ay    
+CVC       14        hh, ay, d 
+CVCC      1         hh, ay, d, z
+CVC       2         hh, ay, k 
+CVCC      2         hh, ay, k, s
+CVC       1         hh, ay, m 
+CVCC      68        hh, ay, n, d
+CVCCC     1         hh, ay, n, d, z
+CVCC      1         hh, ay, n, z
+CVC       4         hh, ay, p 
+CVCC      2         hh, ay, p, t
+CVC       89        hh, ay, r 
+CVCC      23        hh, ay, r, d
+CVCC      1         hh, ay, r, z
+CVC       2         hh, ay, t 
+CVCC      4         hh, ay, t, s
+CVC       3         hh, ay, z 
+CV        145       hh, eh    
+CVC       207       hh, eh, d 
+CVCC      5         hh, eh, d, z
+CVC       1         hh, eh, jh
+CVC       22        hh, eh, k 
+CVC       81        hh, eh, l 
+CVCC      22        hh, eh, l, d
+CVCCC     2         hh, eh, l, m, z
+CVCC      239       hh, eh, l, p
+CVCCC     57        hh, eh, l, p, s
+CVCCC     39        hh, eh, l, p, t
+CVCC      113       hh, eh, l, th
+CVC       2         hh, eh, m 
+CVCC      1         hh, eh, m, d
+CVC       15        hh, eh, n 
+CVCC      2         hh, eh, n, jh
+CVCC      1         hh, eh, n, s
+CVCC      4         hh, eh, n, z
+CV        841       hh, er    
+CVC       361       hh, er, d 
+CVC       1         hh, er, s 
+CVCC      2         hh, er, s, t
+CVC       62        hh, er, t 
+CVCC      13        hh, er, t, s
+CVC       23        hh, er, z 
+CV        149       hh, ey    
+CVC       11        hh, ey, l 
+CVCC      1         hh, ey, l, d
+CVCC      1         hh, ey, l, s
+CVC       30        hh, ey, r 
+CVCC      2         hh, ey, r, d
+CVCC      1         hh, ey, r, z
+CVC       83        hh, ey, t 
+CVCC      5         hh, ey, t, s
+CVC       8         hh, ey, v 
+CVCC      2         hh, ey, v, d
+CVC       2         hh, ey, z 
+CV        157       hh, ih    
+CVC       1         hh, ih, d 
+CVC       33        hh, ih, l 
+CVCC      19        hh, ih, l, z
+CVC       714       hh, ih, m 
+CVC       3         hh, ih, n 
+CVCC      1         hh, ih, n, jh
+CVCC      2         hh, ih, n, t
+CVCCC     1         hh, ih, n, t, s
+CVC       1         hh, ih, ng
+CVC       4         hh, ih, p 
+CVCC      3         hh, ih, p, s
+CVC       93        hh, ih, t 
+CVCC      7         hh, ih, t, s
+CVC       570       hh, ih, z 
+CV        2407      hh, iy    
+CVC       40        hh, iy, d 
+CVC       70        hh, iy, l 
+CVCC      1         hh, iy, l, d
+CVCC      14        hh, iy, l, z
+CVC       1575      hh, iy, r 
+CVCC      18        hh, iy, r, z
+CVC       34        hh, iy, t 
+CVC       1         hh, iy, v 
+CVC       676       hh, iy, z 
+CC        331       hh, m     
+CCCC      24        hh, m, hh, m
+CV        197       hh, ow    
+CVC       522       hh, ow, l 
+CVCC      104       hh, ow, l, d
+CVCCC     6         hh, ow, l, d, z
+CVCC      16        hh, ow, l, z
+CVC       932       hh, ow, m 
+CVCC      73        hh, ow, m, z
+CVC       181       hh, ow, p 
+CVCC      6         hh, ow, p, s
+CVC       17        hh, ow, r 
+CVCC      2         hh, ow, r, n
+CVCCC     1         hh, ow, r, n, z
+CVCC      21        hh, ow, r, s
+CVCC      1         hh, ow, s, t
+CVC       9         hh, ow, z 
+CV        6         hh, oy    
+CV        6         hh, uh    
+CVC       103       hh, uh, d 
+CVCC      16        hh, uh, d, z
+CVC       8         hh, uh, k 
+CVCC      2         hh, uh, k, s
+CVCC      10        hh, uh, k, t
+CV        873       hh, uw    
+CVC       5         hh, uw, l 
+CVC       3         hh, uw, m 
+CVC       2         hh, uw, p 
+CVC       9         hh, uw, v 
+CVC       137       hh, uw, z 
+CCV       187       hh, y, uw 
+CCVC      60        hh, y, uw, jh
+CCVC      1         hh, y, uw, s
+CCVC      2         hh, y, uw, z
+V         2460      ih        
+VC        6         ih, d     
+VC        2         ih, dh    
+VC        3337      ih, f     
+VCC       1         ih, f, s  
+VC        14        ih, g     
+VC        2         ih, jh    
+VC        12        ih, k     
+VCC       2         ih, k, s  
+VC        24        ih, l     
+VCC       1         ih, l, z  
+VC        360       ih, m     
+VCCC      1         ih, m, p, l
+VCCC      1         ih, m, p, r
+VC        14309     ih, n     
+VCC       13        ih, n, ch 
+VCC       8         ih, n, d  
+VCC       2         ih, n, k  
+VCC       215       ih, n, s  
+VCCC      12        ih, n, s, t
+VCC       34        ih, n, t  
+VCCC      19        ih, n, t, s
+VCC       33        ih, n, z  
+VC        4869      ih, ng    
+VCC       3         ih, ng, k 
+VCC       10        ih, ng, z 
+VC        3         ih, r     
+VC        105       ih, s     
+VCC       55        ih, s, t  
+VCCC      6         ih, s, t, s
+VC        125       ih, sh    
+VC        14925     ih, t     
+VCC       7477      ih, t, s  
+VC        1         ih, th    
+VC        6516      ih, z     
+V         1727      iy        
+VC        197       iy, ch    
+VC        2         iy, l     
+VC        5         iy, r     
+VCC       6         iy, r, z  
+VC        1         iy, s     
+VCC       83        iy, s, t  
+VC        144       iy, t     
+VCC       3         iy, t, s  
+VC        63        iy, v     
+VCC       1         iy, v, z  
+VC        38        iy, z     
+C         20        jh        
+CV        21        jh, aa    
+CVC       375       jh, aa, b 
+CVCC      71        jh, aa, b, z
+CVC       8         jh, aa, g 
+CVCC      1         jh, aa, g, z
+CVC       33        jh, aa, n 
+CVCC      2         jh, aa, n, z
+CVC       2         jh, aa, r 
+CVCC      6         jh, aa, r, z
+CVC       1         jh, aa, t 
+CV        68        jh, ae    
+CVC       14        jh, ae, k 
+CVCC      1         jh, ae, k, t
+CVC       3         jh, ae, m 
+CVCC      1         jh, ae, m, z
+CVC       4         jh, ae, n 
+CVC       2         jh, ae, p 
+CVC       19        jh, ae, z 
+CV        113       jh, ah    
+CVC       1         jh, ah, g 
+CVCC      6         jh, ah, g, z
+CVC       72        jh, ah, jh
+CVCC      4         jh, ah, jh, d
+CVC       16        jh, ah, m 
+CVCC      22        jh, ah, m, p
+CVCCC     5         jh, ah, m, p, s
+CVCCC     16        jh, ah, m, p, t
+CVC       1         jh, ah, n 
+CVC       5         jh, ah, ng
+CVCC      16        jh, ah, ng, k
+CVC       30        jh, ah, s 
+CVCC      5863      jh, ah, s, t
+CVC       1         jh, ao, ng
+CVC       1         jh, ao, z 
+CVC       1         jh, aw, l 
+CV        422       jh, ax    
+CVC       48        jh, ax, l 
+CVCC      4         jh, ax, l, d
+CVCC      7         jh, ax, l, z
+CV        12        jh, ay    
+CVC       2         jh, ay, z 
+CVCC      1         jh, ay, z, d
+CV        324       jh, eh    
+CVC       6         jh, eh, f 
+CVC       37        jh, eh, k 
+CVCC      157       jh, eh, k, t
+CVCCC     39        jh, eh, k, t, s
+CVC       1         jh, eh, l 
+CVC       1         jh, eh, m 
+CVCC      1         jh, eh, m, z
+CVC       14        jh, eh, n 
+CVC       8         jh, eh, s 
+CVCC      11        jh, eh, s, t
+CVC       5         jh, eh, t 
+CVCC      1         jh, eh, t, s
+CCCC      1         jh, en, t, s
+CV        352       jh, er    
+CVC       10        jh, er, d 
+CVC       2         jh, er, k 
+CVC       1         jh, er, m 
+CVCC      1         jh, er, n, d
+CVC       86        jh, er, z 
+CV        37        jh, ey    
+CVCC      1         jh, ey, k, s
+CVC       34        jh, ey, l 
+CVCC      10        jh, ey, l, z
+CVCC      15        jh, ey, m, z
+CVC       11        jh, ey, n 
+CV        447       jh, ih    
+CVC       3         jh, ih, d 
+CVC       1         jh, ih, g 
+CVCC      1         jh, ih, g, z
+CVC       21        jh, ih, k 
+CVC       30        jh, ih, m 
+CVCC      4         jh, ih, m, z
+CVC       244       jh, ih, n 
+CVCC      9         jh, ih, n, d
+CVCC      11        jh, ih, n, s
+CVCC      33        jh, ih, n, t
+CVCCC     3         jh, ih, n, t, s
+CVCC      14        jh, ih, n, z
+CVC       122       jh, ih, ng
+CVC       4         jh, ih, p 
+CVC       61        jh, ih, s 
+CVCC      19        jh, ih, s, t
+CVCCC     3         jh, ih, s, t, s
+CVC       129       jh, ih, t 
+CVCC      11        jh, ih, t, s
+CVC       270       jh, ih, z 
+CV        215       jh, iy    
+CVCC      2         jh, iy, l, d
+CVC       8         jh, iy, n 
+CVCC      40        jh, iy, n, z
+CVC       1         jh, iy, p 
+CVC       49        jh, iy, z 
+CV        64        jh, ow    
+CVC       14        jh, ow, k 
+CVCC      2         jh, ow, k, s
+CVCC      1         jh, ow, k, t
+CVCC      6         jh, ow, n, z
+CVC       45        jh, ow, r 
+CVCC      14        jh, ow, r, jh
+CVC       2         jh, ow, z 
+CV        345       jh, oy    
+CVC       158       jh, oy, d 
+CVC       22        jh, oy, n 
+CVCC      10        jh, oy, n, d
+CVCC      4         jh, oy, n, t
+CVCCC     7         jh, oy, n, t, s
+CVCC      1         jh, oy, n, z
+CVC       25        jh, oy, z 
+CV        250       jh, uh    
+CVC       1         jh, uh, r 
+CV        295       jh, uw    
+CVC       6         jh, uw, l 
+CVC       17        jh, uw, n 
+CVC       10        jh, uw, s 
+CVC       1         jh, uw, z 
+C         81        k         
+CV        330       k, aa     
+CVC       3         k, aa, b  
+CVC       2         k, aa, d  
+CVC       1         k, aa, g  
+CVC       2         k, aa, k  
+CVC       175       k, aa, m  
+CVCC      2         k, aa, m, d
+CVCC      3         k, aa, m, p
+CVCC      3         k, aa, m, z
+CVC       415       k, aa, n  
+CVCC      1         k, aa, n, s
+CVCC      1         k, aa, n, z
+CVC       37        k, aa, ng 
+CVC       18        k, aa, p  
+CVCC      8         k, aa, p, s
+CVC       572       k, aa, r  
+CVCC      124       k, aa, r, d
+CVCCC     88        k, aa, r, d, z
+CVCC      2         k, aa, r, l
+CVCC      7         k, aa, r, t
+CVCCC     1         k, aa, r, t, s
+CVCC      178       k, aa, r, z
+CVC       2         k, aa, t  
+CVC       1         k, aa, v  
+CVC       7         k, aa, z  
+CV        793       k, ae     
+CVC       2         k, ae, b  
+CVC       85        k, ae, ch 
+CVC       4         k, ae, d  
+CVC       1         k, ae, f  
+CVC       1         k, ae, k  
+CVC       15        k, ae, l  
+CVCC      1         k, ae, l, k
+CVC       161       k, ae, m  
+CVCC      52        k, ae, m, p
+CVCCC     2         k, ae, m, p, s
+CVCCC     7         k, ae, m, p, t
+CVC       2242      k, ae, n  
+CVCC      11        k, ae, n, d
+CVCC      752       k, ae, n, t
+CVCC      87        k, ae, n, z
+CVC       20        k, ae, p  
+CVCC      5         k, ae, p, s
+CVCC      6         k, ae, p, t
+CVCC      23        k, ae, s, t
+CVCCC     3         k, ae, s, t, s
+CVC       43        k, ae, sh 
+CVCC      1         k, ae, sh, t
+CVC       139       k, ae, t  
+CVCC      107       k, ae, t, s
+CVC       2         k, ae, th 
+CV        1019      k, ah     
+CVC       1         k, ah, b  
+CVCC      2         k, ah, b, z
+CVC       1         k, ah, f  
+CVCC      1         k, ah, f, t
+CVC       37        k, ah, l  
+CVC       1241      k, ah, m  
+CVCC      1         k, ah, m, p
+CVCC      213       k, ah, m, z
+CVC       421       k, ah, n  
+CVC       41        k, ah, p  
+CVCC      11        k, ah, p, s
+CVC       2         k, ah, s  
+CVC       147       k, ah, t  
+CVCC      21        k, ah, t, s
+CVC       2         k, ah, v  
+CVC       2948      k, ah, z  
+CV        507       k, ao     
+CVC       3         k, ao, f  
+CVC       1         k, ao, k  
+CVC       339       k, ao, l  
+CVCC      259       k, ao, l, d
+CVCC      67        k, ao, l, z
+CVC       4         k, ao, ng 
+CVCC      123       k, ao, s, t
+CVCCC     65        k, ao, s, t, s
+CVC       85        k, ao, t  
+CVC       54        k, ao, z  
+CVCC      14        k, ao, z, d
+CV        86        k, aw     
+CVC       1         k, aw, b  
+CVC       4         k, aw, ch 
+CVCC      1         k, aw, ch, t
+CVC       123       k, aw, n  
+CVCC      50        k, aw, n, t
+CVCCC     12        k, aw, n, t, s
+CVC       12        k, aw, t  
+CVCC      1         k, aw, t, s
+CVC       5         k, aw, z  
+CV        1076      k, ax     
+CVCC      1         k, ax, b, z
+CVC       1         k, ax, d  
+CVC       36        k, ax, g  
+CVC       657       k, ax, l  
+CVCC      23        k, ax, l, d
+CVCC      111       k, ax, l, t
+CVCC      94        k, ax, l, z
+CVC       613       k, ax, m  
+CVCCC     2         k, ax, m, p, l
+CVC       1316      k, ax, n  
+CVCC      152       k, ax, n, d
+CVCCC     11        k, ax, n, d, z
+CVCC      5         k, ax, n, s
+CVCC      35        k, ax, n, t
+CVCCC     1         k, ax, n, t, s
+CVCC      1         k, ax, n, v
+CVCC      32        k, ax, n, z
+CVC       16        k, ax, s  
+CVCC      5         k, ax, s, t
+CVC       9         k, ax, t  
+CVC       7         k, ax, z  
+CV        7         k, ay     
+CVC       1         k, ay, d  
+CVC       4         k, ay, l  
+CVC       5         k, ay, n  
+CVCC      2177      k, ay, n, d
+CVCCC     130       k, ay, n, d, z
+CVC       3         k, ay, t  
+CV        65        k, eh     
+CVC       2         k, eh, g  
+CVC       1         k, eh, m  
+CVC       4         k, eh, n  
+CVCC      112       k, eh, n, d
+CVCCC     36        k, eh, n, d, z
+CVCC      105       k, eh, p, t
+CVC       1         k, eh, sh 
+CVC       1         k, eh, t  
+CV        258       k, er     
+CVC       16        k, er, b  
+CVCC      1         k, er, b, z
+CVC       63        k, er, d  
+CVCC      29        k, er, d, z
+CVC       1         k, er, k  
+CVC       1         k, er, s  
+CVC       1         k, er, v  
+CVC       65        k, er, z  
+CV        2515      k, ey     
+CVC       6         k, ey, d  
+CVCC      1         k, ey, d, z
+CVC       5         k, ey, jh 
+CVC       13        k, ey, k  
+CVCC      4         k, ey, k, s
+CVC       341       k, ey, m  
+CVC       12        k, ey, n  
+CVCC      2         k, ey, n, z
+CVC       5         k, ey, p  
+CVC       561       k, ey, r  
+CVCC      16        k, ey, r, d
+CVCC      12        k, ey, r, z
+CVC       150       k, ey, s  
+CVC       32        k, ey, t  
+CVCC      2         k, ey, t, s
+CVC       2         k, ey, v  
+CVC       3         k, ey, z  
+CV        224       k, ih     
+CVC       111       k, ih, d  
+CVCC      805       k, ih, d, z
+CVC       24        k, ih, jh 
+CVCC      1         k, ih, jh, d
+CVC       15        k, ih, k  
+CVCC      10        k, ih, k, t
+CVC       65        k, ih, l  
+CVCC      64        k, ih, l, d
+CVCC      5         k, ih, l, z
+CVC       2         k, ih, m  
+CVC       120       k, ih, n  
+CVCC      8         k, ih, n, z
+CVC       1982      k, ih, ng 
+CVCC      16        k, ih, ng, z
+CVC       1         k, ih, p  
+CVC       17        k, ih, s  
+CVC       139       k, ih, t  
+CVCC      58        k, ih, t, s
+CV        305       k, iy     
+CVC       1         k, iy, d  
+CVC       3         k, iy, l  
+CVC       1         k, iy, m  
+CVC       1         k, iy, n  
+CVC       445       k, iy, p  
+CVCC      53        k, iy, p, s
+CVC       1         k, iy, t  
+CVCC      3         k, iy, t, s
+CVC       26        k, iy, z  
+CC        3         k, l      
+CCV       2         k, l, aa  
+CCVC      57        k, l, aa, k
+CCVCC     4         k, l, aa, r, k
+CCV       145       k, l, ae  
+CCVCCC    1         k, l, ae, m, p, t
+CCVCC     1         k, l, ae, m, z
+CCVC      156       k, l, ae, s
+CCVCC     1         k, l, ae, s, t
+CCVC      2         k, l, ae, sh
+CCVC      45        k, l, ah, b
+CCVCC     20        k, l, ah, b, z
+CCVC      3         k, l, ah, ch
+CCVCCC    1         k, l, ah, m, p, s
+CCV       22        k, l, ao  
+CCVC      7         k, l, ao, d
+CCVCC     2         k, l, ao, dh, z
+CCVC      3         k, l, ao, g
+CCVC      10        k, l, ao, th
+CCVCC     1         k, l, ao, th, s
+CCVC      5         k, l, ao, z
+CCV       5         k, l, aw  
+CCVC      5         k, l, aw, d
+CCVCC     6         k, l, aw, d, z
+CCVCC     1         k, l, aw, n, z
+CCVC      1         k, l, aw, t
+CCV       50        k, l, ax  
+CCVCC     10        k, l, ax, n, d
+CCVCCC    1         k, l, ax, n, d, z
+CCV       33        k, l, ay  
+CCVC      4         k, l, ay, m
+CCVCC     1         k, l, ay, m, d
+CCVCC     1         k, l, ay, m, z
+CCVC      10        k, l, ay, n
+CCVCC     9         k, l, ay, n, d
+CCV       4         k, l, eh  
+CCVC      1         k, l, eh, k
+CCVC      2         k, l, eh, n
+CCV       11        k, l, er  
+CCVC      3         k, l, er, k
+CCVCC     1         k, l, er, k, s
+CCV       11        k, l, ey  
+CCVC      11        k, l, ey, m
+CCVCC     7         k, l, ey, m, d
+CCVCC     4         k, l, ey, m, z
+CCVC      3         k, l, ey, r
+CCVCC     5         k, l, ey, r, d
+CCV       17        k, l, ih  
+CCVC      19        k, l, ih, f
+CCVCC     1         k, l, ih, f, t
+CCVC      2         k, l, ih, k
+CCVC      2         k, l, ih, n
+CCVCC     1         k, l, ih, n, t
+CCVC      11        k, l, ih, ng
+CCVCC     1         k, l, ih, ng, z
+CCVC      9         k, l, ih, p
+CCVCC     1         k, l, ih, p, s
+CCVC      2         k, l, ih, s
+CCVCC     3         k, l, ih, s, t
+CCVCC     2         k, l, ih, t, s
+CCV       497       k, l, iy  
+CCVC      60        k, l, iy, n
+CCVCC     11        k, l, iy, n, d
+CCVC      41        k, l, iy, r
+CCVCC     5         k, l, iy, r, d
+CCVCC     1         k, l, iy, r, z
+CCVC      8         k, l, iy, v
+CCVC      2         k, l, iy, z
+CCV       69        k, l, ow  
+CCVC      1         k, l, ow, dh
+CCVCC     53        k, l, ow, dh, z
+CCVC      2         k, l, ow, n
+CCVCC     2         k, l, ow, n, z
+CCVC      1         k, l, ow, r
+CCVC      147       k, l, ow, s
+CCVCC     1         k, l, ow, v, z
+CCVCC     16        k, l, ow, z, d
+CCV       35        k, l, uw  
+CCVC      6         k, l, uw, d
+CCVCC     3         k, l, uw, d, z
+CCVC      1         k, l, uw, jh
+CV        213       k, ow     
+CVC       26        k, ow, ch 
+CVC       19        k, ow, d  
+CVCC      8         k, ow, d, z
+CVC       9         k, ow, k  
+CVCC      3         k, ow, k, s
+CVC       23        k, ow, l  
+CVCC      109       k, ow, l, d
+CVCCC     3         k, ow, l, d, z
+CVCCC     2         k, ow, l, t, s
+CVCC      1         k, ow, m, z
+CVC       1         k, ow, n  
+CVC       4         k, ow, p  
+CVC       196       k, ow, r  
+CVCC      20        k, ow, r, d
+CVCCC     2         k, ow, r, d, z
+CVCC      1         k, ow, r, k
+CVCC      24        k, ow, r, n
+CVCC      1         k, ow, r, p
+CVCC      556       k, ow, r, s
+CVCC      53        k, ow, r, t
+CVCCC     14        k, ow, r, t, s
+CVC       3         k, ow, s  
+CVCC      49        k, ow, s, t
+CVCCC     1         k, ow, s, t, s
+CVC       14        k, ow, t  
+CVCC      8         k, ow, t, s
+CVCC      1         k, ow, v, z
+CVC       9         k, ow, z  
+CV        3         k, oy     
+CVC       5         k, oy, n  
+CVCC      1         k, oy, n, z
+CVC       2         k, oy, t  
+CVC       1         k, oy, z  
+CC        4         k, r      
+CCV       6         k, r, aa  
+CCVC      1         k, r, aa, k
+CCVC      3         k, r, aa, n
+CCVCC     3         k, r, aa, n, z
+CCVC      4         k, r, aa, p
+CCV       31        k, r, ae  
+CCVC      8         k, r, ae, b
+CCVC      4         k, r, ae, f
+CCVCC     20        k, r, ae, f, t
+CCVCCC    22        k, r, ae, f, t, s
+CCVC      13        k, r, ae, k
+CCVCC     5         k, r, ae, k, s
+CCVCC     1         k, r, ae, k, t
+CCVC      1         k, r, ae, m
+CCVCCC    2         k, r, ae, m, p, t
+CCVC      1         k, r, ae, n
+CCVCCC    3         k, r, ae, n, t, s
+CCVC      1         k, r, ae, ng
+CCVCC     3         k, r, ae, ng, k
+CCVC      7         k, r, ae, p
+CCVC      3         k, r, ae, s
+CCVC      1         k, r, ae, sh
+CCVCC     2         k, r, ae, sh, t
+CCVC      6         k, r, ae, t
+CCVCC     15        k, r, ae, t, s
+CCV       14        k, r, ah  
+CCVCC     2         k, r, ah, m, z
+CCVC      4         k, r, ah, n
+CCVC      3         k, r, ah, p
+CCVCC     4         k, r, ah, p, t
+CCVCC     3         k, r, ah, s, t
+CCVC      7         k, r, ah, sh
+CCVCC     1         k, r, ah, sh, t
+CCV       40        k, r, ao  
+CCVC      6         k, r, ao, l
+CCVC      109       k, r, ao, s
+CCVCC     3         k, r, ao, s, t
+CCVC      1         k, r, ao, z
+CCV       21        k, r, aw  
+CCVC      12        k, r, aw, d
+CCVCC     3         k, r, aw, d, z
+CCV       23        k, r, ax  
+CCVC      2         k, r, ax, n
+CCV       55        k, r, ay  
+CCVC      8         k, r, ay, d
+CCVC      194       k, r, ay, m
+CCVCC     77        k, r, ay, m, z
+CCVCC     6         k, r, ay, s, t
+CCV       213       k, r, eh  
+CCVCC     1         k, r, eh, p, t
+CCVCC     3         k, r, eh, s, t
+CCV       69        k, r, ey  
+CCVC      3         k, r, ey, g
+CCVC      4         k, r, ey, n
+CCVCC     1         k, r, ey, n, z
+CCVC      1         k, r, ey, p
+CCVC      1         k, r, ey, t
+CCVC      3         k, r, ey, z
+CCV       243       k, r, ih  
+CCVC      4         k, r, ih, b
+CCVCC     2         k, r, ih, b, z
+CCVC      26        k, r, ih, k
+CCVCC     3         k, r, ih, k, s
+CCVCC     1         k, r, ih, n, jh
+CCVC      32        k, r, ih, s
+CCVCC     2         k, r, ih, s, p
+CCVC      10        k, r, ih, t
+CCVCC     1         k, r, ih, t, s
+CCV       94        k, r, iy  
+CCVC      20        k, r, iy, m
+CCVCC     1         k, r, iy, p, s
+CCVC      22        k, r, iy, s
+CCVCC     16        k, r, iy, s, t
+CCVC      14        k, r, iy, t
+CCV       44        k, r, ow  
+CCVC      2         k, r, ow, m
+CCV       1         k, r, uh  
+CCVC      2         k, r, uh, k
+CCV       16        k, r, uw  
+CCVC      5         k, r, uw, d
+CCVC      9         k, r, uw, l
+CCVC      2         k, r, uw, t
+CCVC      17        k, r, uw, z
+CV        305       k, uh     
+CVC       962       k, uh, d  
+CVC       109       k, uh, k  
+CVCC      4         k, uh, k, s
+CVCC      14        k, uh, k, t
+CVC       2         k, uh, r  
+CV        34        k, uw     
+CVC       42        k, uw, l  
+CVCC      1         k, uw, l, d
+CVCC      1         k, uw, l, z
+CVC       6         k, uw, n  
+CVCCC     2         k, uw, n, t, s
+CVCC      2         k, uw, n, z
+CVC       1         k, uw, p  
+CVCC      1         k, uw, p, t
+CCV       1         k, w, aa  
+CCVC      11        k, w, aa, n
+CCV       105       k, w, ao  
+CCVC      1         k, w, ao, l
+CCV       14        k, w, ax  
+CCVC      23        k, w, ax, l
+CCVCC     4         k, w, ax, l, z
+CCV       28        k, w, ay  
+CCVC      60        k, w, ay, r
+CCVCC     32        k, w, ay, r, d
+CCVCC     10        k, w, ay, r, z
+CCVC      408       k, w, ay, t
+CCVC      2         k, w, ay, z
+CCV       15        k, w, eh  
+CCVC      1         k, w, eh, n
+CCVCC     1         k, w, eh, n, s
+CCVCC     7         k, w, eh, n, t
+CCVC      173       k, w, eh, s
+CCVCC     6         k, w, eh, s, t
+CCVCCC    1         k, w, eh, s, t, s
+CCVC      3         k, w, er, d
+CCVCC     5         k, w, er, d, z
+CCV       8         k, w, ey  
+CCVC      1         k, w, ey, k
+CCVCC     2         k, w, ey, k, s
+CCVC      7         k, w, ey, n
+CCVCC     2         k, w, ey, n, t
+CCVC      1         k, w, ey, t
+CCVC      2         k, w, ey, z
+CCV       75        k, w, ih  
+CCVC      4         k, w, ih, d
+CCVC      49        k, w, ih, k
+CCVC      7         k, w, ih, l
+CCVCC     9         k, w, ih, l, t
+CCVCCC    4         k, w, ih, l, t, s
+CCVC      14        k, w, ih, n
+CCVCC     1         k, w, ih, n, s
+CCVCC     18        k, w, ih, n, t
+CCVCCC    1         k, w, ih, n, t, s
+CCVC      48        k, w, ih, p
+CCVCC     5         k, w, ih, p, t
+CCVCC     1         k, w, ih, sh, t
+CCVC      62        k, w, ih, t
+CCVCC     2         k, w, ih, t, s
+CCV       2         k, w, iy  
+CCVC      7         k, w, iy, n
+CCVCC     4         k, w, iy, n, z
+CCV       15        k, w, ow  
+CCVC      57        k, w, ow, r
+CCVCC     4         k, w, ow, r, m
+CCVCC     6         k, w, ow, r, t
+CCVCCC    3         k, w, ow, r, t, s
+CCVC      20        k, w, ow, t
+CCVCC     2         k, w, ow, t, s
+CCV       3         k, w, oy  
+CCVCC     1         k, w, uh, d, z
+CCVCC     22        k, y, aa, r, d
+CCV       342       k, y, ax  
+CCVC      1         k, y, ax, l
+CCV       70        k, y, uh  
+CCVC      14        k, y, uh, r
+CCVCC     2         k, y, uh, r, d
+CCV       92        k, y, uw  
+CCVCC     3         k, y, uw, b, z
+CCVC      2         k, y, uw, d
+CCVC      4         k, y, uw, l
+CCVC      3         k, y, uw, m
+CCVC      37        k, y, uw, t
+CCVC      7         k, y, uw, z
+CCVCC     11        k, y, uw, z, d
+C         72        l         
+CV        95        l, aa     
+CVC       5         l, aa, b  
+CVC       4         l, aa, jh 
+CVC       16        l, aa, k  
+CVCC      1         l, aa, k, s
+CVCC      11        l, aa, k, t
+CVC       1         l, aa, m  
+CVC       6         l, aa, n  
+CVCC      2         l, aa, n, t
+CVCC      5         l, aa, n, z
+CVC       1         l, aa, p  
+CVC       39        l, aa, r  
+CVCC      1         l, aa, r, d
+CVCC      126       l, aa, r, jh
+CVCC      6         l, aa, r, m
+CVCCC     2         l, aa, r, m, z
+CVC       7         l, aa, s  
+CVC       2472      l, aa, t  
+CVCC      136       l, aa, t, s
+CV        95        l, ae     
+CVC       17        l, ae, b  
+CVCC      4         l, ae, b, z
+CVC       2         l, ae, ch 
+CVC       16        l, ae, f  
+CVCC      3         l, ae, f, s
+CVCC      14        l, ae, f, t
+CVC       49        l, ae, k  
+CVCC      13        l, ae, k, s
+CVCCC     8         l, ae, k, s, t
+CVCC      2         l, ae, k, t
+CVC       2         l, ae, m  
+CVCC      12        l, ae, m, z
+CVC       66        l, ae, n  
+CVCC      74        l, ae, n, d
+CVCCC     10        l, ae, n, d, z
+CVCC      4         l, ae, n, s
+CVC       42        l, ae, ng 
+CVC       19        l, ae, p  
+CVCC      5         l, ae, p, s
+CVCCC     3         l, ae, p, s, t
+CVC       1         l, ae, s  
+CVCC      606       l, ae, s, t
+CVCCC     5         l, ae, s, t, s
+CV        102       l, ah     
+CVC       1         l, ah, f  
+CVC       16        l, ah, g  
+CVC       52        l, ah, k  
+CVCC      3         l, ah, k, t
+CVC       20        l, ah, m  
+CVCC      1         l, ah, m, p
+CVCCC     2         l, ah, m, p, t
+CVC       9         l, ah, n  
+CVCC      34        l, ah, n, ch
+CVC       2         l, ah, ng 
+CVCC      2         l, ah, s, t
+CVC       247       l, ah, v  
+CVCC      49        l, ah, v, d
+CVCC      26        l, ah, v, z
+CV        229       l, ao     
+CVC       5         l, ao, d  
+CVCC      1         l, ao, f, t
+CVC       8         l, ao, g  
+CVCC      5         l, ao, g, z
+CVC       62        l, ao, n  
+CVCC      2         l, ao, n, ch
+CVCCC     1         l, ao, n, ch, t
+CVCC      1         l, ao, n, z
+CVC       818       l, ao, ng 
+CVCC      6         l, ao, ng, d
+CVCC      3         l, ao, ng, z
+CVC       42        l, ao, s  
+CVCC      64        l, ao, s, t
+CVC       1         l, ao, y  
+CVC       59        l, ao, z  
+CV        111       l, aw     
+CVC       40        l, aw, d  
+CVC       1         l, aw, t  
+CVC       7         l, aw, z  
+CV        656       l, ax     
+CVC       2         l, ax, k  
+CVC       2         l, ax, l  
+CVC       27        l, ax, m  
+CVCC      5         l, ax, m, z
+CVC       112       l, ax, n  
+CVCC      110       l, ax, n, d
+CVCCC     6         l, ax, n, d, z
+CVCC      26        l, ax, n, s
+CVCCC     7         l, ax, n, s, t
+CVCC      1         l, ax, n, t
+CVCC      5         l, ax, n, z
+CVC       39        l, ax, p  
+CVCC      5         l, ax, p, s
+CVCC      27        l, ax, p, t
+CVC       354       l, ax, s  
+CVC       21        l, ax, t  
+CVCC      5         l, ax, t, s
+CVC       2         l, ax, z  
+CV        294       l, ay     
+CVC       1         l, ay, d  
+CVC       312       l, ay, f  
+CVCC      2         l, ay, f, s
+CVC       6143      l, ay, k  
+CVCC      78        l, ay, k, s
+CVCC      122       l, ay, k, t
+CVC       7         l, ay, m  
+CVC       156       l, ay, n  
+CVCC      7         l, ay, n, d
+CVCC      45        l, ay, n, z
+CVC       82        l, ay, t  
+CVCC      14        l, ay, t, s
+CVC       476       l, ay, v  
+CVCC      110       l, ay, v, z
+CVC       132       l, ay, z  
+CVCC      49        l, ay, z, d
+CV        437       l, eh     
+CVC       29        l, eh, d  
+CVCC      6         l, eh, d, z
+CVC       3         l, eh, f  
+CVCC      132       l, eh, f, t
+CVC       10        l, eh, g  
+CVCC      12        l, eh, g, z
+CVC       1         l, eh, jh 
+CVC       211       l, eh, k  
+CVCC      5         l, eh, k, s
+CVCC      33        l, eh, k, t
+CVCCC     2         l, eh, k, t, s
+CVC       1         l, eh, l  
+CVCC      1         l, eh, l, z
+CVC       4         l, eh, n  
+CVCC      1         l, eh, n, z
+CVCC      3         l, eh, ng, k
+CVCCC     7         l, eh, ng, k, th
+CVCCCC    5         l, eh, ng, k, th, s
+CVC       320       l, eh, s  
+CVC       291       l, eh, t  
+CVCC      255       l, eh, t, s
+CVC       2         l, eh, v  
+CVC       1         l, eh, z  
+CV        819       l, er     
+CVC       12        l, er, d  
+CVCC      2         l, er, d, z
+CVC       117       l, er, n  
+CVCC      57        l, er, n, d
+CVCC      1         l, er, n, z
+CVC       4         l, er, t  
+CVC       393       l, er, z  
+CV        524       l, ey     
+CVC       29        l, ey, d  
+CVC       4         l, ey, dh 
+CVC       85        l, ey, k  
+CVCC      26        l, ey, k, s
+CVC       1         l, ey, m  
+CVC       2         l, ey, n  
+CVCC      1         l, ey, n, z
+CVC       2         l, ey, r  
+CVC       1         l, ey, s  
+CVC       250       l, ey, t  
+CVCC      3         l, ey, t, s
+CVC       1         l, ey, z  
+CV        3080      l, ih     
+CVC       1         l, ih, b  
+CVC       62        l, ih, d  
+CVCC      9         l, ih, d, z
+CVC       15        l, ih, f  
+CVCC      1         l, ih, f, s
+CVCC      12        l, ih, f, t
+CVC       1         l, ih, g  
+CVC       372       l, ih, jh 
+CVC       41        l, ih, k  
+CVCC      5         l, ih, k, s
+CVCC      1         l, ih, k, t
+CVC       1         l, ih, l  
+CVC       18        l, ih, m  
+CVCC      1         l, ih, m, p
+CVC       72        l, ih, n  
+CVCC      18        l, ih, n, jh
+CVCCC     5         l, ih, n, jh, d
+CVCC      43        l, ih, n, s
+CVCC      112       l, ih, n, t
+CVCC      6         l, ih, n, z
+CVC       837       l, ih, ng 
+CVCC      4         l, ih, ng, k
+CVCC      35        l, ih, ng, z
+CVC       6         l, ih, p  
+CVCC      7         l, ih, p, s
+CVC       145       l, ih, s  
+CVCC      1         l, ih, s, n
+CVCC      75        l, ih, s, t
+CVCCC     16        l, ih, s, t, s
+CVC       7         l, ih, sh 
+CVCC      1         l, ih, sh, t
+CVC       50        l, ih, t  
+CVCC      5         l, ih, t, s
+CVC       5         l, ih, v  
+CVCC      190       l, ih, v, d
+CVCC      5         l, ih, v, z
+CV        10919     l, iy     
+CVC       18        l, iy, f  
+CVCC      4         l, iy, f, s
+CVCC      1         l, iy, f, t
+CVC       38        l, iy, g  
+CVCC      5         l, iy, g, z
+CVC       9         l, iy, k  
+CVCC      4         l, iy, k, s
+CVCC      1         l, iy, k, t
+CVC       43        l, iy, n  
+CVCC      2         l, iy, n, d
+CVCC      1         l, iy, n, z
+CVC       9         l, iy, p  
+CVCC      2         l, iy, p, s
+CVC       60        l, iy, s  
+CVCC      310       l, iy, s, t
+CVC       2         l, iy, sh 
+CVC       7         l, iy, t  
+CVCC      4         l, iy, t, s
+CVC       403       l, iy, v  
+CVCC      9         l, iy, v, d
+CVCC      30        l, iy, v, z
+CVC       130       l, iy, z  
+CV        496       l, ow     
+CVC       24        l, ow, d  
+CVCC      6         l, ow, d, z
+CVC       3         l, ow, m  
+CVC       90        l, ow, n  
+CVCC      2         l, ow, n, d
+CVCC      8         l, ow, n, z
+CVC       12        l, ow, p  
+CVCC      4         l, ow, p, s
+CVCC      22        l, ow, r, d
+CVCCC     1         l, ow, r, d, z
+CVC       24        l, ow, z  
+CV        1         l, oy     
+CVC       1         l, oy, d  
+CVC       2         l, oy, n  
+CV        260       l, uh     
+CVC       426       l, uh, k  
+CVCC      111       l, uh, k, s
+CVCC      109       l, uh, k, t
+CVC       1         l, uh, r  
+CV        353       l, uw     
+CVC       2         l, uw, b  
+CVC       1         l, uw, k  
+CVC       2         l, uw, m  
+CVC       2         l, uw, n  
+CVCC      1         l, uw, n, d
+CVCC      1         l, uw, n, z
+CVC       12        l, uw, p  
+CVC       24        l, uw, s  
+CVC       141       l, uw, t  
+CVC       1         l, uw, v  
+CVC       48        l, uw, z  
+C         122       m         
+CV        222       m, aa     
+CVC       1         m, aa, f  
+CVC       3         m, aa, k  
+CVC       80        m, aa, m  
+CVCC      17        m, aa, m, z
+CVC       24        m, aa, n  
+CVCC      14        m, aa, n, t
+CVC       160       m, aa, r  
+CVCC      16        m, aa, r, ch
+CVCCC     2         m, aa, r, ch, t
+CVCC      14        m, aa, r, k
+CVCCC     4         m, aa, r, k, s
+CVCCC     8         m, aa, r, k, t
+CVCC      1         m, aa, r, l
+CVCC      33        m, aa, r, t
+CVCCC     1         m, aa, r, t, s
+CVCC      3         m, aa, r, z
+CVC       12        m, aa, z  
+CV        977       m, ae     
+CVC       16        m, ae, ch 
+CVCC      2         m, ae, ch, t
+CVC       21        m, ae, d  
+CVC       10        m, ae, g  
+CVC       1         m, ae, jh 
+CVC       37        m, ae, k  
+CVCC      10        m, ae, k, s
+CVCCC     1         m, ae, k, s, t
+CVC       2         m, ae, l  
+CVC       6         m, ae, m  
+CVC       200       m, ae, n  
+CVCC      17        m, ae, n, d
+CVCCC     5         m, ae, n, d, z
+CVCC      6         m, ae, n, s
+CVCC      10        m, ae, n, z
+CVCCC     1         m, ae, ng, k, s
+CVC       4         m, ae, p  
+CVCC      1         m, ae, p, s
+CVC       10        m, ae, s  
+CVCCC     1         m, ae, s, k, s
+CVC       3         m, ae, sh 
+CVCC      1         m, ae, sh, t
+CVC       11        m, ae, t  
+CVCC      3         m, ae, t, s
+CVC       16        m, ae, th 
+CV        963       m, ah     
+CVC       1579      m, ah, ch 
+CVC       9         m, ah, d  
+CVC       1         m, ah, dh 
+CVC       4         m, ah, g  
+CVCC      4         m, ah, g, d
+CVCC      1         m, ah, g, z
+CVC       15        m, ah, l  
+CVCC      3         m, ah, l, ch
+CVCCC     2         m, ah, l, ch, t
+CVC       1         m, ah, m  
+CVCCC     1         m, ah, m, p, s
+CVCC      6         m, ah, m, z
+CVC       27        m, ah, n  
+CVCC      216       m, ah, n, th
+CVCCC     220       m, ah, n, th, s
+CVC       14        m, ah, ng 
+CVCCC     2         m, ah, ng, s, t
+CVCC      1         m, ah, p, s
+CVCC      135       m, ah, s, t
+CVC       1         m, ah, sh 
+CVC       2         m, ah, t  
+CVCC      2         m, ah, t, s
+CV        1         m, ao     
+CVC       17        m, ao, l  
+CVCC      3         m, ao, l, z
+CVC       1         m, ao, s  
+CVC       1         m, ao, t  
+CVC       2         m, ao, th 
+CVC       2         m, ao, v  
+CV        4         m, aw     
+CVC       11        m, aw, dh 
+CVCC      1         m, aw, dh, d
+CVCC      2         m, aw, dh, z
+CVC       67        m, aw, n  
+CVCC      8         m, aw, n, d
+CVCCC     1         m, aw, n, d, z
+CVCC      146       m, aw, n, t
+CVCCC     9         m, aw, n, t, s
+CVC       4         m, aw, s  
+CVC       1         m, aw, z  
+CV        1273      m, ax     
+CVC       13        m, ax, k  
+CVC       109       m, ax, l  
+CVCC      31        m, ax, l, z
+CVC       21        m, ax, m  
+CVC       284       m, ax, n  
+CVCC      10        m, ax, n, d
+CVCCC     2         m, ax, n, d, z
+CVCC      1         m, ax, n, t
+CVCC      25        m, ax, n, z
+CVC       57        m, ax, s  
+CVC       1         m, ax, sh 
+CVC       15        m, ax, t  
+CVCC      4         m, ax, t, s
+CVC       3         m, ax, th 
+CVC       6         m, ax, z  
+CV        4240      m, ay     
+CVC       7         m, ay, k  
+CVC       27        m, ay, l  
+CVCC      7         m, ay, l, d
+CVCC      130       m, ay, l, z
+CVC       198       m, ay, n  
+CVCC      128       m, ay, n, d
+CVCCC     18        m, ay, n, d, z
+CVCC      16        m, ay, n, z
+CVC       7         m, ay, r  
+CVC       6         m, ay, s  
+CVC       340       m, ay, t  
+CVCC      1         m, ay, t, s
+CVC       11        m, ay, z  
+CVCC      6         m, ay, z, d
+CV        1212      m, eh     
+CVC       4         m, eh, d  
+CVC       1         m, eh, g  
+CVC       61        m, eh, k  
+CVC       4         m, eh, l  
+CVCC      8         m, eh, l, t
+CVC       381       m, eh, m  
+CVC       298       m, eh, n  
+CVCC      17        m, eh, n, d
+CVCCC     1         m, eh, n, d, z
+CVCC      26        m, eh, n, t
+CVCCC     6         m, eh, n, t, s
+CVCC      6         m, eh, n, z
+CVC       44        m, eh, s  
+CVCC      12        m, eh, s, t
+CVC       40        m, eh, t  
+CVCC      4         m, eh, t, s
+CV        499       m, er     
+CVC       1         m, er, d  
+CVCC      1         m, er, jh, d
+CVC       5         m, er, s  
+CVCC      1         m, er, s, t
+CVC       68        m, er, z  
+CV        1613      m, ey     
+CVC       2         m, ey, b  
+CVC       321       m, ey, d  
+CVC       1         m, ey, jh 
+CVC       728       m, ey, k  
+CVCC      218       m, ey, k, s
+CVC       92        m, ey, l  
+CVCC      1         m, ey, l, d
+CVCC      7         m, ey, l, z
+CVCC      2         m, ey, m, z
+CVC       196       m, ey, n  
+CVCC      1         m, ey, n, l
+CVCC      1         m, ey, n, z
+CVC       6         m, ey, r  
+CVCC      3         m, ey, r, z
+CVC       19        m, ey, t  
+CVCC      6         m, ey, t, s
+CVC       2         m, ey, z  
+CVCC      22        m, ey, z, d
+CV        1345      m, ih     
+CVC       4         m, ih, ch 
+CVC       51        m, ih, d  
+CVC       38        m, ih, jh 
+CVCC      3         m, ih, jh, d
+CVC       45        m, ih, k  
+CVCC      57        m, ih, k, s
+CVCCC     30        m, ih, k, s, t
+CVC       121       m, ih, l  
+CVCC      39        m, ih, l, k
+CVCC      1         m, ih, l, t
+CVCC      1         m, ih, l, y
+CVCC      3         m, ih, l, z
+CVC       217       m, ih, n  
+CVCC      10        m, ih, n, d
+CVCC      11        m, ih, n, s
+CVCC      838       m, ih, n, t
+CVCCC     175       m, ih, n, t, s
+CVCCC     1         m, ih, n, t, z
+CVCC      16        m, ih, n, z
+CVC       421       m, ih, ng 
+CVCC      1         m, ih, ng, k
+CVC       82        m, ih, s  
+CVCC      42        m, ih, s, t
+CVCCC     3         m, ih, s, t, s
+CVC       4         m, ih, sh 
+CVC       134       m, ih, t  
+CVCC      20        m, ih, t, s
+CVCC      2         m, ih, th, s
+CV        2027      m, iy     
+CVC       17        m, iy, l  
+CVCC      25        m, iy, l, z
+CVC       2302      m, iy, n  
+CVCC      61        m, iy, n, z
+CVC       3         m, iy, r  
+CVC       67        m, iy, t  
+CVCC      6         m, iy, t, s
+CVC       29        m, iy, z  
+CCV       46        m, k, ey  
+CV        292       m, ow     
+CVC       12        m, ow, d  
+CVC       3         m, ow, l  
+CVCC      5         m, ow, l, d
+CVC       1         m, ow, n  
+CVCC      3         m, ow, n, z
+CVC       2080      m, ow, r  
+CVCC      5         m, ow, r, s
+CVC       2         m, ow, s  
+CVCC      1036      m, ow, s, t
+CVC       16        m, ow, t  
+CVCC      1         m, ow, t, s
+CVC       8         m, ow, z  
+CV        3         m, oy     
+CVC       1         m, oy, l  
+CVC       2         m, oy, n  
+CVC       4         m, oy, s  
+CVCC      2         m, oy, s, t
+CV        1         m, uh     
+CVC       1         m, uh, r  
+CV        488       m, uw     
+CVC       9         m, uw, d  
+CVC       20        m, uw, n  
+CVC       1         m, uw, s  
+CVC       2         m, uw, t  
+CVC       108       m, uw, v  
+CVCC      179       m, uw, v, d
+CVCC      9         m, uw, v, z
+CCV       46        m, y, ax  
+CCV       437       m, y, uw  
+CCVC      8         m, y, uw, t
+CCVCC     1         m, y, uw, t, s
+CCVC      4         m, y, uw, z
+C         95        n         
+CV        224       n, aa     
+CVC       2         n, aa, b  
+CVC       1         n, aa, ch 
+CVC       23        n, aa, k  
+CVCC      1         n, aa, k, s
+CVCC      6         n, aa, k, t
+CVC       28        n, aa, m  
+CVC       36        n, aa, n  
+CVCC      1         n, aa, n, t
+CVC       2         n, aa, p  
+CVC       3         n, aa, r  
+CVCCC     1         n, aa, r, d, z
+CVCC      2         n, aa, r, z
+CVC       3807      n, aa, t  
+CVCC      3         n, aa, t, s
+CV        276       n, ae     
+CVC       1         n, ae, ch 
+CVC       4         n, ae, k  
+CVCC      1         n, ae, k, t
+CVC       7         n, ae, l  
+CVCC      2         n, ae, l, z
+CVC       55        n, ae, n  
+CVCC      2         n, ae, n, s
+CVC       5         n, ae, p  
+CVCC      2         n, ae, p, s
+CVCC      2         n, ae, p, t
+CVC       4         n, ae, sh 
+CV        575       n, ah     
+CVC       2         n, ah, dh 
+CVC       368       n, ah, f  
+CVC       233       n, ah, m  
+CVC       26        n, ah, n  
+CVC       2         n, ah, p  
+CVC       10        n, ah, t  
+CVCC      18        n, ah, t, s
+CV        12        n, ao     
+CVC       1         n, ao, l  
+CVCC      2         n, ao, s, t
+CV        2070      n, aw     
+CVC       1         n, aw, n  
+CVCC      1         n, aw, n, d
+CVCC      4         n, aw, n, s
+CVCCC     8         n, aw, n, s, t
+CVC       6         n, aw, t  
+CVCC      3         n, aw, t, s
+CV        1747      n, ax     
+CVC       619       n, ax, l  
+CVCC      7         n, ax, l, d
+CVCCC     12        n, ax, l, d, z
+CVCC      51        n, ax, l, z
+CVC       51        n, ax, m  
+CVC       5         n, ax, n  
+CVC       2         n, ax, s  
+CVC       10        n, ax, z  
+CV        173       n, ay     
+CVC       3         n, ay, d  
+CVC       5         n, ay, f  
+CVC       3         n, ay, l  
+CVC       352       n, ay, n  
+CVCC      12        n, ay, n, th
+CVC       682       n, ay, s  
+CVC       330       n, ay, t  
+CVCC      45        n, ay, t, s
+CVCC      3         n, ay, v, z
+CVC       30        n, ay, z  
+CVCC      34        n, ay, z, d
+CC        3         n, d      
+CV        1114      n, eh     
+CVC       1         n, eh, d  
+CVC       3         n, eh, g  
+CVC       52        n, eh, k  
+CVCC      1         n, eh, k, s
+CVCCC     254       n, eh, k, s, t
+CVCC      5         n, eh, k, t
+CVC       16        n, eh, l  
+CVC       17        n, eh, m  
+CVC       39        n, eh, n  
+CVCC      1         n, eh, p, t
+CVC       1         n, eh, s  
+CVCC      2         n, eh, s, t
+CVC       16        n, eh, t  
+CVC       4         n, eh, v  
+CV        504       n, er     
+CVC       4         n, er, d  
+CVC       14        n, er, s  
+CVCC      1         n, er, s, t
+CVC       6         n, er, v  
+CVCC      3         n, er, v, z
+CVC       88        n, er, z  
+CV        399       n, ey     
+CVCC      1         n, ey, d, z
+CVC       12        n, ey, jh 
+CVCC      3         n, ey, jh, d
+CVC       5         n, ey, l  
+CVCC      1         n, ey, l, d
+CVCC      3         n, ey, l, z
+CVC       183       n, ey, m  
+CVCC      19        n, ey, m, d
+CVCC      34        n, ey, m, z
+CVC       9         n, ey, r  
+CVCC      1         n, ey, r, z
+CVC       46        n, ey, t  
+CVCC      5         n, ey, t, s
+CVC       9         n, ey, z  
+CV        1297      n, ih     
+CVC       2         n, ih, ch 
+CVC       10        n, ih, d  
+CVC       2         n, ih, f  
+CVC       58        n, ih, jh 
+CVCC      16        n, ih, jh, d
+CVC       64        n, ih, k  
+CVCCCVCC  1         n, ih, k, n, n, ae, k, s
+CVCC      32        n, ih, k, s
+CVCCC     1         n, ih, k, s, t
+CVC       4         n, ih, m  
+CVC       48        n, ih, n  
+CVCC      19        n, ih, n, s
+CVCC      52        n, ih, n, t
+CVCCC     4         n, ih, n, t, s
+CVCC      1         n, ih, n, z
+CVC       1022      n, ih, ng 
+CVCC      47        n, ih, ng, z
+CVC       1         n, ih, p  
+CVCC      2         n, ih, p, s
+CVC       402       n, ih, s  
+CVCC      60        n, ih, s, t
+CVC       32        n, ih, sh 
+CVCC      51        n, ih, sh, t
+CVC       402       n, ih, t  
+CVCC      175       n, ih, t, s
+CVC       1         n, ih, z  
+CV        4755      n, iy     
+CVC       607       n, iy, d  
+CVCC      114       n, iy, d, z
+CVC       16        n, iy, k  
+CVCC      3         n, iy, k, s
+CVC       16        n, iy, l  
+CVCC      1         n, iy, l, z
+CVC       132       n, iy, r  
+CVCC      1         n, iy, r, d
+CVCC      2         n, iy, r, s
+CVCC      19        n, iy, r, z
+CVC       1         n, iy, s  
+CVC       162       n, iy, t  
+CVC       17        n, iy, th 
+CVC       219       n, iy, z  
+CV        15125     n, ow     
+CVC       2         n, ow, d  
+CVC       1         n, ow, l  
+CVC       2         n, ow, m  
+CVC       40        n, ow, n  
+CVC       12        n, ow, p  
+CVC       173       n, ow, r  
+CVCC      3         n, ow, r, d
+CVCC      10        n, ow, r, m
+CVCCC     5         n, ow, r, m, z
+CVCC      148       n, ow, r, th
+CVC       15        n, ow, t  
+CVCC      10        n, ow, t, s
+CVC       94        n, ow, z  
+CVCC      2         n, ow, z, d
+CV        36        n, oy     
+CVC       3         n, oy, d  
+CVC       1         n, oy, n  
+CVC       20        n, oy, z  
+CC        1         n, t      
+CV        3         n, uh     
+CVC       8         n, uh, r  
+CV        763       n, uw     
+CVC       4         n, uw, d  
+CVC       2         n, uw, k  
+CVC       43        n, uw, n  
+CVCC      9         n, uw, n, z
+CVC       61        n, uw, t  
+CVC       462       n, uw, z  
+CCVC      1         n, y, aa, n
+CCVCC     1         n, y, aa, r, d
+CCVCCC    1         n, y, aa, r, d, z
+CCV       248       n, y, ax  
+CCVC      4         n, y, ax, l
+CCVCC     2         n, y, ax, l, z
+CCVC      29        n, y, ax, n
+CCVCC     2         n, y, ax, n, t
+CCVCC     21        n, y, ax, n, z
+CCVC      2         n, y, ax, s
+CCVC      9         n, y, ax, z
+CCVC      3         n, y, eh, l
+CCVCC     1         n, y, eh, t, s
+CCV       67        n, y, er  
+CCVC      2         n, y, er, d
+CCVC      3         n, y, er, z
+CCV       3         n, y, ih  
+CCVC      123       n, y, ih, n
+CCVCC     10        n, y, ih, n, s
+CCVCC     36        n, y, ih, n, t
+CCVCC     43        n, y, ih, n, z
+CCV       5         n, y, ow  
+CCV       1         n, y, uh  
+CCVC      19        n, y, uh, l
+CCVCC     3         n, y, uh, l, z
+CCV       116       n, y, uw  
+CCVC      9         n, y, uw, d
+CCVC      8         n, y, uw, z
+CCVCC     1         n, y, uw, z, d
+V         8379      ow        
+VC        4         ow, d     
+VC        19        ow, k     
+VCC       11        ow, k, s  
+VCC       1         ow, k, z  
+VC        207       ow, l     
+VCC       537       ow, l, d  
+VCCC      27        ow, l, d, z
+VCC       6         ow, l, z  
+VC        1035      ow, n     
+VCC       31        ow, n, d  
+VCC       1         ow, n, t  
+VCC       7         ow, n, z  
+VC        1         ow, p     
+VC        4592      ow, r     
+VC        3         ow, s     
+VC        1         ow, th    
+VC        3         ow, v     
+VC        25        ow, z     
+V         7         oy        
+VC        62        oy, l     
+VCC       1         oy, l, z  
+C         46        p         
+CV        461       p, aa     
+CVC       1         p, aa, m  
+CVC       14        p, aa, n  
+CVCC      2         p, aa, n, d
+CVCCC     3         p, aa, n, d, z
+CVCC      6         p, aa, n, z
+CVC       41        p, aa, p  
+CVCC      3         p, aa, p, s
+CVCC      2         p, aa, p, t
+CVC       209       p, aa, r  
+CVCC      1         p, aa, r, ch
+CVCC      1         p, aa, r, d
+CVCC      57        p, aa, r, k
+CVCCC     20        p, aa, r, k, s
+CVCCC     1         p, aa, r, k, t
+CVCC      585       p, aa, r, t
+CVCCC     69        p, aa, r, t, s
+CVC       13        p, aa, t  
+CVCC      3         p, aa, t, s
+CVC       1         p, aa, z  
+CV        612       p, ae     
+CVC       2         p, ae, ch 
+CVC       3         p, ae, d  
+CVCC      5         p, ae, d, z
+CVC       22        p, ae, k  
+CVCC      5         p, ae, k, s
+CVCC      38        p, ae, k, t
+CVC       1         p, ae, l  
+CVC       3         p, ae, m  
+CVC       45        p, ae, n  
+CVCC      2         p, ae, n, t
+CVCCC     1         p, ae, n, t, r
+CVCCC     21        p, ae, n, t, s
+CVCC      4         p, ae, n, z
+CVC       1         p, ae, ng 
+CVC       1         p, ae, r  
+CVC       31        p, ae, s  
+CVCC      144       p, ae, s, t
+CVC       9         p, ae, t  
+CVC       8         p, ae, th 
+CV        511       p, ah     
+CVC       4         p, ah, b  
+CVC       2         p, ah, l  
+CVCC      2         p, ah, l, s
+CVC       1         p, ah, m  
+CVCC      20        p, ah, m, p
+CVCCC     2         p, ah, m, p, s
+CVCCC     1         p, ah, m, p, t
+CVC       3         p, ah, n  
+CVCC      5         p, ah, n, ch
+CVCCC     1         p, ah, n, ch, t
+CVC       1         p, ah, ng 
+CVCC      5         p, ah, ng, k
+CVC       4         p, ah, p  
+CVC       2         p, ah, t  
+CVCC      1         p, ah, t, s
+CV        10        p, ao     
+CVC       8         p, ao, l  
+CVCC      2         p, ao, l, d
+CVCC      1         p, ao, l, z
+CVC       33        p, ao, n  
+CVC       1         p, ao, z  
+CV        110       p, aw     
+CVC       2         p, aw, n  
+CVCC      26        p, aw, n, d
+CVCCC     33        p, aw, n, d, z
+CVC       4         p, aw, t  
+CVCC      1         p, aw, t, s
+CV        1147      p, ax     
+CVC       2429      p, ax, l  
+CVCC      4         p, ax, l, d
+CVCC      8         p, ax, l, s
+CVCC      68        p, ax, l, z
+CVC       291       p, ax, n  
+CVCC      152       p, ax, n, d
+CVCC      1         p, ax, n, t
+CVCC      110       p, ax, n, z
+CVC       2         p, ax, r  
+CVC       62        p, ax, s  
+CV        46        p, ay     
+CVC       8         p, ay, d  
+CVC       4         p, ay, l  
+CVCC      2         p, ay, l, d
+CVCC      3         p, ay, l, z
+CVC       8         p, ay, n  
+CVCC      2         p, ay, n, z
+CVC       10        p, ay, p  
+CVCC      4         p, ay, p, s
+CVC       1         p, ay, z  
+CV        169       p, eh     
+CVC       1         p, eh, g  
+CVCC      1         p, eh, g, d
+CVC       1         p, eh, l  
+CVC       138       p, eh, n  
+CVCC      15        p, eh, n, d
+CVCCC     67        p, eh, n, d, z
+CVCC      1         p, eh, n, z
+CVC       2         p, eh, p  
+CVC       1         p, eh, s  
+CVCC      1         p, eh, s, t
+CVCCC     1         p, eh, s, t, s
+CVC       39        p, eh, t  
+CVCC      38        p, eh, t, s
+CC        378       p, el     
+CCC       14        p, el, z  
+CV        1983      p, er     
+CVC       1         p, er, b  
+CVC       2         p, er, ch 
+CVC       18        p, er, d  
+CVCC      1         p, er, d, z
+CVCC      1         p, er, jh, d
+CVCC      2         p, er, k, s
+CVCC      1         p, er, l, z
+CVC       7         p, er, s  
+CVC       132       p, er, z  
+CV        1247      p, ey     
+CVC       155       p, ey, d  
+CVC       7         p, ey, jh 
+CVC       2         p, ey, l  
+CVCC      1         p, ey, l, d
+CVC       131       p, ey, n  
+CVCC      76        p, ey, n, t
+CVCCC     4         p, ey, n, t, s
+CVCC      8         p, ey, n, z
+CVC       3         p, ey, p  
+CVC       93        p, ey, r  
+CVCC      69        p, ey, r, d
+CVCC      15        p, ey, r, z
+CVC       12        p, ey, s  
+CVCC      3         p, ey, s, t
+CVC       21        p, ey, t  
+CVC       1         p, ey, v  
+CVC       21        p, ey, z  
+CV        509       p, ih     
+CVC       13        p, ih, ch 
+CVCC      7         p, ih, ch, t
+CVC       35        p, ih, d  
+CVCC      1         p, ih, d, z
+CVC       9         p, ih, g  
+CVCC      1         p, ih, g, z
+CVC       312       p, ih, k  
+CVCC      30        p, ih, k, s
+CVCC      68        p, ih, k, t
+CVC       5         p, ih, l  
+CVCC      6         p, ih, l, z
+CVC       15        p, ih, n  
+CVCC      1         p, ih, n, ch
+CVCC      4         p, ih, n, d
+CVCC      1         p, ih, n, z
+CVC       398       p, ih, ng 
+CVCC      13        p, ih, ng, k
+CVCCC     3         p, ih, ng, k, s
+CVCC      9         p, ih, ng, z
+CVC       1         p, ih, s  
+CVCC      15        p, ih, s, t
+CVCCC     1         p, ih, s, t, s
+CVC       28        p, ih, t  
+CVCC      21        p, ih, t, s
+CV        2774      p, iy     
+CVC       1         p, iy, ch 
+CVC       1         p, iy, d  
+CVC       1         p, iy, k  
+CVCC      4         p, iy, k, s
+CVC       35        p, iy, l  
+CVCC      3         p, iy, l, d
+CVCC      16        p, iy, l, z
+CVCC      3         p, iy, n, z
+CVC       2         p, iy, p  
+CVC       22        p, iy, r  
+CVCC      5         p, iy, r, d
+CVCC      18        p, iy, r, z
+CVC       106       p, iy, s  
+CVCC      1         p, iy, s, t
+CVC       39        p, iy, t  
+CVCC      6         p, iy, t, s
+CVC       4         p, iy, v  
+CVCC      2         p, iy, v, z
+CVC       41        p, iy, z  
+CC        5         p, l      
+CCV       4         p, l, aa  
+CCVC      1         p, l, aa, d
+CCVC      2         p, l, aa, p
+CCVC      9         p, l, aa, t
+CCVCC     3         p, l, aa, t, s
+CCV       144       p, l, ae  
+CCVC      1         p, l, ae, k
+CCVCC     1         p, l, ae, k, s
+CCVC      120       p, l, ae, n
+CCVCC     19        p, l, ae, n, d
+CCVCC     49        p, l, ae, n, t
+CCVCCC    45        p, l, ae, n, t, s
+CCVCC     27        p, l, ae, n, z
+CCVCC     1         p, l, ae, ng, k
+CCVC      2         p, l, ae, s
+CCVC      1         p, l, ae, t
+CCVCC     4         p, l, ae, t, s
+CCVC      1         p, l, ae, z
+CCV       19        p, l, ah  
+CCVC      5         p, l, ah, g
+CCVCC     3         p, l, ah, g, d
+CCVCC     7         p, l, ah, g, z
+CCVC      4         p, l, ah, m
+CCVCC     1         p, l, ah, m, d
+CCVC      76        p, l, ah, s
+CCV       1         p, l, ao  
+CCVC      2         p, l, ao, d
+CCVC      1         p, l, aw, d
+CCV       15        p, l, ax  
+CCVCCC    2         p, l, ax, n, d, z
+CCVC      2         p, l, ax, s
+CCVCC     1         p, l, ax, s, t
+CCV       41        p, l, ay  
+CCVC      17        p, l, ay, d
+CCVC      1         p, l, ay, r
+CCVC      7         p, l, ay, z
+CCV       32        p, l, eh  
+CCVC      2         p, l, eh, jh
+CCVCC     1         p, l, eh, jh, d
+CCVC      2         p, l, eh, k
+CCVCC     29        p, l, eh, k, s
+CCVC      33        p, l, eh, n
+CCV       3         p, l, er  
+CCV       789       p, l, ey  
+CCVC      67        p, l, ey, d
+CCVCC     2         p, l, ey, g, d
+CCVC      47        p, l, ey, n
+CCVCC     2         p, l, ey, n, d
+CCVCC     4         p, l, ey, n, t
+CCVCCC    5         p, l, ey, n, t, s
+CCVCC     12        p, l, ey, n, z
+CCVC      474       p, l, ey, s
+CCVCC     18        p, l, ey, s, t
+CCVC      10        p, l, ey, t
+CCVCC     6         p, l, ey, t, s
+CCVC      28        p, l, ey, z
+CCV       72        p, l, ih  
+CCVC      2         p, l, ih, f
+CCVC      1         p, l, ih, k
+CCVC      31        p, l, ih, n
+CCVCC     7         p, l, ih, n, d
+CCVC      1         p, l, ih, ng
+CCVC      5         p, l, ih, s
+CCVC      9         p, l, ih, sh
+CCVCC     7         p, l, ih, sh, t
+CCV       60        p, l, iy  
+CCVC      3         p, l, iy, d
+CCVC      90        p, l, iy, t
+CCVCC     4         p, l, iy, t, s
+CCVC      17        p, l, iy, z
+CCVCC     27        p, l, iy, z, d
+CCV       3         p, l, ow  
+CCV       112       p, l, oy  
+CCVC      17        p, l, oy, d
+CCV       1         p, l, uw  
+CV        121       p, ow     
+CVCC      1         p, ow, k, s
+CVCC      1         p, ow, k, t
+CVC       3         p, ow, l  
+CVCC      7         p, ow, l, z
+CVC       2         p, ow, n  
+CVCC      2         p, ow, n, z
+CVC       337       p, ow, r  
+CVCC      14        p, ow, r, ch
+CVCC      1         p, ow, r, d
+CVCC      10        p, ow, r, k
+CVCC      3         p, ow, r, sh
+CVCC      144       p, ow, r, t
+CVCCC     28        p, ow, r, t, s
+CVCC      1         p, ow, r, z
+CVCC      15        p, ow, s, t
+CVCCC     3         p, ow, s, t, s
+CVC       81        p, ow, z  
+CVCC      257       p, ow, z, d
+CV        5         p, oy     
+CVC       32        p, oy, n  
+CVCC      324       p, oy, n, t
+CVCCC     30        p, oy, n, t, s
+CC        12        p, r      
+CCV       2184      p, r, aa  
+CCVC      10        p, r, aa, b
+CCVCC     1         p, r, aa, b, l
+CCVC      1         p, r, aa, d
+CCVC      2         p, r, aa, jh
+CCVC      5         p, r, aa, k
+CCVCCC    3         p, r, aa, m, p, t
+CCVCC     1         p, r, aa, p, s
+CCVC      1         p, r, ae, g
+CCVC      71        p, r, ae, k
+CCVC      1         p, r, ae, n
+CCVCC     1         p, r, ae, n, s
+CCVCC     1         p, r, ao, n, z
+CCVC      11        p, r, aw, d
+CCV       410       p, r, ax  
+CCVC      1         p, r, ax, n
+CCV       279       p, r, ay  
+CCVC      12        p, r, ay, d
+CCVC      24        p, r, ay, m
+CCVC      14        p, r, ay, r
+CCVC      63        p, r, ay, s
+CCVCC     12        p, r, ay, s, t
+CCVC      3         p, r, ay, t
+CCVCC     1         p, r, ay, v, d
+CCVC      17        p, r, ay, z
+CCVCC     46        p, r, ay, z, d
+CCV       257       p, r, eh  
+CCVC      26        p, r, eh, g
+CCVCC     1         p, r, eh, k, t
+CCVC      5         p, r, eh, l
+CCVC      3         p, r, eh, n
+CCVC      1         p, r, eh, p
+CCVC      27        p, r, eh, s
+CCVCC     41        p, r, eh, s, t
+CCVC      1         p, r, eh, z
+CCV       10        p, r, ey  
+CCVC      1         p, r, ey, d
+CCVC      2         p, r, ey, r
+CCVC      1         p, r, ey, z
+CCVCC     3         p, r, ey, z, d
+CCV       1342      p, r, ih  
+CCVC      8         p, r, ih, l
+CCVC      56        p, r, ih, n
+CCVCC     1         p, r, ih, n, s
+CCVCC     19        p, r, ih, n, t
+CCVCCC    1         p, r, ih, n, t, s
+CCVC      2         p, r, ih, s
+CCVC      7         p, r, ih, t
+CCV       139       p, r, iy  
+CCVC      1         p, r, iy, ch
+CCVC      7         p, r, iy, m
+CCVCC     2         p, r, iy, s, t
+CCV       367       p, r, ow  
+CCVC      1         p, r, ow, b
+CCVC      14        p, r, ow, ch
+CCVCC     1         p, r, ow, ch, t
+CCVC      1         p, r, ow, n
+CCVCC     1         p, r, ow, p, r
+CCVC      3         p, r, ow, r
+CCVC      5         p, r, ow, z
+CCV       1         p, r, uh  
+CCV       15        p, r, uw  
+CCVC      8         p, r, uw, f
+CCVCC     1         p, r, uw, n, z
+CCVC      58        p, r, uw, v
+CCVCC     20        p, r, uw, v, d
+CCVCC     2         p, r, uw, v, z
+CV        75        p, uh     
+CVC       2         p, uh, d  
+CVC       67        p, uh, l  
+CVCC      20        p, uh, l, d
+CVCC      7         p, uh, l, z
+CVC       36        p, uh, sh 
+CVCC      12        p, uh, sh, t
+CVC       803       p, uh, t  
+CVCC      22        p, uh, t, s
+CV        17        p, uw     
+CVC       1         p, uw, d  
+CVC       1         p, uw, f  
+CVC       49        p, uw, l  
+CVCC      6         p, uw, l, z
+CVC       2         p, uw, p  
+CVCC      1         p, uw, p, s
+CVCC      1         p, uw, p, t
+CCVC      1         p, w, eh, r
+CCVC      1         p, w, er, d
+CCV       99        p, y, ax  
+CCV       8         p, y, uh  
+CCVC      17        p, y, uh, r
+CCV       254       p, y, uw  
+CCVCC     1         p, y, uw, n, d
+CCVC      1         p, y, uw, t
+C         80        r         
+CV        195       r, aa     
+CVC       7         r, aa, b  
+CVCC      8         r, aa, b, d
+CVC       6         r, aa, d  
+CVC       36        r, aa, jh 
+CVC       62        r, aa, k  
+CVCC      9         r, aa, k, s
+CVC       2         r, aa, m  
+CVC       4         r, aa, n  
+CVCC      35        r, aa, n, t
+CVCCC     25        r, aa, n, t, s
+CVCC      3         r, aa, r, m
+CVCCC     2         r, aa, r, m, z
+CVC       1         r, aa, zh 
+CV        261       r, ae     
+CVC       5         r, ae, f  
+CVCC      1         r, ae, f, t
+CVC       4         r, ae, g  
+CVC       14        r, ae, k  
+CVCC      5         r, ae, k, s
+CVCC      1         r, ae, k, t
+CVC       1         r, ae, l  
+CVCC      1         r, ae, l, f
+CVC       7         r, ae, m  
+CVC       106       r, ae, n  
+CVCC      8         r, ae, n, ch
+CVCC      3         r, ae, n, t
+CVCC      4         r, ae, n, z
+CVC       8         r, ae, ng 
+CVCC      12        r, ae, ng, k
+CVCCC     2         r, ae, ng, k, s
+CVCCC     4         r, ae, ng, k, t
+CVC       31        r, ae, p  
+CVCC      4         r, ae, p, t
+CVC       1         r, ae, sh 
+CVC       10        r, ae, t  
+CVCC      4         r, ae, t, s
+CVC       1         r, ae, th 
+CVC       28        r, ae, z  
+CV        191       r, ah     
+CVC       3         r, ah, b  
+CVCC      1         r, ah, b, d
+CVCC      2         r, ah, b, z
+CVC       1         r, ah, d  
+CVC       30        r, ah, f  
+CVCC      3         r, ah, f, t
+CVC       6         r, ah, g  
+CVCC      3         r, ah, g, z
+CVC       196       r, ah, n  
+CVCC      36        r, ah, n, z
+CVC       1         r, ah, ng 
+CVC       15        r, ah, p  
+CVCC      9         r, ah, p, t
+CVC       2         r, ah, s  
+CVCC      4         r, ah, s, t
+CVC       10        r, ah, sh 
+CVCC      4         r, ah, sh, t
+CVC       1         r, ah, t  
+CV        32        r, ao     
+CVC       10        r, ao, l  
+CVC       140       r, ao, ng 
+CVCC      1         r, ao, ng, d
+CVC       4         r, ao, s  
+CV        55        r, aw     
+CVC       16        r, aw, n  
+CVCC      756       r, aw, n, d
+CVCCC     5         r, aw, n, d, z
+CVC       20        r, aw, t  
+CVCC      5         r, aw, t, s
+CVC       2         r, aw, th 
+CV        470       r, ax     
+CVC       5         r, ax, b  
+CVCC      3         r, ax, b, z
+CVC       1         r, ax, f  
+CVC       52        r, ax, k  
+CVC       396       r, ax, l  
+CVCC      8         r, ax, l, d
+CVCC      22        r, ax, l, z
+CVC       12        r, ax, m  
+CVCC      1         r, ax, m, z
+CVC       110       r, ax, n  
+CVCC      4         r, ax, n, s
+CVCC      2         r, ax, n, z
+CVC       53        r, ax, p  
+CVC       25        r, ax, s  
+CVCC      10        r, ax, s, t
+CVC       15        r, ax, t  
+CVC       2         r, ax, v  
+CVC       11        r, ax, z  
+CV        219       r, ay     
+CVC       51        r, ay, d  
+CVCC      10        r, ay, d, z
+CVC       2         r, ay, k  
+CVC       1         r, ay, m  
+CVCC      1         r, ay, m, d
+CVC       30        r, ay, s  
+CVC       4748      r, ay, t  
+CVCC      42        r, ay, t, s
+CVC       3         r, ay, v  
+CVCC      1         r, ay, v, d
+CVCC      1         r, ay, v, z
+CVC       12        r, ay, z  
+CVCC      10        r, ay, z, d
+CV        1681      r, eh     
+CVC       543       r, eh, d  
+CVCC      1         r, eh, d, z
+CVC       2         r, eh, g  
+CVC       1         r, eh, jh 
+CVC       82        r, eh, k  
+CVCC      8         r, eh, k, s
+CVCC      69        r, eh, k, t
+CVCC      3         r, eh, l, m
+CVCC      2         r, eh, m, p
+CVC       55        r, eh, n  
+CVCC      62        r, eh, n, t
+CVC       1         r, eh, p  
+CVCC      1         r, eh, p, s
+CVC       5         r, eh, s  
+CVCC      2         r, eh, s, k
+CVCC      91        r, eh, s, t
+CVCCC     1         r, eh, s, t, s
+CVC       3         r, eh, t  
+CVCC      6         r, eh, t, s
+CV        77        r, er     
+CVC       32        r, er, z  
+CV        541       r, ey     
+CVC       2         r, ey, d  
+CVCC      1         r, ey, d, z
+CVC       4         r, ey, k  
+CVC       7         r, ey, l  
+CVC       152       r, ey, n  
+CVCC      3         r, ey, n, d
+CVCC      40        r, ey, n, jh
+CVCCC     1         r, ey, n, jh, d
+CVCC      21        r, ey, n, z
+CVC       17        r, ey, p  
+CVCC      2         r, ey, p, s
+CVCC      8         r, ey, p, t
+CVC       17        r, ey, r  
+CVC       15        r, ey, s  
+CVC       173       r, ey, t  
+CVCC      28        r, ey, t, s
+CVC       53        r, ey, z  
+CVCC      53        r, ey, z, d
+CV        3344      r, ih     
+CVC       9         r, ih, b  
+CVCC      4         r, ih, b, z
+CVC       38        r, ih, ch 
+CVC       72        r, ih, d  
+CVC       5         r, ih, f  
+CVCC      2         r, ih, f, s
+CVC       2         r, ih, g  
+CVCC      2         r, ih, g, z
+CVC       126       r, ih, jh 
+CVCC      6         r, ih, jh, d
+CVC       20        r, ih, k  
+CVCC      9         r, ih, k, s
+CVC       2         r, ih, m  
+CVC       106       r, ih, n  
+CVCC      1         r, ih, n, d
+CVCCC     2         r, ih, n, d, z
+CVCC      9         r, ih, n, jh
+CVCC      249       r, ih, n, s
+CVCC      842       r, ih, n, t
+CVCCC     314       r, ih, n, t, s
+CVCC      4         r, ih, n, z
+CVC       673       r, ih, ng 
+CVCC      1         r, ih, ng, k
+CVCC      18        r, ih, ng, z
+CVC       9         r, ih, p  
+CVCC      1         r, ih, p, s
+CVCC      10        r, ih, p, t
+CVC       52        r, ih, s  
+CVCC      19        r, ih, s, k
+CVCC      1         r, ih, s, p
+CVCC      135       r, ih, s, t
+CVCCC     24        r, ih, s, t, s
+CVC       6         r, ih, sh 
+CVC       200       r, ih, t  
+CVCC      23        r, ih, t, s
+CVC       2         r, ih, th 
+CVC       1         r, ih, z  
+CV        10862     r, iy     
+CVC       3         r, iy, b  
+CVC       19        r, iy, ch 
+CVCC      13        r, iy, ch, t
+CVC       178       r, iy, d  
+CVCC      3         r, iy, d, z
+CVCC      1         r, iy, dh, z
+CVC       4         r, iy, f  
+CVC       1         r, iy, k  
+CVCC      2         r, iy, k, s
+CVC       1019      r, iy, l  
+CVCC      1         r, iy, m, z
+CVC       4         r, iy, n  
+CVCC      3         r, iy, n, z
+CVC       1         r, iy, p  
+CVC       40        r, iy, r  
+CVCC      1         r, iy, r, d
+CVCC      5         r, iy, r, z
+CVC       2         r, iy, th 
+CVC       3         r, iy, v  
+CVCC      3         r, iy, v, z
+CVC       267       r, iy, z  
+CV        262       r, ow     
+CVC       1         r, ow, b  
+CVC       77        r, ow, d  
+CVCC      11        r, ow, d, z
+CVC       4         r, ow, k  
+CVC       69        r, ow, l  
+CVCC      6         r, ow, l, d
+CVCC      2         r, ow, l, m
+CVCC      33        r, ow, l, z
+CVC       9         r, ow, m  
+CVCC      1         r, ow, m, s
+CVC       1         r, ow, n  
+CVC       3         r, ow, p  
+CVCC      7         r, ow, s, t
+CVCCC     1         r, ow, s, t, s
+CVC       32        r, ow, t  
+CVC       14        r, ow, z  
+CV        13        r, oy     
+CVCC      5         r, oy, d, z
+CV        24        r, uh     
+CVC       30        r, uh, f  
+CVCC      2         r, uh, f, s
+CVC       11        r, uh, t  
+CVCC      11        r, uh, t, s
+CV        69        r, uw     
+CVC       2         r, uw, d  
+CVC       18        r, uw, l  
+CVCC      4         r, uw, l, d
+CVCC      14        r, uw, l, z
+CVC       185       r, uw, m  
+CVCC      38        r, uw, m, z
+CVC       4         r, uw, n  
+CVC       1         r, uw, t  
+CVCC      1         r, uw, t, s
+CVC       1         r, uw, th 
+C         262       s         
+CV        147       s, aa     
+CVC       1         s, aa, b  
+CVC       1         s, aa, d  
+CVCC      9         s, aa, k, s
+CVCC      1         s, aa, k, t
+CVC       2         s, aa, l  
+CVC       1         s, aa, m  
+CVC       9         s, aa, n  
+CVCC      2         s, aa, n, z
+CVC       1         s, aa, r  
+CVCC      1         s, aa, r, m
+CVCC      1         s, aa, r, s
+CVC       1         s, aa, zh 
+CV        219       s, ae     
+CVC       68        s, ae, d  
+CVC       8         s, ae, k  
+CVCC      6         s, ae, k, s
+CVC       10        s, ae, l  
+CVC       15        s, ae, m  
+CVCC      8         s, ae, m, z
+CVC       106       s, ae, n  
+CVCC      24        s, ae, n, d
+CVCCC     1         s, ae, n, d, s
+CVCCC     1         s, ae, n, d, z
+CVC       1         s, ae, ng 
+CVCC      2         s, ae, ng, k
+CVC       1         s, ae, sh 
+CVC       31        s, ae, t  
+CVCC      1         s, ae, t, s
+CV        427       s, ah     
+CVC       170       s, ah, b  
+CVCC      1         s, ah, b, d
+CVCC      2         s, ah, b, z
+CVC       260       s, ah, ch 
+CVC       3         s, ah, k  
+CVCC      2         s, ah, k, s
+CVCC      1         s, ah, k, t
+CVC       21        s, ah, l  
+CVCCC     1         s, ah, l, k, t
+CVCC      1         s, ah, l, t
+CVC       5056      s, ah, m  
+CVCC      1         s, ah, m, d
+CVCC      5         s, ah, m, p
+CVCC      5         s, ah, m, th
+CVCC      1         s, ah, m, w
+CVCC      1         s, ah, m, z
+CVC       218       s, ah, n  
+CVCC      2         s, ah, n, g
+CVCC      32        s, ah, n, z
+CV        283       s, ao     
+CVC       1         s, ao, d  
+CVC       24        s, ao, f  
+CVCC      23        s, ao, f, t
+CVC       13        s, ao, l  
+CVCC      21        s, ao, l, t
+CVCCC     2         s, ao, l, t, s
+CVCC      25        s, ao, l, v
+CVCCC     3         s, ao, l, v, d
+CVCCC     1         s, ao, l, v, z
+CVCC      3         s, ao, l, z
+CVC       1         s, ao, n  
+CVC       26        s, ao, ng 
+CVCC      19        s, ao, ng, z
+CVC       38        s, ao, s  
+CVC       5         s, ao, z  
+CV        21        s, aw     
+CVC       18        s, aw, n  
+CVCC      80        s, aw, n, d
+CVCCC     264       s, aw, n, d, z
+CVC       106       s, aw, th 
+CVCC      1         s, aw, th, w
+CVC       1         s, aw, z  
+CV        1580      s, ax     
+CVC       65        s, ax, b  
+CVC       8         s, ax, d  
+CVC       19        s, ax, g  
+CVC       36        s, ax, k  
+CVCC      1         s, ax, k, s
+CVC       124       s, ax, l  
+CVCC      4         s, ax, l, d
+CVCC      24        s, ax, l, z
+CVC       18        s, ax, m  
+CVCC      1         s, ax, m, z
+CVC       118       s, ax, n  
+CVCC      1         s, ax, n, s
+CVCC      10        s, ax, n, z
+CVC       3         s, ax, p  
+CVC       1         s, ax, r  
+CVC       13        s, ax, s  
+CVC       3         s, ax, z  
+CV        736       s, ay     
+CVC       514       s, ay, d  
+CVCC      68        s, ay, d, z
+CVC       2         s, ay, k  
+CVC       1         s, ay, l  
+CVC       1         s, ay, m  
+CVC       48        s, ay, n  
+CVCC      18        s, ay, n, d
+CVCC      22        s, ay, n, z
+CVC       5         s, ay, s  
+CVC       40        s, ay, t  
+CVCC      9         s, ay, t, s
+CVC       1         s, ay, th 
+CVC       227       s, ay, z  
+CVCC      17        s, ay, z, d
+CV        1187      s, eh     
+CVC       783       s, eh, d  
+CVC       10        s, eh, g  
+CVC       56        s, eh, k  
+CVCC      14        s, eh, k, s
+CVCC      1         s, eh, k, t
+CVC       122       s, eh, l  
+CVCC      548       s, eh, l, f
+CVCCC     120       s, eh, l, v, z
+CVCC      7         s, eh, l, z
+CVC       18        s, eh, m  
+CVC       416       s, eh, n  
+CVCC      99        s, eh, n, d
+CVCCC     3         s, eh, n, d, z
+CVCC      123       s, eh, n, s
+CVCC      238       s, eh, n, t
+CVCCC     38        s, eh, n, t, s
+CVC       68        s, eh, p  
+CVCC      2         s, eh, p, s
+CVCC      147       s, eh, p, t
+CVCCC     1         s, eh, p, t, s
+CVC       109       s, eh, s  
+CVCC      2         s, eh, s, t
+CVC       211       s, eh, t  
+CVCC      17        s, eh, t, s
+CVC       5         s, eh, v  
+CVC       154       s, eh, z  
+CV        1090      s, er     
+CVC       75        s, er, ch 
+CVC       12        s, er, d  
+CVC       2         s, er, f  
+CVC       32        s, er, n  
+CVCC      93        s, er, n, d
+CVCC      11        s, er, n, z
+CVCC      2         s, er, p, s
+CVC       1         s, er, s  
+CVC       12        s, er, t  
+CVCC      4         s, er, t, s
+CVC       66        s, er, v  
+CVCC      23        s, er, v, d
+CVCC      5         s, er, v, z
+CVC       26        s, er, z  
+CV        1384      s, ey     
+CVC       66        s, ey, f  
+CVCC      1         s, ey, k, s
+CVC       38        s, ey, l  
+CVCC      1         s, ey, l, d
+CVCC      61        s, ey, l, z
+CVC       527       s, ey, m  
+CVC       10        s, ey, n  
+CVCC      31        s, ey, n, t
+CVCCC     11        s, ey, n, t, s
+CVC       1         s, ey, t  
+CVC       63        s, ey, v  
+CVCC      23        s, ey, v, d
+CVCC      4         s, ey, v, z
+CVC       3         s, ey, z  
+CCVC      13        s, f, ae, k
+CCVCC     1         s, f, ah, ng, k
+CCVCC     3         s, f, ao, l, t
+CCV       5         s, f, ax  
+CCVC      60        s, f, ax, l
+CCV       3         s, f, ay  
+CCVC      15        s, f, ay, d
+CCVC      1         s, f, ay, z
+CCV       5         s, f, er  
+CCVC      9         s, f, er, d
+CCVC      1         s, f, er, z
+CCVC      23        s, f, iy, r
+CCVC      2         s, f, ow, r
+CCVCCC    1         s, f, ow, r, m, z
+CCVC      1         s, f, uw, t
+CV        3290      s, ih     
+CVC       3         s, ih, ch 
+CVC       29        s, ih, d  
+CVC       1         s, ih, f  
+CVC       52        s, ih, g  
+CVC       34        s, ih, jh 
+CVC       326       s, ih, k  
+CVCC      1         s, ih, k, l
+CVCC      377       s, ih, k, s
+CVCCC     15        s, ih, k, s, th
+CVC       22        s, ih, l  
+CVCC      1         s, ih, l, k
+CVCC      1         s, ih, l, t
+CVCC      1         s, ih, l, z
+CVC       92        s, ih, m  
+CVCC      7         s, ih, m, p
+CVC       554       s, ih, n  
+CVCC      1         s, ih, n, ch
+CVCC      12        s, ih, n, d
+CVCC      330       s, ih, n, s
+CVCCC     2         s, ih, n, s, t
+CVCC      206       s, ih, n, t
+CVCCC     2         s, ih, n, t, s
+CVCC      2         s, ih, n, th
+CVCCC     7         s, ih, n, th, s
+CVCC      63        s, ih, n, z
+CVC       531       s, ih, ng 
+CVCC      8         s, ih, ng, k
+CVCCC     2         s, ih, ng, k, t
+CVCCCC    1         s, ih, ng, k, t, s
+CVCC      7         s, ih, ng, z
+CVC       1         s, ih, r  
+CVC       507       s, ih, s  
+CVCC      24        s, ih, s, t
+CVCCC     4         s, ih, s, t, s
+CVC       182       s, ih, t  
+CVCC      37        s, ih, t, s
+CVC       222       s, ih, v  
+CVCC      4         s, ih, v, z
+CVC       1390      s, ih, z  
+CV        2741      s, iy     
+CVC       9         s, iy, d  
+CVCC      4         s, iy, d, z
+CVCC      1         s, iy, jh, d
+CVC       1         s, iy, k  
+CVC       2         s, iy, l  
+CVCC      2         s, iy, l, d
+CVC       196       s, iy, m  
+CVCC      78        s, iy, m, d
+CVCC      458       s, iy, m, z
+CVC       401       s, iy, n  
+CVCC      13        s, iy, n, z
+CVC       2         s, iy, r  
+CVCC      8         s, iy, r, z
+CVC       2         s, iy, s  
+CVC       14        s, iy, t  
+CVCC      12        s, iy, t, s
+CVC       25        s, iy, v  
+CVCC      14        s, iy, v, d
+CVCC      3         s, iy, v, z
+CVC       67        s, iy, z  
+CC        6         s, k      
+CCV       15        s, k, aa  
+CCVC      1         s, k, aa, ch
+CCVC      3         s, k, aa, f
+CCVC      28        s, k, aa, n
+CCVC      1         s, k, aa, r
+CCVCCC    1         s, k, aa, r, v, z
+CCVC      4         s, k, aa, t
+CCVCC     1         s, k, aa, t, s
+CCV       24        s, k, ae  
+CCVC      2         s, k, ae, b
+CCVCC     1         s, k, ae, g, z
+CCVC      2         s, k, ae, l
+CCVC      1         s, k, ae, m
+CCVC      7         s, k, ae, n
+CCVCC     2         s, k, ae, n, d
+CCV       44        s, k, ah  
+CCVC      2         s, k, ah, d
+CCVCC     2         s, k, ah, d, z
+CCVCC     14        s, k, ah, ng, k
+CCVC      21        s, k, ah, s
+CCVCC     10        s, k, ah, s, t
+CCVC      1         s, k, ao, l
+CCV       6         s, k, aw  
+CCVC      1         s, k, aw, n
+CCVCC     6         s, k, aw, n, t
+CCVCCC    2         s, k, aw, n, t, s
+CCVC      11        s, k, aw, t
+CCVCC     38        s, k, aw, t, s
+CCV       29        s, k, ax  
+CCVC      8         s, k, ax, l
+CCVCC     1         s, k, ax, l, z
+CCVC      6         s, k, ax, n
+CCVC      1         s, k, ax, z
+CCV       9         s, k, ay  
+CCVC      14        s, k, ay, d
+CCV       57        s, k, eh  
+CCVC      1         s, k, eh, l
+CCVC      2         s, k, eh, p
+CCVC      1         s, k, eh, r
+CCVC      1         s, k, eh, t
+CCV       12        s, k, er  
+CCVC      16        s, k, er, t
+CCVCC     17        s, k, er, t, s
+CCVC      2         s, k, er, z
+CCV       84        s, k, ey  
+CCVC      20        s, k, ey, l
+CCVCC     1         s, k, ey, l, d
+CCVCC     3         s, k, ey, l, z
+CCVC      14        s, k, ey, p
+CCVCC     1         s, k, ey, p, s
+CCVCC     3         s, k, ey, p, t
+CCVC      5         s, k, ey, r
+CCVCC     35        s, k, ey, r, d
+CCVCC     9         s, k, ey, r, z
+CCVC      1         s, k, ey, t
+CCVCC     2         s, k, ey, t, s
+CCV       12        s, k, ih  
+CCVC      2         s, k, ih, d
+CCVCC     1         s, k, ih, d, z
+CCVC      3         s, k, ih, l
+CCVCC     2         s, k, ih, l, d
+CCVCC     15        s, k, ih, l, z
+CCVC      3         s, k, ih, m
+CCVCC     1         s, k, ih, m, p
+CCVC      9         s, k, ih, n
+CCVCC     8         s, k, ih, n, z
+CCVC      35        s, k, ih, ng
+CCVC      7         s, k, ih, p
+CCVCC     3         s, k, ih, p, t
+CCVC      44        s, k, ih, t
+CCVCC     6         s, k, ih, t, s
+CCV       87        s, k, iy  
+CCVCC     1         s, k, iy, m, z
+CCVC      6         s, k, iy, t
+CCVC      3         s, k, iy, z
+CCCVC     1         s, k, l, ae, s
+CCCV      10        s, k, l, uw
+CCV       25        s, k, ow  
+CCVCC     1         s, k, ow, l, d
+CCVC      6         s, k, ow, p
+CCVC      13        s, k, ow, r
+CCVCC     1         s, k, ow, r, s
+CCVCCC    1         s, k, ow, r, t, s
+CCVCC     8         s, k, ow, r, z
+CCCV      3         s, k, r, ae
+CCCVC     12        s, k, r, ae, ch
+CCCVCC    1         s, k, r, ae, ch, t
+CCCVC     2         s, k, r, ae, m
+CCCVC     5         s, k, r, ae, p
+CCCV      2         s, k, r, ah
+CCCV      9         s, k, r, ay
+CCCVC     32        s, k, r, ay, b
+CCCVCC    9         s, k, r, ay, b, d
+CCCVCC    2         s, k, r, ay, b, z
+CCCV      3         s, k, r, eh
+CCCV      3         s, k, r, ey
+CCCVC     3         s, k, r, ey, p
+CCCVCC    2         s, k, r, ey, p, t
+CCCV      8         s, k, r, ih
+CCCVC     21        s, k, r, ih, p
+CCCVCC    1         s, k, r, ih, p, s
+CCCVCC    4         s, k, r, ih, p, t
+CCCV      17        s, k, r, iy
+CCCVC     6         s, k, r, iy, m
+CCCVCC    1         s, k, r, iy, m, d
+CCCVCC    6         s, k, r, iy, m, z
+CCCVC     15        s, k, r, iy, n
+CCCVCC    3         s, k, r, iy, n, d
+CCCVCC    1         s, k, r, iy, n, z
+CCCVC     1         s, k, r, iy, t
+CCCVC     2         s, k, r, ow, l
+CCCV      7         s, k, r, uw
+CCCVC     6         s, k, r, uw, d
+CCCVC     1         s, k, r, uw, jh
+CCCVC     1         s, k, r, uw, z
+CCV       19        s, k, uw  
+CCVC      935       s, k, uw, l
+CCVCC     4         s, k, uw, l, d
+CCVCC     219       s, k, uw, l, z
+CCVC      1         s, k, uw, p
+CCVCC     2         s, k, uw, p, t
+CCVC      2         s, k, uw, t
+CCCV      1         s, k, w, aa
+CCCVC     4         s, k, w, aa, d
+CCCVC     5         s, k, w, aa, sh
+CCCV      3         s, k, w, ao
+CCCV      2         s, k, w, er
+CCCVC     1         s, k, w, er, l
+CCCVCC    2         s, k, w, er, l, z
+CCCVCC    1         s, k, w, er, t, s
+CCCVC     32        s, k, w, ey, r
+CCCVCC    2         s, k, w, ey, r, z
+CCCVC     1         s, k, w, ih, sh
+CCCV      2         s, k, w, iy
+CCCVCC    1         s, k, w, iy, k, t
+CCCVC     2         s, k, w, iy, z
+CCCVCC    4         s, k, w, iy, z, d
+CCCV      3         s, k, y, ax
+CCCV      14        s, k, y, uw
+CCCVC     2         s, k, y, uw, d
+CCCVC     2         s, k, y, uw, l
+CCCVC     57        s, k, y, uw, s
+CCCVC     1         s, k, y, uw, z
+CCCVCC    3         s, k, y, uw, z, d
+CC        1         s, l      
+CCV       3         s, l, aa  
+CCVC      1         s, l, aa, p
+CCVC      2         s, l, aa, t
+CCVCC     6         s, l, aa, t, s
+CCV       1         s, l, ae  
+CCVC      4         s, l, ae, b
+CCVCC     1         s, l, ae, b, z
+CCVCC     14        s, l, ae, k, s
+CCVCC     1         s, l, ae, k, t
+CCVC      2         s, l, ae, m
+CCVC      3         s, l, ae, n
+CCVCCC    1         s, l, ae, n, d, z
+CCVCC     7         s, l, ae, n, t
+CCVC      5         s, l, ae, p
+CCVC      1         s, l, ae, sh
+CCVCC     1         s, l, ae, sh, t
+CCV       1         s, l, ah  
+CCVCC     1         s, l, ah, m, p
+CCVC      2         s, l, ah, sh
+CCV       5         s, l, ao  
+CCV       1         s, l, ax  
+CCV       9         s, l, ay  
+CCVC      9         s, l, ay, d
+CCVCC     1         s, l, ay, d, z
+CCVC      3         s, l, ay, k
+CCVCC     1         s, l, ay, k, s
+CCVC      6         s, l, ay, s
+CCVCC     4         s, l, ay, s, t
+CCVC      20        s, l, ay, t
+CCV       3         s, l, eh  
+CCVC      1         s, l, eh, d
+CCVCC     2         s, l, eh, d, z
+CCVC      1         s, l, eh, n
+CCVCC     3         s, l, eh, p, t
+CCV       9         s, l, er  
+CCV       48        s, l, ey  
+CCVC      11        s, l, ey, t
+CCVCC     1         s, l, ey, t, s
+CCVC      5         s, l, ey, v
+CCVCC     2         s, l, ey, v, z
+CCV       9         s, l, ih  
+CCVC      1         s, l, ih, d
+CCVC      6         s, l, ih, k
+CCVCC     1         s, l, ih, k, s
+CCVC      2         s, l, ih, m
+CCVC      9         s, l, ih, p
+CCVCC     4         s, l, ih, p, s
+CCVCC     3         s, l, ih, p, t
+CCVC      3         s, l, ih, s
+CCVC      4         s, l, ih, t
+CCV       158       s, l, iy  
+CCVC      55        s, l, iy, p
+CCVCC     1         s, l, iy, p, s
+CCVC      1         s, l, iy, t
+CCVC      3         s, l, iy, v
+CCVCC     1         s, l, iy, v, z
+CCV       58        s, l, ow  
+CCVC      1         s, l, ow, d
+CCVC      4         s, l, ow, p
+CCVCC     1         s, l, ow, p, s
+CCVC      1         s, l, ow, z
+CC        1         s, m      
+CCVC      2         s, m, aa, g
+CCVC      6         s, m, aa, r
+CCVCC     28        s, m, aa, r, t
+CCVCCC    2         s, m, aa, r, t, s
+CCV       5         s, m, ae  
+CCVC      1         s, m, ae, k
+CCVC      1         s, m, ae, sh
+CCVCC     6         s, m, ae, sh, t
+CCV       1         s, m, ah  
+CCVC      1         s, m, ah, sh
+CCV       46        s, m, ao  
+CCVC      12        s, m, ao, g
+CCVC      219       s, m, ao, l
+CCVC      24        s, m, ax, n
+CCVC      79        s, m, ax, s
+CCVC      1         s, m, ax, th
+CCV       2         s, m, ay  
+CCVC      2         s, m, ay, l
+CCV       3         s, m, eh  
+CCVCC     1         s, m, eh, k, s
+CCVC      13        s, m, eh, l
+CCVCC     3         s, m, eh, l, d
+CCVCC     1         s, m, eh, l, z
+CCVC      2         s, m, eh, m
+CCVC      6         s, m, eh, n
+CCV       18        s, m, ih  
+CCVCC     45        s, m, ih, n, t
+CCVCCC    7         s, m, ih, n, t, s
+CCVCC     1         s, m, ih, s, t
+CCVC      14        s, m, ih, th
+CCV       37        s, m, ow  
+CCVC      41        s, m, ow, k
+CCVCC     1         s, m, ow, k, s
+CCVCC     1         s, m, ow, k, t
+CCVC      2         s, m, ow, r
+CCV       1         s, m, uw  
+CCVC      8         s, m, uw, dh
+CC        1         s, n      
+CCV       1         s, n, aa  
+CCV       7         s, n, ae  
+CCVCC     2         s, n, ae, ch, t
+CCVC      3         s, n, ae, k
+CCVCC     2         s, n, ae, k, s
+CCVC      4         s, n, ae, p
+CCVCC     1         s, n, ae, p, s
+CCVCC     1         s, n, ae, p, t
+CCV       1         s, n, ah  
+CCVC      1         s, n, aw, t
+CCVCC     1         s, n, ax, t, s
+CCV       1         s, n, ay  
+CCVCC     1         s, n, eh, l, f
+CCV       10        s, n, er  
+CCVC      10        s, n, ey, k
+CCVCC     4         s, n, ey, k, s
+CCVCC     1         s, n, ey, l, z
+CCV       2         s, n, ih  
+CCVC      2         s, n, ih, f
+CCVC      13        s, n, ih, s
+CCV       3         s, n, iy  
+CCVC      4         s, n, iy, k
+CCVCC     1         s, n, iy, k, s
+CCV       89        s, n, ow  
+CCVC      5         s, n, ow, d
+CCVC      3         s, n, ow, r
+CCVCC     1         s, n, ow, r, t
+CV        8281      s, ow     
+CVC       5         s, ow, d  
+CVCC      2         s, ow, d, z
+CVC       2         s, ow, k  
+CVCC      1         s, ow, k, s
+CVC       15        s, ow, l  
+CVCC      38        s, ow, l, d
+CVCC      2         s, ow, l, z
+CVC       23        s, ow, p  
+CVCC      1         s, ow, p, s
+CVC       62        s, ow, r  
+CVCC      22        s, ow, r, s
+CVCC      542       s, ow, r, t
+CVCCC     36        s, ow, r, t, s
+CVCC      2         s, ow, r, z
+CVC       1         s, ow, sh 
+CVC       2         s, ow, z  
+CV        7         s, oy     
+CVC       14        s, oy, l  
+CC        5         s, p      
+CCV       4         s, p, aa  
+CCVC      2         s, p, aa, k
+CCVC      90        s, p, aa, n
+CCVCC     8         s, p, aa, n, d
+CCVCCC    1         s, p, aa, n, d, z
+CCVCC     9         s, p, aa, n, s
+CCVC      1         s, p, aa, r
+CCVCC     7         s, p, aa, r, k
+CCVCCC    1         s, p, aa, r, k, s
+CCVC      26        s, p, aa, t
+CCVCC     15        s, p, aa, t, s
+CCV       32        s, p, ae  
+CCVC      22        s, p, ae, n
+CCVCC     6         s, p, ae, n, d
+CCVCCC    1         s, p, ae, n, d, z
+CCVCC     1         s, p, ae, n, s
+CCVC      1         s, p, ae, ng
+CCVCC     3         s, p, ae, ng, k
+CCVCCC    13        s, p, ae, ng, k, t
+CCVC      3         s, p, ah, n
+CCVCC     5         s, p, ah, n, jh
+CCVC      1         s, p, ao, n
+CCV       1         s, p, aw  
+CCVC      4         s, p, aw, s
+CCV       58        s, p, ax  
+CCVC      2         s, p, ax, l
+CCVC      4         s, p, ax, n
+CCVC      1         s, p, ax, r
+CCV       17        s, p, ay  
+CCVC      2         s, p, ay, k
+CCVC      1         s, p, ay, n
+CCVC      1         s, p, ay, r
+CCVCC     4         s, p, ay, r, d
+CCVC      12        s, p, ay, t
+CCV       356       s, p, eh  
+CCVC      115       s, p, eh, k
+CCVCC     14        s, p, eh, k, s
+CCVCC     167       s, p, eh, k, t
+CCVCCC    8         s, p, eh, k, t, s
+CCVC      7         s, p, eh, l
+CCVCC     5         s, p, eh, l, d
+CCVC      263       s, p, eh, n
+CCVCC     226       s, p, eh, n, d
+CCVCCC    5         s, p, eh, n, d, z
+CCVCC     24        s, p, eh, n, s
+CCVCCC    1         s, p, eh, n, s, t
+CCVCC     96        s, p, eh, n, t
+CCVC      3         s, p, eh, sh
+CCV       28        s, p, er  
+CCVC      13        s, p, er, t
+CCVCC     8         s, p, er, t, s
+CCV       18        s, p, ey  
+CCVC      2         s, p, ey, d
+CCVC      1         s, p, ey, n
+CCVC      25        s, p, ey, r
+CCVCC     1         s, p, ey, r, d
+CCVC      82        s, p, ey, s
+CCVCC     2         s, p, ey, s, t
+CCV       221       s, p, ih  
+CCVC      1         s, p, ih, l
+CCVC      1         s, p, ih, n
+CCVC      2         s, p, ih, r
+CCVC      2         s, p, ih, t
+CCV       64        s, p, iy  
+CCVC      18        s, p, iy, ch
+CCVC      20        s, p, iy, d
+CCVCC     1         s, p, iy, d, z
+CCVC      35        s, p, iy, k
+CCVCC     2         s, p, iy, k, s
+CCVC      1         s, p, iy, r
+CCVCC     1         s, p, iy, r, z
+CCCV      3         s, p, l, ae
+CCCVC     1         s, p, l, ae, n
+CCCVCC    4         s, p, l, ae, n, t
+CCCVCCC   1         s, p, l, ae, n, t, s
+CCCV      1         s, p, l, ax
+CCCVC     2         s, p, l, er, jh
+CCCVCC    1         s, p, l, er, jh, d
+CCCV      4         s, p, l, ey
+CCCVC     1         s, p, l, ey, d
+CCCVC     16        s, p, l, ey, n
+CCCVCC    4         s, p, l, ey, n, d
+CCCVCC    4         s, p, l, ey, n, z
+CCCVC     3         s, p, l, ey, s
+CCCVCC    1         s, p, l, ey, s, t
+CCCV      4         s, p, l, ih
+CCCVC     17        s, p, l, ih, t
+CCCV      8         s, p, l, ow
+CCCVCC    2         s, p, l, ow, d, z
+CCCVC     4         s, p, l, ow, r
+CCCVCC    2         s, p, l, ow, r, d
+CCCV      1         s, p, l, oy
+CCV       23        s, p, ow  
+CCVC      7         s, p, ow, k
+CCVC      11        s, p, ow, r
+CCVCC     23        s, p, ow, r, t
+CCVCCC    79        s, p, ow, r, t, s
+CCVC      1         s, p, ow, z
+CCVCC     9         s, p, ow, z, d
+CCVC      3         s, p, oy, l
+CCVCC     17        s, p, oy, l, d
+CCCV      1         s, p, r, ay
+CCCV      18        s, p, r, eh
+CCCVC     38        s, p, r, eh, d
+CCCVCC    2         s, p, r, eh, d, z
+CCCVC     28        s, p, r, eh, s
+CCCVCC    1         s, p, r, eh, s, t
+CCCV      17        s, p, r, ey
+CCCVC     2         s, p, r, ey, d
+CCCVCC    1         s, p, r, ey, n, d
+CCCVC     3         s, p, r, ey, z
+CCCVC     96        s, p, r, ih, ng
+CCCVCC    15        s, p, r, ih, ng, z
+CCCV      1         s, p, r, iy
+CCCV      4         s, p, r, uw
+CCCVC     1         s, p, r, uw, s
+CCV       2         s, p, uw  
+CCVC      7         s, p, uw, n
+CCVCC     3         s, p, uw, n, z
+CCCVC     4         s, p, y, uw, t
+CC        25        s, t      
+CCV       14        s, t, aa  
+CCVC      11        s, t, aa, k
+CCVCC     1         s, t, aa, k, s
+CCVCC     1         s, t, aa, k, t
+CCVC      1         s, t, aa, m
+CCVCC     1         s, t, aa, m, p
+CCVC      81        s, t, aa, p
+CCVCC     2         s, t, aa, p, s
+CCVCC     38        s, t, aa, p, t
+CCVC      503       s, t, aa, r
+CCVCC     14        s, t, aa, r, ch
+CCVCCC    1         s, t, aa, r, ch, t
+CCVCC     1         s, t, aa, r, d
+CCVCC     356       s, t, aa, r, t
+CCVCCC    49        s, t, aa, r, t, s
+CCVCC     1         s, t, aa, r, v
+CCVCC     10        s, t, aa, r, z
+CCV       40        s, t, ae  
+CCVC      1         s, t, ae, d
+CCVC      21        s, t, ae, f
+CCVCC     1         s, t, ae, f, s
+CCVCC     5         s, t, ae, f, t
+CCVC      8         s, t, ae, k
+CCVCC     8         s, t, ae, k, s
+CCVCC     2         s, t, ae, m, p
+CCVC      167       s, t, ae, n
+CCVCC     321       s, t, ae, n, d
+CCVCCC    13        s, t, ae, n, d, z
+CCVCC     9         s, t, ae, n, s
+CCVC      13        s, t, ae, ng
+CCVCC     3         s, t, ae, ng, z
+CCVC      2         s, t, ae, sh
+CCVC      1         s, t, ae, t
+CCV       69        s, t, ah  
+CCVC      844       s, t, ah, f
+CCVCC     1         s, t, ah, f, s
+CCVCC     4         s, t, ah, f, t
+CCVC      41        s, t, ah, k
+CCVCC     1         s, t, ah, m, p
+CCVCCC    1         s, t, ah, n, t, s
+CCV       1         s, t, ao  
+CCVC      1         s, t, ao, k
+CCVC      2         s, t, ao, l
+CCVCC     4         s, t, ao, l, d
+CCVCC     2         s, t, ao, n, ch
+CCV       3         s, t, aw  
+CCVC      3         s, t, aw, n
+CCV       223       s, t, ax  
+CCVC      19        s, t, ax, l
+CCVCC     2         s, t, ax, l, z
+CCVC      320       s, t, ax, m
+CCVCC     6         s, t, ax, m, d
+CCVCC     64        s, t, ax, m, z
+CCVC      17        s, t, ax, n
+CCVC      2         s, t, ax, v
+CCVC      2         s, t, ax, z
+CCV       19        s, t, ay  
+CCVC      43        s, t, ay, l
+CCVCC     12        s, t, ay, l, z
+CCVC      1         s, t, ay, m
+CCVC      6         s, t, ay, n
+CCVCC     1         s, t, ay, n, z
+CCV       54        s, t, eh  
+CCVC      114       s, t, eh, d
+CCVC      1         s, t, eh, l
+CCVCC     1         s, t, eh, l, th
+CCVC      2         s, t, eh, m
+CCVCC     1         s, t, eh, m, z
+CCVC      39        s, t, eh, n
+CCVCC     2         s, t, eh, n, d
+CCVCCC    1         s, t, eh, n, d, z
+CCVCC     35        s, t, eh, n, t
+CCVC      62        s, t, eh, p
+CCVCC     18        s, t, eh, p, s
+CCVC      1         s, t, eh, s
+CCV       287       s, t, er  
+CCVCC     3         s, t, er, b, d
+CCVCC     2         s, t, er, b, z
+CCVC      24        s, t, er, d
+CCVCC     1         s, t, er, d, z
+CCVC      63        s, t, er, n
+CCVCC     1         s, t, er, n, z
+CCVC      105       s, t, er, z
+CCV       371       s, t, ey  
+CCVC      63        s, t, ey, d
+CCVC      20        s, t, ey, jh
+CCVC      41        s, t, ey, k
+CCVCC     26        s, t, ey, k, s
+CCVC      2         s, t, ey, n
+CCVC      6         s, t, ey, r
+CCVCC     14        s, t, ey, r, z
+CCVCC     1         s, t, ey, s, t
+CCVC      298       s, t, ey, t
+CCVCC     117       s, t, ey, t, s
+CCVC      25        s, t, ey, z
+CCV       215       s, t, ih  
+CCVC      14        s, t, ih, ch
+CCVC      249       s, t, ih, d
+CCVC      4         s, t, ih, f
+CCVC      2         s, t, ih, jh
+CCVC      196       s, t, ih, k
+CCVCC     54        s, t, ih, k, s
+CCVC      611       s, t, ih, l
+CCVCC     1         s, t, ih, l, z
+CCVC      142       s, t, ih, n
+CCVCC     83        s, t, ih, n, s
+CCVCC     75        s, t, ih, n, t
+CCVCCC    5         s, t, ih, n, t, s
+CCVCC     10        s, t, ih, n, z
+CCVC      592       s, t, ih, ng
+CCVCC     8         s, t, ih, ng, k
+CCVCCC    1         s, t, ih, ng, k, s
+CCVCCC    4         s, t, ih, ng, k, t
+CCVCCCC   2         s, t, ih, ng, k, t, s
+CCVCC     2         s, t, ih, ng, z
+CCVC      26        s, t, ih, s
+CCVC      1         s, t, ih, t
+CCVC      1         s, t, ih, v
+CCV       183       s, t, iy  
+CCVC      1         s, t, iy, jh
+CCVC      25        s, t, iy, l
+CCVC      11        s, t, iy, m
+CCVCC     2         s, t, iy, m, d
+CCVC      43        s, t, iy, n
+CCVCC     2         s, t, iy, n, th
+CCVC      3         s, t, iy, p
+CCVC      9         s, t, iy, v
+CCVCC     2         s, t, iy, v, z
+CCVC      50        s, t, iy, z
+CCV       194       s, t, ow  
+CCVC      4         s, t, ow, l
+CCVC      21        s, t, ow, n
+CCVCC     7         s, t, ow, n, d
+CCVCC     6         s, t, ow, n, z
+CCVC      97        s, t, ow, r
+CCVCC     2         s, t, ow, r, d
+CCVCC     24        s, t, ow, r, m
+CCVCCC    18        s, t, ow, r, m, z
+CCVCC     22        s, t, ow, r, z
+CCVC      6         s, t, ow, v
+CCVCC     3         s, t, ow, v, z
+CCC       4         s, t, r   
+CCCV      3         s, t, r, aa
+CCCV      9         s, t, r, ae
+CCCVC     2         s, t, r, ae, k
+CCCVCCC   2         s, t, r, ae, k, t, s
+CCCVC     2         s, t, r, ae, n
+CCCVC     3         s, t, r, ae, ng
+CCCVC     1         s, t, r, ae, p
+CCCVCC    3         s, t, r, ae, p, s
+CCCVCC    1         s, t, r, ae, p, t
+CCCVC     2         s, t, r, ae, s
+CCCVC     1         s, t, r, ae, t
+CCCV      23        s, t, r, ah
+CCCVC     84        s, t, r, ah, k
+CCCVCC    3         s, t, r, ah, k, t
+CCCVC     4         s, t, r, ah, ng
+CCCV      20        s, t, r, ao
+CCCVC     77        s, t, r, ao, ng
+CCCV      144       s, t, r, ax
+CCCVC     2         s, t, r, ax, l
+CCCVC     1         s, t, r, ax, m
+CCCVC     3         s, t, r, ax, s
+CCCVC     1         s, t, r, ax, z
+CCCV      5         s, t, r, ay
+CCCVCC    2         s, t, r, ay, d, z
+CCCVC     2         s, t, r, ay, f
+CCCVCC    1         s, t, r, ay, f, s
+CCCVC     10        s, t, r, ay, k
+CCCVCC    6         s, t, r, ay, k, s
+CCCVC     2         s, t, r, ay, p
+CCCVCC    1         s, t, r, ay, p, s
+CCCV      16        s, t, r, eh
+CCCVC     3         s, t, r, eh, ch
+CCCVCC    1         s, t, r, eh, ch, t
+CCCVCC    5         s, t, r, eh, ng, k
+CCCVCCC   1         s, t, r, eh, ng, k, th
+CCCVC     1         s, t, r, eh, p
+CCCVC     18        s, t, r, eh, s
+CCCVCC    3         s, t, r, eh, s, t
+CCCV      89        s, t, r, ey
+CCCVC     1         s, t, r, ey, d
+CCCVC     13        s, t, r, ey, l
+CCCVC     16        s, t, r, ey, n
+CCCVCC    1         s, t, r, ey, n, d
+CCCVCC    73        s, t, r, ey, n, jh
+CCCVCC    4         s, t, r, ey, n, t
+CCCVCCC   3         s, t, r, ey, n, t, s
+CCCVC     1         s, t, r, ey, s
+CCCVC     40        s, t, r, ey, t
+CCCVCC    3         s, t, r, ey, t, s
+CCCV      11        s, t, r, ih
+CCCVC     34        s, t, r, ih, k
+CCCVCC    18        s, t, r, ih, k, s
+CCCVCC    58        s, t, r, ih, k, t
+CCCVCCC   2         s, t, r, ih, k, t, s
+CCCVC     3         s, t, r, ih, n
+CCCVC     9         s, t, r, ih, ng
+CCCVCC    3         s, t, r, ih, ng, z
+CCCVC     14        s, t, r, ih, p
+CCCVCC    6         s, t, r, ih, p, s
+CCCVCC    8         s, t, r, ih, p, t
+CCCVC     1         s, t, r, ih, s
+CCCV      72        s, t, r, iy
+CCCVC     1         s, t, r, iy, k
+CCCVC     67        s, t, r, iy, m
+CCCVCC    7         s, t, r, iy, m, z
+CCCVC     1         s, t, r, iy, n
+CCCVC     1         s, t, r, iy, p
+CCCVC     89        s, t, r, iy, t
+CCCVCC    23        s, t, r, iy, t, s
+CCCVC     14        s, t, r, iy, z
+CCCV      6         s, t, r, ow
+CCCVC     8         s, t, r, ow, k
+CCCVCC    3         s, t, r, ow, k, s
+CCCVC     3         s, t, r, ow, r
+CCCVC     3         s, t, r, ow, z
+CCCV      6         s, t, r, oy
+CCCVC     5         s, t, r, oy, d
+CCCVC     4         s, t, r, oy, z
+CCVC      17        s, t, uh, d
+CCV       174       s, t, uw  
+CCVC      1         s, t, uw, p
+CV        7         s, uh     
+CVC       1         s, uh, t  
+CV        181       s, uw     
+CVC       8         s, uw, d  
+CVC       1         s, uw, dh 
+CVC       26        s, uw, m  
+CVCC      6         s, uw, m, d
+CVCC      2         s, uw, m, z
+CVC       86        s, uw, n  
+CVC       12        s, uw, p  
+CVC       1         s, uw, s  
+CVC       36        s, uw, t  
+CVCC      27        s, uw, t, s
+CCVC      21        s, v, ih, l
+CCVCC     1         s, v, ih, l, z
+CC        2         s, w      
+CCV       1         s, w, aa  
+CCVC      1         s, w, aa, v
+CCV       2         s, w, ae  
+CCVC      1         s, w, ae, m
+CCVC      1         s, w, ah, m
+CCVC      5         s, w, ah, ng
+CCV       1         s, w, ao  
+CCVC      1         s, w, ao, p
+CCVCC     1         s, w, ao, p, t
+CCVC      4         s, w, ay, f
+CCVCC     1         s, w, ay, v, z
+CCVC      3         s, w, ay, z
+CCV       26        s, w, eh  
+CCVC      2         s, w, eh, l
+CCVCC     2         s, w, eh, l, z
+CCVCC     3         s, w, eh, p, t
+CCVC      5         s, w, eh, r
+CCVC      20        s, w, eh, t
+CCVCC     2         s, w, eh, t, s
+CCVC      2         s, w, er, d
+CCVCC     1         s, w, er, d, z
+CCVC      6         s, w, er, k
+CCV       18        s, w, ey  
+CCVC      6         s, w, ey, d
+CCVC      5         s, w, ey, r
+CCVC      1         s, w, ey, z
+CCV       47        s, w, ih  
+CCVC      34        s, w, ih, ch
+CCVCC     6         s, w, ih, ch, t
+CCVCC     3         s, w, ih, f, t
+CCVC      11        s, w, ih, m
+CCVCC     2         s, w, ih, m, z
+CCVC      23        s, w, ih, ng
+CCVCC     1         s, w, ih, ng, z
+CCVC      4         s, w, ih, s
+CCVC      7         s, w, ih, t
+CCV       11        s, w, iy  
+CCVC      3         s, w, iy, p
+CCVC      21        s, w, iy, t
+CCVCC     2         s, w, iy, t, s
+CCVC      3         s, w, ow, r
+CCVCC     2         s, w, ow, r, n
+CCVC      1         s, w, uh, sh
+CCV       1         s, y, uw  
+CCVC      3         s, y, uw, s
+C         50        sh        
+CV        43        sh, aa    
+CVC       12        sh, aa, k 
+CVCC      1         sh, aa, k, s
+CVCC      9         sh, aa, k, t
+CVC       45        sh, aa, p 
+CVCC      5         sh, aa, p, s
+CVCC      1         sh, aa, p, t
+CVC       14        sh, aa, r 
+CVCC      4         sh, aa, r, k
+CVCCC     2         sh, aa, r, k, s
+CVCC      9         sh, aa, r, p
+CVC       83        sh, aa, t 
+CVCC      13        sh, aa, t, s
+CV        18        sh, ae    
+CVC       3         sh, ae, k 
+CVC       7         sh, ae, l 
+CVC       3         sh, ae, m 
+CVC       5         sh, ae, ng
+CVC       1         sh, ae, t 
+CV        8         sh, ah    
+CVCC      2         sh, ah, p, s
+CVC       19        sh, ah, t 
+CVCC      1         sh, ah, t, s
+CVC       1         sh, ah, v 
+CVCC      1         sh, ah, v, d
+CVC       7         sh, ao, n 
+CVCC      1         sh, ao, n, z
+CV        22        sh, aw    
+CV        325       sh, ax    
+CVC       309       sh, ax, l 
+CVCC      23        sh, ax, l, z
+CVC       1         sh, ax, z 
+CV        7         sh, ay    
+CVC       4         sh, ay, n 
+CV        31        sh, eh    
+CVC       11        sh, eh, d 
+CVCC      1         sh, eh, f, s
+CVC       28        sh, eh, l 
+CVCC      1         sh, eh, l, d
+CVCC      4         sh, eh, l, f
+CVCCC     8         sh, eh, l, v, z
+CVCC      8         sh, eh, l, z
+CVC       5         sh, eh, v 
+CV        93        sh, er    
+CVC       1         sh, er, d 
+CVC       24        sh, er, t 
+CVCC      23        sh, er, t, s
+CVC       18        sh, er, z 
+CV        29        sh, ey    
+CVC       7         sh, ey, d 
+CVCC      3         sh, ey, d, z
+CVC       6         sh, ey, k 
+CVCC      1         sh, ey, k, s
+CVC       21        sh, ey, m 
+CVCC      4         sh, ey, m, d
+CVC       48        sh, ey, p 
+CVCC      1         sh, ey, p, s
+CVCC      1         sh, ey, p, t
+CVC       37        sh, ey, r 
+CVCC      2         sh, ey, r, d
+CVC       1         sh, ey, v 
+CVCC      2         sh, ey, v, d
+CVC       1         sh, ey, z 
+CV        398       sh, ih    
+CVC       2         sh, ih, f 
+CVCC      13        sh, ih, f, t
+CVCCC     3         sh, ih, f, t, s
+CVC       2262      sh, ih, n 
+CVCC      43        sh, ih, n, d
+CVCC      10        sh, ih, n, s
+CVCC      26        sh, ih, n, t
+CVCCC     6         sh, ih, n, t, s
+CVCC      534       sh, ih, n, z
+CVC       212       sh, ih, ng
+CVCC      2         sh, ih, ng, z
+CVC       78        sh, ih, p 
+CVCC      18        sh, ih, p, s
+CVCC      2         sh, ih, p, t
+CVC       79        sh, ih, s 
+CVCC      1         sh, ih, s, t
+CVC       1         sh, ih, sh
+CVC       59        sh, ih, z 
+CV        1452      sh, iy    
+CVC       26        sh, iy, d 
+CVC       31        sh, iy, l 
+CVCC      2         sh, iy, l, d
+CVC       56        sh, iy, n 
+CVCC      1         sh, iy, n, t
+CVCC      31        sh, iy, n, z
+CVC       2         sh, iy, p 
+CVC       1         sh, iy, r 
+CVC       7         sh, iy, t 
+CVCC      8         sh, iy, t, s
+CVC       342       sh, iy, z 
+CCV       2         sh, l, iy 
+CCV       2         sh, m, ae 
+CCVC      11        sh, m, ax, n
+CCVCC     120       sh, m, ih, n, t
+CCVCCC    3         sh, m, ih, n, t, s
+CCV       11        sh, n, aw 
+CCVC      1         sh, n, ih, s
+CV        220       sh, ow    
+CVC       31        sh, ow, d 
+CVC       9         sh, ow, l 
+CVC       6         sh, ow, n 
+CVC       27        sh, ow, r 
+CVCC      87        sh, ow, r, t
+CVCCC     31        sh, ow, r, t, s
+CVC       93        sh, ow, z 
+CCVC      1         sh, r, ae, m
+CCV       2         sh, r, ah 
+CCVCC     4         sh, r, ah, b, z
+CCVC      4         sh, r, eh, d
+CCVCC     2         sh, r, eh, d, z
+CCV       2         sh, r, ih 
+CCVCC     19        sh, r, ih, m, p
+CCVC      1         sh, r, ih, ng
+CCVCC     1         sh, r, ih, ng, k
+CCVCCC    2         sh, r, ih, ng, k, s
+CCVC      1         sh, r, ih, p
+CCVC      2         sh, r, iy, v
+CCV       1         sh, r, ow 
+CCV       1         sh, r, uh 
+CCVC      3         sh, r, uh, m
+CCVCC     3         sh, r, uh, m, z
+CCVC      1         sh, t, uh, t
+CV        183       sh, uh    
+CVC       491       sh, uh, d 
+CVC       984       sh, uh, r 
+CVCC      10        sh, uh, r, d
+CVCC      3         sh, uh, r, z
+CV        54        sh, uw    
+CVC       60        sh, uw, t 
+CVCC      2         sh, uw, t, s
+CVC       31        sh, uw, z 
+CCV       11        sh, w, ao 
+CCVC      4         sh, w, ey, z
+CCVCC     1         sh, w, ih, n, z
+CCVCC     6         sh, w, ow, r, t
+CCVCCC    1         sh, w, ow, r, t, s
+C         83        t         
+CV        161       t, aa     
+CVC       1         t, aa, d  
+CVC       8         t, aa, k  
+CVC       19        t, aa, m  
+CVC       2         t, aa, n  
+CVCC      1         t, aa, n, z
+CVC       1         t, aa, ng 
+CVC       121       t, aa, p  
+CVCC      6         t, aa, p, s
+CVC       31        t, aa, r  
+CVCCC     1         t, aa, r, d, z
+CVCCC     1         t, aa, r, p, s
+CVCC      1         t, aa, r, z
+CVC       8         t, aa, sh 
+CV        87        t, ae     
+CVC       6         t, ae, ch 
+CVCC      20        t, ae, ch, t
+CVC       2         t, ae, d  
+CVCC      1         t, ae, d, z
+CVCC      2         t, ae, f, t
+CVC       2         t, ae, g  
+CVC       241       t, ae, k  
+CVCC      182       t, ae, k, s
+CVCCC     10        t, ae, k, s, t
+CVCC      16        t, ae, k, t
+CVCCC     2         t, ae, k, t, s
+CVC       29        t, ae, l  
+CVC       3         t, ae, m  
+CVC       7         t, ae, n  
+CVCC      1         t, ae, n, z
+CVC       3         t, ae, ng 
+CVCC      14        t, ae, ng, k
+CVCCC     4         t, ae, ng, k, s
+CVC       1         t, ae, p  
+CVCC      3         t, ae, p, t
+CVC       1         t, ae, s  
+CVCC      13        t, ae, s, k
+CVCCC     1         t, ae, s, k, s
+CVC       1         t, ae, t  
+CV        46        t, ah     
+CVC       9         t, ah, b  
+CVCC      2         t, ah, b, z
+CVC       29        t, ah, ch 
+CVCC      6         t, ah, ch, t
+CVC       88        t, ah, f  
+CVC       3         t, ah, g  
+CVCC      1         t, ah, k, t
+CVC       3         t, ah, l  
+CVC       3         t, ah, m  
+CVC       8         t, ah, n  
+CVCC      7         t, ah, n, z
+CVC       6         t, ah, ng 
+CVC       4         t, ah, p  
+CVCC      4         t, ah, p, s
+CV        548       t, ao     
+CVC       1         t, ao, f  
+CVC       297       t, ao, k  
+CVCC      13        t, ao, k, s
+CVCC      139       t, ao, k, t
+CVC       11        t, ao, l  
+CVCC      1         t, ao, l, t
+CVCC      1         t, ao, ng, z
+CVC       2         t, ao, s  
+CVCC      3         t, ao, s, t
+CVC       57        t, ao, t  
+CVC       3         t, ao, z  
+CV        4         t, aw     
+CVC       3         t, aw, l  
+CVCC      1         t, aw, l, z
+CVC       217       t, aw, n  
+CVCC      12        t, aw, n, z
+CVC       1         t, aw, t  
+CV        21226     t, ax     
+CVC       15        t, ax, d  
+CVC       1         t, ax, g  
+CVC       1962      t, ax, l  
+CVCC      9         t, ax, l, d
+CVCC      1         t, ax, l, m
+CVCC      31        t, ax, l, z
+CVC       72        t, ax, m  
+CVCC      2         t, ax, m, d
+CVCC      20        t, ax, m, z
+CVC       159       t, ax, n  
+CVCC      2         t, ax, n, z
+CVC       2         t, ax, r  
+CVC       7         t, ax, s  
+CVC       1         t, ax, v  
+CVC       1         t, ax, w  
+CVC       8         t, ax, z  
+CV        192       t, ay     
+CVC       13        t, ay, d  
+CVC       2         t, ay, dh 
+CVC       6         t, ay, l  
+CVCC      6         t, ay, l, z
+CVC       2002      t, ay, m  
+CVCC      1         t, ay, m, d
+CVCC      721       t, ay, m, z
+CVC       4         t, ay, n  
+CVC       345       t, ay, p  
+CVCC      59        t, ay, p, s
+CVCC      5         t, ay, p, t
+CVC       115       t, ay, r  
+CVCC      75        t, ay, r, d
+CVCC      13        t, ay, r, z
+CVC       21        t, ay, t  
+CVCC      2         t, ay, t, s
+CVC       15        t, ay, z  
+CVCC      7         t, ay, z, d
+CV        1038      t, eh     
+CVC       1         t, eh, d  
+CVCC      1         t, eh, d, z
+CVC       579       t, eh, k  
+CVCC      19        t, eh, k, s
+CVCCC     10        t, eh, k, s, t
+CVCCCC    2         t, eh, k, s, t, s
+CVCC      20        t, eh, k, t
+CVCCC     1         t, eh, k, t, s
+CVC       350       t, eh, l  
+CVCC      24        t, eh, l, z
+CVC       66        t, eh, m  
+CVCC      11        t, eh, m, p
+CVCCC     7         t, eh, m, p, t
+CVCCCC    2         t, eh, m, p, t, s
+CVC       464       t, eh, n  
+CVCC      123       t, eh, n, d
+CVCCC     20        t, eh, n, d, z
+CVCC      11        t, eh, n, s
+CVCC      30        t, eh, n, t
+CVCCC     8         t, eh, n, t, s
+CVCC      3         t, eh, n, th
+CVCC      3         t, eh, n, z
+CVC       11        t, eh, r  
+CVCC      3         t, eh, r, z
+CVCC      1         t, eh, s, k
+CVCC      114       t, eh, s, t
+CVCCC     23        t, eh, s, t, s
+CVC       2         t, eh, t  
+CC        59        t, el     
+CCC       21        t, el, d  
+CCC       67        t, el, z  
+CC        726       t, en     
+CCC       15        t, en, d  
+CCC       2         t, en, s  
+CCC       14        t, en, t  
+CCCC      12        t, en, t, s
+CCC       31        t, en, z  
+CV        3101      t, er     
+CVC       41        t, er, d  
+CVC       5         t, er, f  
+CVCC      1         t, er, k, s
+CVC       51        t, er, m  
+CVCC      103       t, er, m, z
+CVC       183       t, er, n  
+CVCC      100       t, er, n, d
+CVCC      58        t, er, n, z
+CVC       1         t, er, r  
+CVC       1         t, er, s  
+CVC       401       t, er, z  
+CV        583       t, ey     
+CVC       1         t, ey, d  
+CVC       837       t, ey, k  
+CVCC      138       t, ey, k, s
+CVC       22        t, ey, l  
+CVCC      5         t, ey, l, d
+CVCC      14        t, ey, l, z
+CVC       1         t, ey, m  
+CVC       49        t, ey, n  
+CVCC      17        t, ey, n, d
+CVCC      3         t, ey, n, z
+CVC       53        t, ey, p  
+CVCC      17        t, ey, p, s
+CVCC      3         t, ey, p, t
+CVCC      19        t, ey, s, t
+CVCCC     11        t, ey, s, t, s
+CVC       13        t, ey, t  
+CVCC      3         t, ey, t, s
+CV        1338      t, ih     
+CVC       1972      t, ih, d  
+CVC       1         t, ih, f  
+CVC       88        t, ih, jh 
+CVCC      2         t, ih, jh, d
+CVC       123       t, ih, k  
+CVCC      49        t, ih, k, s
+CVC       285       t, ih, l  
+CVC       13        t, ih, m  
+CVCC      4         t, ih, m, z
+CVC       132       t, ih, n  
+CVCC      40        t, ih, n, s
+CVCCC     16        t, ih, n, s, t
+CVCC      177       t, ih, n, t
+CVCC      6         t, ih, n, z
+CVC       2037      t, ih, ng 
+CVCC      21        t, ih, ng, z
+CVC       6         t, ih, p  
+CVCC      4         t, ih, p, s
+CVCC      2         t, ih, p, t
+CVC       95        t, ih, s  
+CVCC      140       t, ih, s, t
+CVCCC     9         t, ih, s, t, s
+CVC       4         t, ih, sh 
+CVC       404       t, ih, v  
+CVCC      47        t, ih, v, z
+CV        4996      t, iy     
+CVC       109       t, iy, ch 
+CVC       11        t, iy, d  
+CVC       1         t, iy, jh 
+CVC       5         t, iy, k  
+CVC       128       t, iy, m  
+CVCC      57        t, iy, m, z
+CVC       395       t, iy, n  
+CVCC      8         t, iy, n, th
+CVCC      2         t, iy, n, z
+CVC       31        t, iy, r  
+CVCC      1         t, iy, r, d
+CVC       2         t, iy, s  
+CVC       1         t, iy, t  
+CVC       9         t, iy, th 
+CVC       462       t, iy, z  
+CVCC      1         t, iy, z, d
+CV        385       t, ow     
+CVC       3         t, ow, d  
+CVC       16        t, ow, l  
+CVCC      133       t, ow, l, d
+CVC       6         t, ow, n  
+CVCC      1         t, ow, n, d
+CVCC      4         t, ow, n, z
+CVC       13        t, ow, r  
+CVCC      4         t, ow, r, n
+CVCC      1         t, ow, r, t
+CVCC      1         t, ow, s, t
+CVC       3         t, ow, t  
+CVC       55        t, ow, z  
+CV        29        t, oy     
+CVC       10        t, oy, z  
+CC        13        t, r      
+CCV       42        t, r, aa  
+CCVC      1         t, r, aa, k
+CCVC      1         t, r, aa, m
+CCV       147       t, r, ae  
+CCVC      78        t, r, ae, k
+CCVCC     7         t, r, ae, k, s
+CCVCC     27        t, r, ae, k, t
+CCVCCC    7         t, r, ae, k, t, s
+CCVC      1         t, r, ae, m
+CCVC      106       t, r, ae, n
+CCVCC     4         t, r, ae, n, s
+CCVCC     3         t, r, ae, n, z
+CCVC      6         t, r, ae, p
+CCVCC     2         t, r, ae, p, s
+CCVCC     4         t, r, ae, p, t
+CCVCC     2         t, r, ae, s, t
+CCVC      63        t, r, ae, sh
+CCVCC     1         t, r, ae, sh, t
+CCV       111       t, r, ah  
+CCVC      48        t, r, ah, k
+CCVCC     23        t, r, ah, k, s
+CCVC      3         t, r, ah, m
+CCVC      1         t, r, ah, n
+CCVCC     6         t, r, ah, ng, k
+CCVC      1         t, r, ah, s
+CCVCC     25        t, r, ah, s, t
+CCV       7         t, r, ao  
+CCVC      4         t, r, ao, f
+CCV       1         t, r, aw  
+CCVC      2         t, r, aw, t
+CCV       113       t, r, ax  
+CCVC      46        t, r, ax, l
+CCVC      3         t, r, ax, m
+CCVCC     1         t, r, ax, m, z
+CCVC      1         t, r, ax, z
+CCV       905       t, r, ay  
+CCVC      6         t, r, ay, b
+CCVCC     3         t, r, ay, b, z
+CCVC      167       t, r, ay, d
+CCVC      59        t, r, ay, l
+CCVCC     15        t, r, ay, l, z
+CCVC      2         t, r, ay, t
+CCVC      15        t, r, ay, z
+CCV       11        t, r, eh  
+CCVC      6         t, r, eh, d
+CCVC      17        t, r, eh, k
+CCVCC     5         t, r, eh, k, s
+CCVC      3         t, r, eh, n
+CCVCCC    1         t, r, eh, n, ch, t
+CCVCC     17        t, r, eh, n, d
+CCVCCC    9         t, r, eh, n, d, z
+CCVCC     1         t, r, eh, s, t
+CCVCCC    1         t, r, eh, s, t, s
+CCV       127       t, r, ey  
+CCVC      37        t, r, ey, d
+CCVCC     1         t, r, ey, d, z
+CCVCC     2         t, r, ey, jh, d
+CCVC      4         t, r, ey, l
+CCVCC     2         t, r, ey, l, z
+CCVC      42        t, r, ey, n
+CCVCC     18        t, r, ey, n, d
+CCVC      1         t, r, ey, s
+CCVC      12        t, r, ey, t
+CCVCC     3         t, r, ey, t, s
+CCVC      5         t, r, ey, z
+CCV       111       t, r, ih  
+CCVC      2         t, r, ih, d
+CCVC      67        t, r, ih, k
+CCVCC     8         t, r, ih, k, s
+CCVCC     1         t, r, ih, k, t
+CCVC      2         t, r, ih, l
+CCVC      20        t, r, ih, m
+CCVCC     2         t, r, ih, m, d
+CCVC      2         t, r, ih, n
+CCVCC     1         t, r, ih, n, s
+CCVCCC    1         t, r, ih, n, t, s
+CCVC      1         t, r, ih, ng
+CCVC      49        t, r, ih, p
+CCVCC     26        t, r, ih, p, s
+CCVC      9         t, r, ih, s
+CCVCC     1         t, r, ih, s, t
+CCV       406       t, r, iy  
+CCVCC     4         t, r, iy, g, d
+CCVCC     1         t, r, iy, n, z
+CCVC      1         t, r, iy, s
+CCVC      43        t, r, iy, t
+CCVCC     3         t, r, iy, t, s
+CCVC      1         t, r, iy, v
+CCVC      182       t, r, iy, z
+CCV       23        t, r, ow  
+CCVC      1         t, r, ow, d
+CCVC      113       t, r, ow, l
+CCVCC     7         t, r, ow, l, d
+CCVCC     8         t, r, ow, l, z
+CCV       2         t, r, oy  
+CCVC      20        t, r, oy, t
+CCVCC     1         t, r, oy, t, s
+CCV       608       t, r, uw  
+CCVC      4         t, r, uw, m
+CCVC      2         t, r, uw, p
+CCVCC     12        t, r, uw, p, s
+CCVC      40        t, r, uw, th
+CC        7         t, s      
+CCVC      1         t, s, ao, ng
+CV        1         t, uh     
+CVC       252       t, uh, k  
+CV        3146      t, uw     
+CVC       2         t, uw, b  
+CVCC      3         t, uw, b, z
+CVC       56        t, uw, d  
+CVCC      11        t, uw, d, z
+CVC       6         t, uw, l  
+CVCC      12        t, uw, l, z
+CVC       19        t, uw, n  
+CVCC      12        t, uw, n, d
+CVCC      15        t, uw, n, z
+CVC       20        t, uw, r  
+CVCC      2         t, uw, r, d
+CVCC      8         t, uw, r, z
+CVC       25        t, uw, t  
+CVCC      3         t, uw, t, s
+CVC       16        t, uw, th 
+CVC       1         t, uw, v  
+CVC       24        t, uw, z  
+CC        3         t, w      
+CCVC      3         t, w, ae, ng
+CCV       6         t, w, ao  
+CCVC      5         t, w, ay, d
+CCVC      61        t, w, ay, s
+CCVC      1         t, w, ay, z
+CCVCCC    2         t, w, eh, l, f, th
+CCVCC     120       t, w, eh, l, v
+CCVC      390       t, w, eh, n
+CCV       6         t, w, er  
+CCVC      2         t, w, er, d
+CCVC      19        t, w, er, k
+CCVCC     13        t, w, er, k, s
+CCVCC     1         t, w, er, l, d
+CCVCC     1         t, w, er, l, z
+CCVC      3         t, w, er, th
+CCV       10        t, w, ey  
+CCVC      1         t, w, ey, n
+CCVC      23        t, w, ey, r
+CCVC      1         t, w, ey, t
+CCVC      4         t, w, ey, v
+CCVC      1         t, w, ey, z
+CCV       6         t, w, ih  
+CCVC      9         t, w, ih, n
+CCVCC     9         t, w, ih, n, z
+CCVCC     5         t, w, ih, s, t
+CCVC      1         t, w, iy, k
+CCVC      173       t, w, iy, n
+CCVCC     1         t, y, aa, r, d
+CCV       1         t, y, er  
+C         31        th        
+CV        1         th, aa    
+CVC       4         th, aa, n 
+CVCC      2         th, aa, n, z
+CV        5         th, ae    
+CVC       1         th, ae, ch
+CVC       1         th, ae, ng
+CVCC      77        th, ae, ng, k
+CVCCC     63        th, ae, ng, k, s
+CVC       13        th, ah, m 
+CVCC      1         th, ah, m, z
+CVC       12        th, ah, n 
+CV        2         th, ao    
+CVC       558       th, ao, t 
+CVCC      11        th, ao, t, s
+CV        206       th, aw    
+CV        55        th, ax    
+CVC       4         th, ax, d 
+CVCC      4         th, ax, d, z
+CVC       6         th, ax, l 
+CVC       5         th, ax, n 
+CVCC      2         th, ax, n, d
+CVC       1         th, ay, z 
+CV        19        th, eh    
+CVCC      12        th, eh, f, t
+CVCCC     1         th, eh, f, t, s
+CVC       3         th, eh, l 
+CVC       2         th, eh, n 
+CVC       2         th, eh, z 
+CV        324       th, er    
+CVC       60        th, er, d 
+CVCC      4         th, er, d, z
+CVC       20        th, er, z 
+CVCC      1         th, er, z, d
+CV        30        th, ih    
+CVC       24        th, ih, k 
+CVCC      1         th, ih, k, s
+CVC       8         th, ih, n 
+CVC       4482      th, ih, ng
+CVCC      4903      th, ih, ng, k
+CVCCC     27        th, ih, ng, k, s
+CVCC      1782      th, ih, ng, z
+CV        106       th, iy    
+CVC       1         th, iy, f 
+CVC       8         th, iy, m 
+CVCC      3         th, iy, m, z
+CVC       1         th, iy, s 
+CVCC      10        th, iy, s, t
+CVCC      3         th, iy, v, z
+CVC       1         th, iy, z 
+CV        16        th, ow    
+CVCC      1         th, ow, r, n
+CC        5         th, r     
+CCVCC     1         th, r, ae, sh, t
+CCVCC     2         th, r, ah, s, t
+CCVCC     2         th, r, ao, l, d
+CCV       1         th, r, ax 
+CCV       4         th, r, ay 
+CCVC      1         th, r, ay, t
+CCVCC     1         th, r, ay, v, z
+CCV       13        th, r, eh 
+CCVC      1         th, r, eh, d
+CCVCC     1         th, r, eh, d, z
+CCVC      28        th, r, eh, t
+CCV       4         th, r, ih 
+CCVC      1         th, r, ih, f
+CCVC      4         th, r, ih, l
+CCVCC     5         th, r, ih, l, d
+CCV       710       th, r, iy 
+CCVC      3         th, r, iy, z
+CCV       104       th, r, ow 
+CCVC      1         th, r, ow, d
+CCVC      15        th, r, ow, n
+CCVC      8         th, r, ow, t
+CCVC      7         th, r, ow, z
+CCV       542       th, r, uw 
+CCVC      26        th, r, uw, m
+CCVCC     7         th, r, uw, m, z
+CCVC      2         th, r, uw, z
+CV        10        th, uw    
+CVCC      1         th, uw, z, d
+CCVC      13        th, w, ay, l
+CCV       4         th, w, eh 
+CCVCC     13        th, w, eh, s, t
+CCVC      1         th, w, er, d
+CCVC      1         th, w, ey, z
+CCVC      2         th, w, ow, r
+CCV       3         th, y, uw 
+CCVC      1         th, y, uw, z
+VCC       1         uh, m, f  
+VC        1         uh, p     
+V         77        uw        
+VCC       5         uw, p, s  
+VC        1         uw, z     
+C         16        v         
+CV        68        v, aa     
+CVC       1         v, aa, k  
+CVC       9         v, aa, l  
+CVCC      19        v, aa, l, v
+CVCCC     165       v, aa, l, v, d
+CVCCC     9         v, aa, l, v, z
+CVC       1         v, aa, n  
+CVCCC     1         v, aa, n, t, s
+CVC       3         v, aa, r  
+CVCC      1         v, aa, r, d
+CV        120       v, ae     
+CVC       2         v, ae, k  
+CVC       94        v, ae, l  
+CVCC      1         v, ae, l, v
+CVCCC     1         v, ae, l, v, z
+CVC       1         v, ae, m  
+CVCCC     2         v, ae, m, p, t
+CVC       109       v, ae, n  
+CVCC      17        v, ae, n, s
+CVCCC     11        v, ae, n, s, t
+CVC       2         v, ae, r  
+CVCC      3         v, ae, s, t
+CVC       6         v, ah, l  
+CVC       22        v, ao, l  
+CVCC      3         v, ao, l, v
+CVCCC     2         v, ao, l, v, d
+CVCCC     1         v, ao, l, v, z
+CV        1         v, aw     
+CVC       1         v, aw, ch 
+CVC       2         v, aw, d  
+CV        627       v, ax     
+CVC       1         v, ax, k  
+CVC       248       v, ax, l  
+CVCC      22        v, ax, l, d
+CVCC      51        v, ax, l, z
+CVC       1194      v, ax, n  
+CVCC      4         v, ax, n, s
+CVCC      508       v, ax, n, t
+CVCCC     3         v, ax, n, t, s
+CVCC      9         v, ax, n, z
+CVC       1         v, ax, r  
+CVC       14        v, ax, s  
+CVC       90        v, ax, t  
+CVC       1         v, ax, z  
+CV        240       v, ay     
+CVCC      1         v, ay, b, z
+CVC       36        v, ay, d  
+CVCC      4         v, ay, d, z
+CVC       9         v, ay, n  
+CVCC      2         v, ay, n, z
+CVC       38        v, ay, s  
+CVC       8         v, ay, t  
+CVCC      1         v, ay, t, s
+CVC       15        v, ay, v  
+CVCC      3         v, ay, v, d
+CVC       18        v, ay, z  
+CVCC      5         v, ay, z, d
+CV        1489      v, eh     
+CVC       24        v, eh, jh 
+CVC       3         v, eh, l  
+CVCC      2         v, eh, l, t
+CVCCC     1         v, eh, l, t, s
+CVC       11        v, eh, m  
+CVC       100       v, eh, n  
+CVCC      7         v, eh, n, jh
+CVCC      27        v, eh, n, t
+CVCCC     28        v, eh, n, t, s
+CVC       9         v, eh, r  
+CVCC      27        v, eh, s, t
+CVC       14        v, eh, t  
+CVCC      3         v, eh, t, s
+CV        3632      v, er     
+CVC       1         v, er, b  
+CVC       54        v, er, d  
+CVC       1         v, er, jh 
+CVCC      1         v, er, n, z
+CVC       18        v, er, s  
+CVCC      4         v, er, s, t
+CVC       13        v, er, t  
+CVC       66        v, er, z  
+CV        404       v, ey     
+CVC       7         v, ey, d  
+CVCC      1         v, ey, d, z
+CVC       3         v, ey, l  
+CVCC      1         v, ey, l, z
+CVC       1         v, ey, n  
+CVC       2         v, ey, t  
+CVCC      5         v, ey, t, s
+CVC       2         v, ey, z  
+CV        594       v, ih     
+CVC       16        v, ih, d  
+CVC       3         v, ih, jh 
+CVC       77        v, ih, k  
+CVCC      5         v, ih, k, s
+CVCC      14        v, ih, k, t
+CVC       24        v, ih, l  
+CVCC      1         v, ih, l, z
+CVC       440       v, ih, n  
+CVCC      1         v, ih, n, jh
+CVCC      11        v, ih, n, s
+CVCCC     15        v, ih, n, s, t
+CVCC      12        v, ih, n, th
+CVCC      1         v, ih, n, z
+CVC       851       v, ih, ng 
+CVCC      28        v, ih, ng, z
+CVC       132       v, ih, s  
+CVCC      5         v, ih, s, t
+CVC       2         v, ih, sh 
+CVC       1         v, ih, t  
+CV        938       v, iy     
+CVC       4         v, iy, l  
+CVCC      1         v, iy, l, d
+CVC       2         v, iy, n  
+CVC       29        v, iy, r  
+CVCC      1         v, iy, r, d
+CVC       178       v, iy, z  
+CV        113       v, ow     
+CVC       1         v, ow, g  
+CVC       3         v, ow, k  
+CVCC      4         v, ow, k, t
+CVC       3         v, ow, l  
+CVCC      3         v, ow, l, t
+CVCCC     1         v, ow, l, t, s
+CVC       1         v, ow, r  
+CVCC      11        v, ow, r, s
+CVCCC     9         v, ow, r, s, t
+CVC       150       v, ow, t  
+CVCC      13        v, ow, t, s
+CVC       2         v, ow, z  
+CV        11        v, oy     
+CVC       15        v, oy, d  
+CVCC      1         v, oy, d, z
+CVC       24        v, oy, s  
+CCVCC     1         v, y, aa, r, d
+CCVCCC    1         v, y, aa, r, d, z
+CCV       3         v, y, ax  
+CCV       15        v, y, er  
+CCVC      1         v, y, er, z
+CCV       95        v, y, uw  
+CCVC      9         v, y, uw, d
+CCVC      30        v, y, uw, z
+C         346       w         
+CV        714       w, aa     
+CVC       373       w, aa, ch 
+CVCC      64        w, aa, ch, t
+CVC       1         w, aa, k  
+CVC       307       w, aa, n  
+CVCC      835       w, aa, n, t
+CVCCC     77        w, aa, n, t, s
+CVC       1         w, aa, p  
+CVC       3         w, aa, r  
+CVC       4020      w, aa, t  
+CVCC      2         w, aa, t, n
+CVCC      352       w, aa, t, s
+CV        8         w, ae     
+CVC       1         w, ae, d  
+CVC       3         w, ae, k  
+CVCC      2         w, ae, k, s
+CVCCC     2         w, ae, k, s, t
+CVC       1         w, ae, m  
+CV        409       w, ah     
+CVC       4284      w, ah, n  
+CVCC      336       w, ah, n, s
+CVCC      343       w, ah, n, z
+CVC       30        w, ah, t  
+CVC       6629      w, ah, z  
+CV        392       w, ao     
+CVC       109       w, ao, k  
+CVCC      13        w, ao, k, s
+CVCC      22        w, ao, k, t
+CVC       112       w, ao, l  
+CVCC      3         w, ao, l, d
+CVCC      8         w, ao, l, t
+CVCC      17        w, ao, l, z
+CVC       1         w, ao, n  
+CVC       23        w, ao, sh 
+CVCC      2         w, ao, sh, t
+CVC       1         w, ao, t  
+CV        236       w, aw     
+CVCC      16        w, aw, n, d
+CV        28        w, ax     
+CVCC      3         w, ax, n, z
+CV        472       w, ay     
+CVC       41        w, ay, d  
+CVC       196       w, ay, f  
+CVCC      22        w, ay, f, s
+CVC       418       w, ay, l  
+CVCC      49        w, ay, l, d
+CVC       17        w, ay, n  
+CVCC      63        w, ay, n, d
+CVCCC     10        w, ay, n, d, z
+CVC       1         w, ay, p  
+CVCC      1         w, ay, p, t
+CVC       18        w, ay, r  
+CVCC      1         w, ay, r, d
+CVCC      1         w, ay, r, z
+CVC       78        w, ay, t  
+CVCC      11        w, ay, v, z
+CVC       71        w, ay, z  
+CV        595       w, eh     
+CVC       1         w, eh, b  
+CVC       1         w, eh, d  
+CVCC      1         w, eh, d, z
+CVC       4         w, eh, dh 
+CVC       1         w, eh, jh 
+CVC       6033      w, eh, l  
+CVCC      1         w, eh, l, m
+CVCCC     2         w, eh, l, m, d
+CVCC      4         w, eh, l, th
+CVCC      1         w, eh, l, z
+CVC       2558      w, eh, n  
+CVCC      725       w, eh, n, t
+CVCC      11        w, eh, n, z
+CVC       2         w, eh, s  
+CVCC      69        w, eh, s, t
+CVCCC     1         w, eh, s, t, s
+CVC       23        w, eh, t  
+CVCC      1         w, eh, t, n
+CV        2130      w, er     
+CVC       151       w, er, d  
+CVCC      65        w, er, d, z
+CVC       1283      w, er, k  
+CVCC      140       w, er, k, s
+CVCC      192       w, er, k, t
+CVC       5         w, er, l  
+CVCC      203       w, er, l, d
+CVCCC     5         w, er, l, d, z
+CVC       3         w, er, m  
+CVCC      7         w, er, m, z
+CVCC      117       w, er, n, t
+CVC       85        w, er, s  
+CVCC      43        w, er, s, t
+CVC       129       w, er, th 
+CV        2046      w, ey     
+CVC       3         w, ey, d  
+CVC       1         w, ey, jh 
+CVC       13        w, ey, k  
+CVC       3         w, ey, n  
+CVCC      1         w, ey, n, s
+CVC       1906      w, ey, r  
+CVCC      4         w, ey, r, d
+CVCC      22        w, ey, r, z
+CVCC      60        w, ey, s, t
+CVC       177       w, ey, t  
+CVCC      30        w, ey, t, s
+CVC       30        w, ey, v  
+CVCC      11        w, ey, v, z
+CVC       865       w, ey, z  
+CV        573       w, ih     
+CVC       801       w, ih, ch 
+CVCC      2         w, ih, d, th
+CVC       3614      w, ih, dh 
+CVC       1         w, ih, g  
+CVC       615       w, ih, l  
+CVCC      1         w, ih, l, z
+CVC       2         w, ih, m  
+CVCC      2         w, ih, m, p
+CVC       196       w, ih, n  
+CVCC      1         w, ih, n, d
+CVCC      2         w, ih, n, z
+CVC       6         w, ih, ng 
+CVCC      1         w, ih, ng, z
+CVC       10        w, ih, p  
+CVCC      1         w, ih, p, s
+CVCC      1         w, ih, p, t
+CVCC      1         w, ih, s, k
+CVCC      1         w, ih, s, t
+CVC       106       w, ih, sh 
+CVCC      7         w, ih, sh, t
+CVC       18        w, ih, t  
+CVCC      2         w, ih, t, s
+CVCC      1         w, ih, t, z
+CVC       6         w, ih, z  
+CV        6509      w, iy     
+CVC       145       w, iy, d  
+CVCC      5         w, iy, d, z
+CVC       330       w, iy, k  
+CVCC      169       w, iy, k, s
+CVC       220       w, iy, l  
+CVCC      8         w, iy, l, z
+CVC       4         w, iy, n  
+CVCC      3         w, iy, n, d
+CVC       1031      w, iy, r  
+CVCC      47        w, iy, r, d
+CVC       2         w, iy, t  
+CVC       677       w, iy, v  
+CVC       1         w, iy, z  
+CV        49        w, ow     
+CVC       3         w, ow, k  
+CVC       1         w, ow, n  
+CVCC      131       w, ow, n, t
+CVC       213       w, ow, r  
+CVCC      47        w, ow, r, d
+CVCCC     66        w, ow, r, d, z
+CVCC      1         w, ow, r, f
+CVCC      42        w, ow, r, m
+CVCCC     1         w, ow, r, m, d
+CVCCC     1         w, ow, r, m, th
+CVCCC     3         w, ow, r, m, z
+CVCC      8         w, ow, r, n
+CVCCC     1         w, ow, r, n, d
+CVCCC     3         w, ow, r, p, t
+CVCC      11        w, ow, r, z
+CV        502       w, uh     
+CVC       2203      w, uh, d  
+CVCC      17        w, uh, d, z
+CVC       3         w, uh, l  
+CVCC      6         w, uh, l, f
+CVCCC     25        w, uh, l, v, z
+CVC       1         w, uh, m  
+CV        2         w, uw     
+CVC       2         w, uw, n  
+CVC       1         w, uw, p  
+CVCC      3         w, uw, p, s
+C         262       y         
+CV        7         y, aa     
+CVC       3         y, aa, n  
+CVC       1         y, aa, r  
+CVCC      95        y, aa, r, d
+CVCCC     17        y, aa, r, d, z
+CVCC      1         y, aa, r, n
+CV        12523     y, ae     
+CVC       1         y, ae, k  
+CVC       9         y, ae, ng 
+CVCCC     2         y, ae, ng, k, t
+CV        4         y, ah     
+CVC       4         y, ah, k  
+CVC       1         y, ah, n  
+CVC       273       y, ah, ng 
+CVCC      1         y, ah, ng, z
+CV        2         y, ao     
+CVC       39        y, ao, l  
+CV        2         y, aw     
+CV        26        y, ax     
+CVC       9         y, ax, m  
+CVCC      18        y, ax, m, z
+CVC       3         y, ax, n  
+CVC       1         y, ax, s  
+CVC       1         y, ax, t  
+CVC       1         y, ax, z  
+CV        124       y, eh     
+CVC       5         y, eh, l  
+CVCC      7         y, eh, l, t
+CVCC      1         y, eh, l, z
+CVC       184       y, eh, p  
+CVC       1186      y, eh, s  
+CVC       244       y, eh, t  
+CV        84        y, er     
+CVC       38        y, er, z  
+CV        1         y, ih     
+CVC       70        y, ih, n  
+CVCC      5         y, ih, n, t
+CVCC      25        y, ih, n, z
+CV        3         y, iy     
+CVC       1006      y, iy, r  
+CVCC      1164      y, iy, r, z
+CV        9         y, ow     
+CVC       1600      y, ow, r  
+CVCC      72        y, ow, r, k
+CVCC      42        y, ow, r, z
+CV        87        y, uh     
+CVC       1189      y, uh, r  
+CV        22400     y, uw     
+CVC       149       y, uw, d  
+CVCC      2         y, uw, dh, z
+CVC       92        y, uw, l  
+CVC       1         y, uw, n  
+CVC       537       y, uw, s  
+CVC       13        y, uw, th 
+CVC       290       y, uw, v  
+CVC       85        y, uw, z  
+CVCC      678       y, uw, z, d
+CVC       3         y, uw, zh 
+C         5         z         
+CV        22        z, aa     
+CVC       1         z, aa, n  
+CVC       9         z, aa, r  
+CVCCC     1         z, aa, r, k, s
+CV        19        z, ae     
+CVC       1         z, ae, g  
+CVC       6         z, ae, k  
+CVCC      296       z, ae, k, t
+CVC       109       z, ae, m  
+CVCC      1         z, ae, m, z
+CVC       2         z, ae, n  
+CVCC      1         z, ae, n, z
+CVC       1         z, ae, p  
+CVCC      1         z, ae, p, s
+CVC       1         z, ae, t  
+CVCC      15        z, ah, l, t
+CVCCC     19        z, ah, l, t, s
+CV        5         z, ao     
+CVCC      3         z, ao, l, v
+CVCCC     3         z, ao, l, v, d
+CVC       1         z, ao, s  
+CVCC      8         z, ao, s, t
+CV        135       z, ax     
+CVC       24        z, ax, l  
+CVCC      2         z, ax, l, d
+CVCC      6         z, ax, l, z
+CVC       32        z, ax, m  
+CVCC      5         z, ax, m, z
+CVC       2         z, ax, n  
+CVCC      3         z, ax, n, z
+CVCC      5         z, ax, r, z
+CVC       7         z, ax, s  
+CVC       2         z, ax, v  
+CV        14        z, ay     
+CVC       1         z, ay, d  
+CVC       25        z, ay, n  
+CVCC      12        z, ay, n, d
+CVCC      4         z, ay, n, z
+CVC       10        z, ay, r  
+CVCC      3         z, ay, r, z
+CV        15        z, eh     
+CVCC      1         z, eh, k, s
+CVC       1         z, eh, m  
+CVCC      4         z, eh, m, p
+CVCCC     4         z, eh, m, p, t
+CVC       27        z, eh, n  
+CVCC      7         z, eh, n, t
+CVCC      1         z, eh, s, t
+CC        3         z, en     
+CCC       492       z, en, t  
+CV        92        z, er     
+CVC       1         z, er, d  
+CVCC      3         z, er, d, z
+CVC       36        z, er, t  
+CVCC      4         z, er, t, s
+CVC       23        z, er, v  
+CVCC      6         z, er, v, d
+CVCC      3         z, er, v, z
+CVC       26        z, er, z  
+CV        69        z, ey     
+CVCC      1         z, ey, l, z
+CV        415       z, ih     
+CVC       53        z, ih, d  
+CVC       7         z, ih, g  
+CVC       256       z, ih, k  
+CVCC      13        z, ih, k, s
+CVC       2         z, ih, l  
+CVC       1         z, ih, m  
+CVC       361       z, ih, n  
+CVCC      198       z, ih, n, d
+CVCCC     14        z, ih, n, d, z
+CVCC      7         z, ih, n, s
+CVCC      730       z, ih, n, t
+CVCCC     7         z, ih, n, t, s
+CVCC      104       z, ih, n, z
+CVC       394       z, ih, ng 
+CVCC      3         z, ih, ng, z
+CVC       2         z, ih, p  
+CVCC      1         z, ih, p, t
+CVCC      14        z, ih, s, t
+CVCCC     6         z, ih, s, t, s
+CVC       106       z, ih, t  
+CVCC      7         z, ih, t, s
+CVC       94        z, ih, z  
+CV        539       z, iy     
+CVC       48        z, iy, n  
+CVCC      55        z, iy, n, z
+CVC       22        z, iy, z  
+CV        11        z, ow     
+CVC       23        z, ow, n  
+CVCC      2         z, ow, n, z
+CVCC      3         z, ow, r, b
+CVCCC     2         z, ow, r, b, d
+CVCC      5         z, ow, r, t
+CVCCC     3         z, ow, r, t, s
+CVC       1         z, ow, s  
+CV        10        z, uh     
+CV        17        z, uw     
+CVC       2         z, uw, m  
+CVCC      4         z, uw, m, d
+CVC       1         z, uw, z  
+CV        16        zh, aa    
+CVC       2         zh, aa, n 
+CV        415       zh, ax    
+CVC       30        zh, ax, l 
+CV        51        zh, er    
+CVC       3         zh, er, d 
+CVC       5         zh, er, z 
+CV        54        zh, ih    
+CVC       260       zh, ih, n 
+CVCC      49        zh, ih, n, z
+CVC       2         zh, iy, m 
+CV        25        zh, uw    
