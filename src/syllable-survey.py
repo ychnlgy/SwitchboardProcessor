@@ -55,13 +55,13 @@ def main():
             counter[tuple(phones)] += 1
     
     out = []
-    for k, v in sorted(counter.items()):
+    for k, v in counter.items():
         vcs = "".join(["V" if p in VOWELS else "C" for p in k])
         phs = ", ".join(k)
         out.append((vcs, v, phs))
     
     with open(OUTPUT, "w") as f:
-        for args in out:
+        for args in sorted(out):
             f.write("{: <10}{: <10}{: <10}\n".format(*args))
     
     summary = Counter()
