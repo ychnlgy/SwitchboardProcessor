@@ -16,6 +16,8 @@ HREF = "href"
 PHONE_NAME = None
 PHONE_FILE = None
 
+OUTPUT = "syllable-survey.txt"
+
 VOWELS = {
     "iy", 
     "ih",
