@@ -72,8 +72,8 @@ def collectWavs(sph2pipe, root, wavroot):
                     assert path.isfile(wavf)
                     rate, data = wavfile.read(wavf)
                 
-                pA = list(parsePhoneFile(pfileA))
-                pB = list(parsePhoneFile(pfileB))
+                pA = list(parsePhoneFile(pfileA, rate))
+                pB = list(parsePhoneFile(pfileB, rate))
                 
                 waveA = data[:,0]
                 waveB = data[:,1]
