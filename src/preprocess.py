@@ -117,7 +117,7 @@ def parsePhoneFile(phonef, rate):
 def parseSyllableFile(syllablef):
     root = xmlparse(syllablef)
     for child in root:
-        href = root[0].attrib["href"]
+        href = child[0].attrib["href"]
         phonef, pid = href.split("#")
         assert syllablef == phonef.replace(".phones.", ".syllables.")
         ids = pid.split("..")
