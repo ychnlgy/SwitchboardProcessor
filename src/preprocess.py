@@ -1,4 +1,4 @@
-import numpy
+import numpy, os
 
 from tqdm import tqdm
 
@@ -119,7 +119,7 @@ def parseSyllableFile(syllablef):
     for child in root:
         href = child[0].attrib["href"]
         phonef, pid = href.split("#")
-        assert syllablef == phonef.replace(".phones.", ".syllables.")
+        assert path.basename(syllablef).replace(os.sep, ".") == phonef.replace(".phones.", ".syllables.")
         ids = pid.split("..")
         if len(ids) == 1:
             yield parseOnePhone(ids[0])
