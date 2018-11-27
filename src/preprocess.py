@@ -78,7 +78,7 @@ def collectWavs(sph2pipe, root, wavroot):
                 waveA = data[:,0]
                 waveB = data[:,1]
                 
-                yield (num, rate, waveA, waveB, pA, pB)
+                yield numpy.array([num, rate, waveA, waveB, pA, pB], dtype=object)
                 
     print("Skipped %d/%d files." % (skipped, total))
 
