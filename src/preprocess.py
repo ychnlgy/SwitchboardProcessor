@@ -17,34 +17,29 @@ NCOLS = 80
 
 PHONES = "nxt_switchboard_ann/xml/phones/sw{}.{}.phones.xml"
 
-Entry = Struct("id", "rate", "waveA", "waveB", "phoneA", "phoneB")
-PhonemeSlice = Struct("value", "start", "end")
-MIN_LEN = 120
-MAX_LEN = 4480
+#Entry = Struct("id", "rate", "waveA", "waveB", "phoneA", "phoneB")
+#PhonemeSlice = Struct("value", "start", "end")
+#MIN_LEN = 0
+#MAX_LEN = 4480
 
 def preprocess(sph2pipe, root, wavroot, target):
-    entries = list(collectWavs(sph2pipe, root, wavroot))
-    alldata = []
-    for entry in tqdm(entries, desc="Loading data", ncols=NCOLS):
-        alldata.extend(sliceIntoWaves(entry.phoneA, entry.waveA, entry.rate))
-        alldata.extend(sliceIntoWaves(entry.phoneB, entry.waveB, entry.rate))
-    
     dataf = target + ".npy"
     
     print("Saving to %s" % target)
     with open(target, "wb") as f:
-        numpy.save(f, alldata)
+        for entry in collectWavs(sph2pipe, root, wavroot):
+            numpy.save(f, entry)
 
-    classcounter = Counter()
-    for d, label in alldata:
-        classcounter[label] += 1
-    
-    classf = target + "-class.txt"
-    form = "{: <20}"*2 + "\n"
-    with open(classf, "w") as f:
-        f.write(form.format("Class", "Count"))
-        for v, k in sorted([(v, k) for k, v in classcounter.items()]):
-            f.write(form.format(k, v))
+#    classcounter = Counter()
+#    for d, label in alldata:
+#        classcounter[label] += 1
+#    
+#    classf = target + "-class.txt"
+#    form = "{: <20}"*2 + "\n"
+#    with open(classf, "w") as f:
+#        f.write(form.format("Class", "Count"))
+#        for v, k in sorted([(v, k) for k, v in classcounter.items()]):
+#            f.write(form.format(k, v))
 
 def collectWavs(sph2pipe, root, wavroot):
     phones = path.join(root, PHONES)
@@ -77,21 +72,24 @@ def collectWavs(sph2pipe, root, wavroot):
                     assert path.isfile(wavf)
                     rate, data = wavfile.read(wavf)
                 
+                pA = list(parsePhoneFile(pfileA))
+                pB = list(parsePhoneFile(pfileB))
+                
                 waveA = data[:,0]
                 waveB = data[:,1]
                 
-                yield Entry(num, rate, waveA, waveB, pfileA, pfileB)
+                yield (num, rate, waveA, waveB, pA, pB)
                 
     print("Skipped %d/%d files." % (skipped, total))
 
-def sliceIntoWaves(phonef, wave, rate):
-    for phoneSlice in parsePhoneFile(phonef, rate):
-        
-        d = phoneSlice.end - phoneSlice.start
-        if d <= MIN_LEN or d >= MAX_LEN:
-            continue
-        
-        yield [wave[phoneSlice.start:phoneSlice.end], phoneSlice.value]
+#def sliceIntoWaves(phonef, wave, rate):
+#    for phoneSlice in parsePhoneFile(phonef, rate):
+#        
+#        d = phoneSlice.end - phoneSlice.start
+#        if d <= MIN_LEN or d >= MAX_LEN:
+#            continue
+#        
+#        yield [wave[phoneSlice.start:phoneSlice.end], phoneSlice.value]
 
 def parsePhoneFile(phonef, rate):
     root = xmlparse(phonef)
@@ -103,7 +101,7 @@ def parsePhoneFile(phonef, rate):
         assert child.tag == "ph"
         s = intround(float(child.get(start))*rate)
         e = intround(float(child.get(end))*rate)
-        yield PhonemeSlice(child.text, s, e)
+        yield (child.text, s, e)
 
 if __name__ == "__main__":
     
