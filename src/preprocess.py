@@ -140,8 +140,8 @@ def parseOnePhone(pid, return_template=False):
 
 def parseMultiPhones(ids):
     assert len(ids) == 2
-    key1, phn1, template1 = parseOnePhone(ids[0], return_template=True)
-    key2, phn2, template2 = parseOnePhone(ids[1], return_template=True)
+    phn1, template1 = parseOnePhone(ids[0], return_template=True)
+    phn2, template2 = parseOnePhone(ids[1], return_template=True)
     assert template1 == template2
     keys = [(template1 % i) for i in range(phn1, phn2+1)]
     return keys
