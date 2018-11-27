@@ -75,7 +75,6 @@ def collectWavs(sph2pipe, root, wavroot):
                     inpf = path.join(p, wav)
                     system(CONVERT_SPH % (sph2pipe, inpf, wavf))
                     assert path.isfile(wavf)
-                    print(wavf)
                     rate, data = wavfile.read(wavf)
                 
                 waveA = data[:,0]
