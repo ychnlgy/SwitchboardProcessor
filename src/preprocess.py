@@ -16,6 +16,7 @@ from collections import Counter
 NCOLS = 80
 
 PHONES = "nxt_switchboard_ann/xml/phones/sw{}.{}.phones.xml"
+SYLLABLES = "nxt_switchboard_ann/xml/syllables/sw{}.{}.syllables.xml"
 
 #Entry = Struct("id", "rate", "waveA", "waveB", "phoneA", "phoneB")
 #PhonemeSlice = Struct("value", "start", "end")
@@ -25,8 +26,8 @@ PHONES = "nxt_switchboard_ann/xml/phones/sw{}.{}.phones.xml"
 def preprocess(sph2pipe, root, wavroot, target):
     dataf = target + ".npy"
     
-    print("Saving to %s" % target)
-    with open(target, "wb") as f:
+    print("Saving to %s" % dataf)
+    with open(dataf, "wb") as f:
         for entry in collectWavs(sph2pipe, root, wavroot):
             numpy.save(f, entry)
 
@@ -43,6 +44,7 @@ def preprocess(sph2pipe, root, wavroot, target):
 
 def collectWavs(sph2pipe, root, wavroot):
     phones = path.join(root, PHONES)
+    syllables = path.join(root, SYLLABLES)
     skipped = 0
     total = 0
     
@@ -62,7 +64,11 @@ def collectWavs(sph2pipe, root, wavroot):
                 fname = path.join(p, wav)
                 pfileA = phones.format(num, "A")
                 pfileB = phones.format(num, "B")
-                if not path.isfile(pfileA) or not path.isfile(pfileB):
+                
+                sfileA = syllables.format(num, "A")
+                sfileB = syllables.format(num, "B")
+                
+                if not path.isfile(pfileA) or not path.isfile(pfileB) or not path.isfile(sfileA) or not path.isfile(sfileB):
                     skipped += 1
                     continue
                     
@@ -75,10 +81,13 @@ def collectWavs(sph2pipe, root, wavroot):
                 pA = list(parsePhoneFile(pfileA, rate))
                 pB = list(parsePhoneFile(pfileB, rate))
                 
+                sA = list(parseSyllableFile(sfileA))
+                sB = list(parseSyllableFile(sfileB))
+                
                 waveA = data[:,0]
                 waveB = data[:,1]
                 
-                yield numpy.array([num, rate, waveA, waveB, pA, pB], dtype=object)
+                yield numpy.array([num, rate, waveA, waveB, pA, pB, sA, sB], dtype=object)
                 
     print("Skipped %d/%d files." % (skipped, total))
 
@@ -91,17 +100,51 @@ def collectWavs(sph2pipe, root, wavroot):
 #        
 #        yield [wave[phoneSlice.start:phoneSlice.end], phoneSlice.value]
 
+niteid = "{http://nite.sourceforge.net/}"
+
 def parsePhoneFile(phonef, rate):
     root = xmlparse(phonef)
-    niteid = "{http://nite.sourceforge.net/}"
     assert root.tag == niteid + "phoneme_stream"
     start = niteid + "start"
     end = niteid + "end"
+    nid = niteid + "id"
     for child in root:
         assert child.tag == "ph"
         s = intround(float(child.get(start))*rate)
         e = intround(float(child.get(end))*rate)
-        yield (child.text, s, e)
+        yield (child.text, s, e, child.get(nid))
+
+def parseSyllableFile(syllablef):
+    root = xmlparse(syllablef)
+    for child in root:
+        href = root[0].attrib["href"]
+        phonef, pid = href.split("#")
+        assert syllablef == phonef.replace(".phones.", ".syllables.")
+        ids = pid.split("..")
+        if len(ids) == 1:
+            yield parseOnePhone(ids[0])
+        else:
+            yield parseMultiPhones(ids)
+
+def parseOnePhone(pid, return_template=False):
+    assert pid.startswith("id(") and pid.endswith(")")
+    key = pid[3:-1]
+    ms, ph = key.split("_")
+    assert ph.startswith("ph")
+    phn = int(ph[2:])
+    if return_template:
+        template = ms + "_ph%d"
+        return phn, template
+    else:
+        return [key]
+
+def parseMultiPhones(ids):
+    assert len(ids) == 2
+    key1, phn1, template1 = parseOnePhone(ids[0], return_template=True)
+    key2, phn2, template2 = parseOnePhone(ids[1], return_template=True)
+    assert template1 == template2
+    keys = [(template1 % i) for i in range(phn1, phn2+1)]
+    return keys
 
 if __name__ == "__main__":
     
