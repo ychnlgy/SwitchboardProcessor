@@ -112,7 +112,7 @@ def main(npy):
         grp = sap[i*NROWS:(i+1)*NROWS]
         nrows = len(grp)
         fig, axes = pyplot.subplots(nrows=nrows, ncols=NCOLS+1)
-        fig.set_size_inches(18, 12)
+        fig.set_size_inches(22, 12)
         fname = FPATH % i
         for j, (key, slcs) in enumerate(grp):
             axes[j, 0].set_ylabel(key)
