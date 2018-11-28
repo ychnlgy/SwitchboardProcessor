@@ -2,7 +2,7 @@
 
 FILE = "syllable-survey.txt"
 
-def create_keepset(f=FILE)
+def create_keepset(f=FILE):
     kept = keep_largecontrib(list(parse(f)))
     return {sids for stype, count, sids in kept}
 
