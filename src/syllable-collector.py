@@ -20,9 +20,9 @@ def load(npy):
                 yield numpy.load(f)
                 
                 # TODO: remove
-                i += 1
-                if i > 10:
-                    break
+                #i += 1
+                #if i > 10:
+                #    break
             except OSError:
                 break
 
@@ -104,7 +104,7 @@ def main(npy):
                 axes[j, k].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot")
         pyplot.savefig(fname, bbox_inches="tight")
         pyplot.clf()
-        input("Saved one")
+        #input("Saved one")
 
 if __name__ == "__main__":
     main("../../switchboard-data.npy")
