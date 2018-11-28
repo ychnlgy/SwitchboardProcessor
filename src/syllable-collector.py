@@ -20,9 +20,9 @@ def load(npy):
                 yield numpy.load(f)
                 
                 # TODO: remove
-                #i += 1
-                #if i > 10:
-                #    break
+                i += 1
+                if i > 10:
+                    break
             except OSError:
                 break
 
@@ -46,8 +46,8 @@ def syllable2phone(mapped_phones, syllables, kept):
         if key in kept:
             s = phns[0][1]
             e = phns[-1][2]
-            assert s < e
-            yield key, s, e
+            if s < e:
+                yield key, s, e
 
 def slice_audio(syllables, wave):
     for key, s, e in syllables:
@@ -61,6 +61,20 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
     slcs = audio_slices[:n]
     for slc in slcs:
         yield scipy.signal.spectrogram(slc, fs=rate)
+
+def average_spectrograms(specs):
+    others = []
+    longest = None
+    for spec in specs:
+        if longest is None or spec.shape[1] > longest.shape[1]:
+            others.append(longest)
+            longest = spec
+        else:
+            others.append(spec)
+    longest = numpy.copy(longest)
+    for arr in others:
+        longest[:,:] += arr
+    return longest/(len(others)+1)
 
 def main(npy):
     keepset = create_keepset()
@@ -95,13 +109,17 @@ def main(npy):
     for i in tqdm.tqdm(idx, desc="Creating spectrograms", ncols=80):
         grp = sap[i*NROWS:(i+1)*NROWS]
         nrows = len(grp)
-        fig, axes = pyplot.subplots(nrows=nrows, ncols=NCOLS)
+        fig, axes = pyplot.subplots(nrows=nrows, ncols=NCOLS+1)
         fig.set_size_inches(18, 12)
         fname = FPATH % i
         for j, (key, slcs) in enumerate(grp):
             axes[j, 0].set_ylabel(key)
-            for k, (f, t, spec) in enumerate(to_spectrogram(slcs, rate)):
+            specs = []
+            for k, (f, t, spec) in enumerate(to_spectrogram(slcs, rate), 1):
                 axes[j, k].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot")
+                specs.append(spec)
+            f, t, avg = average_spectrograms(specs)
+            axes[j, 0].pcolormesh(t, f, 10*numpy.log10(avg), cmap="hot")
         pyplot.savefig(fname, bbox_inches="tight")
         pyplot.clf()
         #input("Saved one")
