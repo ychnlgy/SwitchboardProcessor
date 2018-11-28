@@ -74,7 +74,7 @@ def average_spectrograms(specs):
         else:
             others.append(spec)
     longest = numpy.copy(longest)
-    for f, t, arr in others:
+    for arr in others:
         longest[:,:] += arr
     return longest_f, longest_t, longest/(len(others)+1)
 
