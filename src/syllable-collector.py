@@ -74,7 +74,8 @@ def average_spectrograms(specs):
     longest = numpy.copy(longest)
     assert longest is not None
     for arr in others:
-        longest[:,:] += arr[:,:]
+        if arr is not None:
+            longest[:,:] += arr[:,:]
     return longest/(len(others)+1)
 
 def main(npy):
