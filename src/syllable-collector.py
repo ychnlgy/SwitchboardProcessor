@@ -117,14 +117,15 @@ def main(npy):
         for j, (key, slcs) in enumerate(grp):
             axes[j, 0].set_ylabel(key)
             specs = []
-            longest_t = None
+            t_map = {}
+            f_map = {}
             for k, (f, t, spec) in enumerate(to_spectrogram(slcs, rate), 1):
                 axes[j, k].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot")
                 specs.append(spec)
-                if longest_t is None or len(t) > len(longest_t):
-                    longest_t = t
+                t_map[spec.shape[1]] = t
+                f_map[spec.shape[0]] = f
             avg = average_spectrograms(specs)
-            axes[j, 0].pcolormesh(longest_t, f, 10*numpy.log10(avg), cmap="hot")
+            axes[j, 0].pcolormesh(t_map[avg.shape[1]], f_map[avg.shape[0], 10*numpy.log10(avg), cmap="hot")
         axes[0, 0].set_title("Average")
         for i, axis in enumerate(axes[0,1:]):
             axis.set_title("Sample %d" % i)
