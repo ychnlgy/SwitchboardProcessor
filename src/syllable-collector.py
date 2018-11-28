@@ -65,16 +65,18 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
 def average_spectrograms(specs):
     others = []
     longest = None
-    for spec in specs:
+    for f, t, spec in specs:
         if longest is None or spec.shape[1] > longest.shape[1]:
             others.append(longest)
             longest = spec
+            longest_f = f
+            longest_t = t
         else:
             others.append(spec)
     longest = numpy.copy(longest)
-    for arr in others:
+    for f, t, arr in others:
         longest[:,:] += arr
-    return longest/(len(others)+1)
+    return longest_f, longest_t, longest/(len(others)+1)
 
 def main(npy):
     keepset = create_keepset()
