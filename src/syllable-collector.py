@@ -119,7 +119,7 @@ def main(npy):
             for k, (f, t, spec) in enumerate(to_spectrogram(slcs, rate), 1):
                 axes[j, k].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot")
                 specs.append(spec)
-                if longest_t is None or len(t) > longest_t:
+                if longest_t is None or len(t) > len(longest_t):
                     longest_t = t
             avg = average_spectrograms(specs)
             axes[j, 0].pcolormesh(longest_t, f, 10*numpy.log10(avg), cmap="hot")
