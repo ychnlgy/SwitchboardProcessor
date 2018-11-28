@@ -13,10 +13,16 @@ from sampler import create_keepset
 SAMPLES = 5
 
 def load(npy):
+    i = 0
     with open(npy, "rb") as f:
         for i in tqdm.tqdm(itertools.count(), desc="Loading data", ncols=80):
             try:
                 yield numpy.load(f)
+                
+                # TODO: remove
+                i += 1
+                if i > 10:
+                    break
             except OSError:
                 break
 
