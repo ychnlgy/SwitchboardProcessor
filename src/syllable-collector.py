@@ -56,7 +56,7 @@ def slice_audio(syllables, wave):
         yield ", ".join(key), slc
 
 def to_spectrogram(audio_slices, rate, n=SAMPLES):
-    assert len(audio_slices) > n
+    #assert len(audio_slices) > n
     random.shuffle(audio_slices)
     slcs = audio_slices[:n]
     for slc in slcs:
