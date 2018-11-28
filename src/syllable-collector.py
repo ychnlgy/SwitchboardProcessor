@@ -65,18 +65,16 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
 def average_spectrograms(specs):
     others = []
     longest = None
-    for f, t, spec in specs:
+    for spec in specs:
         if longest is None or spec.shape[1] > longest.shape[1]:
             others.append(longest)
             longest = spec
-            longest_f = f
-            longest_t = t
         else:
             others.append(spec)
     longest = numpy.copy(longest)
     for arr in others:
-        longest[:,:] += arr
-    return longest_f, longest_t, longest/(len(others)+1)
+        longest[:,:] += arr[:,:]
+    return longest/(len(others)+1)
 
 def main(npy):
     keepset = create_keepset()
@@ -117,11 +115,14 @@ def main(npy):
         for j, (key, slcs) in enumerate(grp):
             axes[j, 0].set_ylabel(key)
             specs = []
+            longest_t = None
             for k, (f, t, spec) in enumerate(to_spectrogram(slcs, rate), 1):
                 axes[j, k].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot")
                 specs.append(spec)
-            f, t, avg = average_spectrograms(specs)
-            axes[j, 0].pcolormesh(t, f, 10*numpy.log10(avg), cmap="hot")
+                if longest_t is None or len(t) > longest_t:
+                    longest_t = t
+            avg = average_spectrograms(specs)
+            axes[j, 0].pcolormesh(longest_t, f, 10*numpy.log10(avg), cmap="hot")
         axes[0, 0].set_title("Average")
         for i, axis in enumerate(axes[0,1:]):
             axis.set_title("Sample %d" % i)
