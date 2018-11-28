@@ -120,6 +120,9 @@ def main(npy):
                 specs.append(spec)
             f, t, avg = average_spectrograms(specs)
             axes[j, 0].pcolormesh(t, f, 10*numpy.log10(avg), cmap="hot")
+        axes[0, 0].set_title("Average")
+        for i, axis in enumerate(axes[0,1:]):
+            axis.set_title("Sample %d" % i)
         pyplot.savefig(fname, bbox_inches="tight")
         pyplot.clf()
         #input("Saved one")
