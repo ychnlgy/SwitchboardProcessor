@@ -20,9 +20,9 @@ def load(npy):
                 yield numpy.load(f)
                 
                 # TODO: remove
-                i += 1
-                if i > 10:
-                    break
+                #i += 1
+                #if i > 10:
+                #    break
             except OSError:
                 break
 
