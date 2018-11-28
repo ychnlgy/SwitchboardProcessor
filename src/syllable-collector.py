@@ -125,7 +125,7 @@ def main(npy):
                 t_map[spec.shape[1]] = t
                 f_map[spec.shape[0]] = f
             avg = average_spectrograms(specs)
-            axes[j, 0].pcolormesh(t_map[avg.shape[1]], f_map[avg.shape[0], 10*numpy.log10(avg), cmap="hot")
+            axes[j, 0].pcolormesh(t_map[avg.shape[1]], f_map[avg.shape[0]], 10*numpy.log10(avg), cmap="hot")
         axes[0, 0].set_title("Average")
         for i, axis in enumerate(axes[0,1:]):
             axis.set_title("Sample %d" % i)
