@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import numpy, tqdm, itertools, collections, os
 
 import scipy.signal
@@ -96,3 +98,7 @@ def main(npy):
         pyplot.savefig(fname, bbox_inches="tight")
         pyplot.clf()
         input("Saved one")
+
+if __name__ == "__main__":
+    main("../../switchboard-data.npy")
+
