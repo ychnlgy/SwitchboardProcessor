@@ -19,7 +19,7 @@ def spectrogram(rate, data, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NPERSEG):
 def inverse_spec(rate, spec, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NPERSEG):
     return scipy.signal.istft(spec, fs=rate, nperseg=nperseg, noverlap=noverlap, nfft=nfft)
 
-def from_spectrogram(rate, spec, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NPERSEG, iters=100):
+def from_spectrogram(rate, spec, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NPERSEG, iters=10):
     length = scipy.signal.istft(spec, rate, nperseg=nperseg)[1].shape[0]
     x = numpy.random.normal(size=length)
     for i in range(iters):
@@ -29,12 +29,13 @@ def from_spectrogram(rate, spec, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NPERSE
     return numpy.real(x)
 
 def main():
-    rate, data = load("happy.wav")
+    rate, data = load("timit-trainexample.wav")
     spec = pretty_spectrogram(data, step_size=1)
+    #spec[:,-100:] = numpy.min(spec)
     pyplot.imshow(spec, cmap="hot", interpolation="nearest", aspect="auto")
     pyplot.savefig("spec.png")
     
-    datap = invert_pretty_spectrogram(spec, step_size=1, n_iter=100)
+    datap = invert_pretty_spectrogram(spec, step_size=1, n_iter=10)
     save("reconstruct.wav", rate, datap)
     
     #stat(spec)
