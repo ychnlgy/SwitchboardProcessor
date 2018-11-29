@@ -14,7 +14,7 @@ SAMPLES = 5
 
 NPERSEG = 256
 NOVERLAP = 255
-NFFT = 128
+NFFT = 512
 
 def load(npy):
     i = 0
