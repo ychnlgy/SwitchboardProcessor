@@ -1,5 +1,5 @@
 import numpy as np
-import copy
+import copy, tqdm
 
 # Most of the Spectrograms and Inversion are taken from: https://gist.github.com/kastnerkyle/179d6e9a88202ab0a2fe
 
@@ -125,7 +125,7 @@ def iterate_invert_spectrogram(X_s, fftsize, step, n_iter=10, verbose=False):
     """
     reg = np.max(X_s) / 1E8
     X_best = copy.deepcopy(X_s)
-    for i in range(n_iter):
+    for i in tqdm.tqdm(range(n_iter), desc="Reversing FFT", ncols=80):
         if verbose:
             print("Runnning iter %i" % i)
         if i == 0:

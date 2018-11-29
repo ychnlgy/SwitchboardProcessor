@@ -51,6 +51,8 @@ def main():
 
 if __name__ == "__main__":
 
+    import matplotlib
+    matplotlib.use("agg")
     from matplotlib import pyplot
 
     def plot(f, t, spec, name):
