@@ -55,6 +55,8 @@ def syllable2phone(mapped_phones, syllables, kept):
 
 def slice_audio(syllables, wave):
     for key, s, e in syllables:
+        if e - s < NPERSEG:
+            continue
         assert s >= 0 and len(wave) >= e
         slc = wave[s:e+1]
         yield ", ".join(key), slc
