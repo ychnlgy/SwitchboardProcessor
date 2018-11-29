@@ -12,6 +12,10 @@ from sampler import create_keepset
 
 SAMPLES = 5
 
+NPERSEG = 256
+NOVERLAP = 255
+NFFT = 128
+
 def load(npy):
     i = 0
     with open(npy, "rb") as f:
@@ -60,7 +64,7 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
     random.shuffle(audio_slices)
     slcs = audio_slices[:n]
     for slc in slcs:
-        yield scipy.signal.spectrogram(slc, fs=rate)
+        yield scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
 
 def average_spectrograms(specs):
     others = []
