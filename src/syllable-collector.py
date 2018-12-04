@@ -97,6 +97,7 @@ def fill_spec(shape, spec):
 EPS = 1e-12
 
 def plot(axis, spec, t, f, lowest, highest):
+    print(numpy.min(spec), numpy.max(spec))
     spec[spec <= 0] = EPS
     axis.pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot", vmax=highest, vmin=lowest)
 
