@@ -153,6 +153,7 @@ def main(npy):
                 
                 high = numpy.max(spec)
                 low = numpy.min(spec)
+                print(high, low)
                 if high > highest:
                     highest = high
                 if low < lowest:
