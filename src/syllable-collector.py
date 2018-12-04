@@ -64,7 +64,7 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
     #assert len(audio_slices) > n
     random.shuffle(audio_slices)
     slcs = audio_slices[:n+ADDITIONAL_SAMPLES]
-    for slc, ends in tqdm.tqdm(slcs, ncols=80):
+    for slc, ends in slcs:
         f, t, spec = scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
         dt = len(t)/len(slc)
         conv = numpy.array([min(int(round(e*dt)), len(t)-1) for e in ends])
@@ -131,14 +131,15 @@ def main(npy):
     sap = sorted(out.items())
     idx = range(len(sap)//NROWS+1)
     
-    fig, axes = pyplot.subplots(nrows=NROWS, ncols=NCOLS+1)
-    fig.set_size_inches(22, 12)
-    
     for i in tqdm.tqdm(idx, desc="Creating spectrograms", ncols=80):
         grp = sap[i*NROWS:(i+1)*NROWS]
         fname = FPATH % i
         if len(grp) == 0:
             break
+        
+        fig, axes = pyplot.subplots(nrows=NROWS, ncols=NCOLS+1)
+        fig.set_size_inches(22, 12)
+        
         for j, (key, slcs) in enumerate(grp):
             axes[j, 0].set_ylabel(key)
             specs = []
@@ -174,7 +175,7 @@ def main(npy):
         for i, axis in enumerate(axes[0,1:]):
             axis.set_title("Sample %d" % i)
         pyplot.savefig(fname, bbox_inches="tight")
-        pyplot.cla()
+        pyplot.close()
         #input("Saved one")
 
 if __name__ == "__main__":
