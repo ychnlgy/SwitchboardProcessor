@@ -97,7 +97,9 @@ def fill_spec(shape, spec):
 EPS = 1e-12
 
 def plot(axis, spec, t, f, lowest, highest):
-    print(numpy.min(spec), numpy.max(spec))
+    if lowest <= 0:
+        lowest = EPS
+    lowest, highest = 10*numpy.log10(lowest), 10*numpy.log10(highest)
     spec[spec <= 0] = EPS
     axis.pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot", vmax=highest, vmin=lowest)
 
@@ -152,8 +154,9 @@ def main(npy):
             for k, (f, t, spec, marked) in enumerate(to_spectrogram(slcs, rate), 1):
                 specs.append(spec)
                 
-                high = numpy.max(spec)
                 low = numpy.min(spec)
+                high = numpy.max(spec)
+                
                 if high > highest:
                     highest = high
                 if low < lowest:
