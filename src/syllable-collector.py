@@ -87,7 +87,7 @@ def average_spectrograms(specs):
 
 def fill_spec(shape, spec):
     out = numpy.zeros(shape)
-    out = numpy.min(spec)
+    out += numpy.min(spec)
     out[-spec.shape[0]:, :spec.shape[1]] = spec[:,:]
     return out
 
@@ -144,9 +144,9 @@ def main(npy):
             t = t_map[avg.shape[1]]
             f = f_map[avg.shape[0]]
             axes[j, 0].pcolormesh(t, f, 10*numpy.log10(avg), cmap="hot", vmax=1)
-            for k in range(1, 1+SAMPLES):
+            for k in range(SAMPLES):
                 spec = fill_spec(avg.shape, draw[k])
-                axes[j, k].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot", vmax=1)
+                axes[j, k+1].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot", vmax=1)
             
         axes[0, 0].set_title("Average")
         for i, axis in enumerate(axes[0,1:]):
