@@ -51,23 +51,25 @@ def syllable2phone(mapped_phones, syllables, kept):
         if key in kept:
             s = phns[0][1]
             e = phns[-1][2]
-            if s < e:
-                yield key, s, e
+            if e - s > NPERSEG:
+                yield key, s, e, [e[-1] for e in phns]
 
 def slice_audio(syllables, wave):
-    for key, s, e in syllables:
-        if e - s < NPERSEG:
-            continue
-        assert s >= 0 and len(wave) >= e
+    for key, s, e, ends in syllables:
         slc = wave[s:e+1]
-        yield ", ".join(key), slc
+        yield ", ".join(key), slc, ends
 
 def to_spectrogram(audio_slices, rate, n=SAMPLES):
     #assert len(audio_slices) > n
     random.shuffle(audio_slices)
     slcs = audio_slices[:n+ADDITIONAL_SAMPLES]
-    for slc in slcs:
-        yield scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
+    for slc, ends in slcs:
+        f, t, spec = scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
+        frac = len(t)/len(slc)
+        conv = numpy.array([int(round(e*dt)) for e in ends])
+        marked = numpy.copy(spec)
+        marked[:,conv] = numpy.min(marked)
+        yield f, t, spec, marked
 
 def average_spectrograms(specs):
     others = []
@@ -91,6 +93,12 @@ def fill_spec(shape, spec):
     out[-spec.shape[0]:, :spec.shape[1]] = spec[:,:]
     return out
 
+EPS = 1e-12
+
+def plot(axis, spec, t, f, lowest, highest):
+    spec[spec <= 0] = EPS
+    axis.pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot", vmax=highest, vmin=lowest)
+
 def main(npy):
     keepset = create_keepset()
     
@@ -104,11 +112,11 @@ def main(npy):
         sylA = syllable2phone(mapA, sA, keepset)
         sylB = syllable2phone(mapB, sB, keepset)
         
-        for key, slc in slice_audio(sylA, waveA):
-            out[key].append(slc)
+        for key, slc, ends in slice_audio(sylA, waveA):
+            out[key].append((slc, ends))
         
-        for key, slc in slice_audio(sylB, waveB):
-            out[key].append(slc)
+        for key, slc, ends in slice_audio(sylB, waveB):
+            out[key].append((slc, ends))
     
     NCOLS = SAMPLES
     NROWS = 4
@@ -121,32 +129,45 @@ def main(npy):
     
     sap = sorted(out.items())
     idx = range(len(sap)//NROWS+1)
+    
+    fig, axes = pyplot.subplots(nrows=NROWS, ncols=NCOLS+1)
+    fig.set_size_inches(22, 12)
+    
     for i in tqdm.tqdm(idx, desc="Creating spectrograms", ncols=80):
         grp = sap[i*NROWS:(i+1)*NROWS]
-        nrows = len(grp)
-        fig, axes = pyplot.subplots(nrows=nrows, ncols=NCOLS+1)
-        fig.set_size_inches(22, 12)
         fname = FPATH % i
+        if len(grp) == 0:
+            break
         for j, (key, slcs) in enumerate(grp):
             axes[j, 0].set_ylabel(key)
             specs = []
             draw = []
             t_map = {}
             f_map = {}
-            for k, (f, t, spec) in enumerate(to_spectrogram(slcs, rate), 1):
+            highest = -float("inf")
+            lowest = float("inf")
+            for k, (f, t, spec, marked) in enumerate(to_spectrogram(slcs, rate), 1):
                 specs.append(spec)
+                
+                high = numpy.max(spec)
+                low = numpy.min(spec)
+                if high > highest:
+                    highest = high
+                if low < lowest:
+                    lowest = low
+                
                 t_map[spec.shape[1]] = t
                 f_map[spec.shape[0]] = f
                 if k <= SAMPLES:
-                    draw.append(spec)
+                    draw.append(marked)
             
             avg = average_spectrograms(specs)
             t = t_map[avg.shape[1]]
             f = f_map[avg.shape[0]]
-            axes[j, 0].pcolormesh(t, f, 10*numpy.log10(avg), cmap="hot", vmax=1)
+            plot(axes[j,0], avg, t, f, lowest, highest)
             for k in range(SAMPLES):
                 spec = fill_spec(avg.shape, draw[k])
-                axes[j, k+1].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot", vmax=1)
+                plot(axes[j, k+1], spec, t, f, lowest, highest)
             
         axes[0, 0].set_title("Average")
         for i, axis in enumerate(axes[0,1:]):
