@@ -67,9 +67,10 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
     for slc, ends in slcs:
         f, t, spec = scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
         dt = len(t)/len(slc)
-        conv = numpy.array([min(int(round(e*dt)), len(t)-1) for e in ends])
+        conv = [min(int(round(e*dt)), len(t)-1) for e in ends]
         marked = numpy.copy(spec)
-        marked[:,conv] = numpy.min(marked)
+        for c in conv:
+            marked[:,c-2:c+3] = EPS
         yield f, t, spec, marked
 
 def average_spectrograms(specs):
@@ -88,9 +89,9 @@ def average_spectrograms(specs):
             longest[-arr.shape[0]:,:arr.shape[1]] += arr[:,:]
     return longest/(len(others)+1)
 
-def fill_spec(shape, spec):
+def fill_spec(shape, spec, lowest):
     out = numpy.zeros(shape)
-    out += numpy.min(spec)
+    out += lowest
     out[-spec.shape[0]:, :spec.shape[1]] = spec[:,:]
     return out
 
@@ -172,7 +173,7 @@ def main(npy):
             f = f_map[avg.shape[0]]
             plot(axes[j,0], avg, t, f, lowest, highest)
             for k in range(SAMPLES):
-                spec = fill_spec(avg.shape, draw[k])
+                spec = fill_spec(avg.shape, draw[k], lowest)
                 plot(axes[j, k+1], spec, t, f, lowest, highest)
             
         axes[0, 0].set_title("Average")
