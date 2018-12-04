@@ -130,6 +130,7 @@ def main(npy):
         for j, (key, slcs) in enumerate(grp):
             axes[j, 0].set_ylabel(key)
             specs = []
+            draw = []
             t_map = {}
             f_map = {}
             for k, (f, t, spec) in enumerate(to_spectrogram(slcs, rate), 1):
