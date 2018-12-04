@@ -70,7 +70,7 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
         conv = [min(int(round(e*dt)), len(t)-1) for e in ends]
         marked = numpy.copy(spec)
         for c in conv:
-            marked[:,c-100:c+101] = EPS
+            marked[:,c-1000:c+1001] = EPS
         yield f, t, spec, marked
 
 def average_spectrograms(specs):
