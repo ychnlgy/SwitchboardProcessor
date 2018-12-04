@@ -19,17 +19,18 @@ NFFT = 512
 
 def load(npy):
     i = 0
-    with open(npy, "rb") as f:
-        for i in tqdm.tqdm(itertools.count(), desc="Loading data", ncols=80):
-            try:
-                yield numpy.load(f)
-                
-                # TODO: remove
-                #i += 1
-                #if i > 10:
-                #    break
-            except OSError:
-                break
+    with tqdm.tqdm(itertools.count(), desc="Loading data", ncols=80) as bar:
+        with open(npy, "rb") as f:
+            for i in bar:
+                try:
+                    yield numpy.load(f)
+                    
+                    # TODO: remove
+                    #i += 1
+                    #if i > 10:
+                    #    break
+                except OSError:
+                    break
 
 # syllables are lists of phonemes
 # we want to check if the syllable is what we seek
@@ -65,6 +66,8 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
     slcs = audio_slices[:n+ADDITIONAL_SAMPLES]
     for slc, ends in slcs:
         f, t, spec = scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
+        print(spec.shape)
+        input()
         dt = len(t)/len(slc)
         conv = numpy.array([min(int(round(e*dt)), len(t)-1) for e in ends])
         marked = numpy.copy(spec)
