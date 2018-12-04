@@ -66,8 +66,6 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
     slcs = audio_slices[:n+ADDITIONAL_SAMPLES]
     for slc, ends in slcs:
         f, t, spec = scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
-        print(spec.shape)
-        input()
         dt = len(t)/len(slc)
         conv = numpy.array([min(int(round(e*dt)), len(t)-1) for e in ends])
         marked = numpy.copy(spec)
@@ -176,7 +174,7 @@ def main(npy):
         for i, axis in enumerate(axes[0,1:]):
             axis.set_title("Sample %d" % i)
         pyplot.savefig(fname, bbox_inches="tight")
-        pyplot.clf()
+        plt.clf()
         #input("Saved one")
 
 if __name__ == "__main__":
