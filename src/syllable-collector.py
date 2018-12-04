@@ -53,7 +53,7 @@ def syllable2phone(mapped_phones, syllables, kept):
             s = phns[0][1]
             e = phns[-1][2]
             if e - s > NPERSEG:
-                yield key, s, e, [e[-1] for e in phns]
+                yield key, s, e, [e[-1]-s for e in phns]
 
 def slice_audio(syllables, wave):
     for key, s, e, ends in syllables:
@@ -67,11 +67,8 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
     for slc, ends in slcs:
         f, t, spec = scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
         dt = len(t)/len(slc)
-        print(dt)
         conv = [min(int(round(e*dt)), len(t)-1) for e in ends]
         marked = numpy.copy(spec)
-        print(conv, marked.shape)
-        input()
         for c in conv:
             marked[:,c-1000:c+1001] = EPS
         yield f, t, spec, marked
