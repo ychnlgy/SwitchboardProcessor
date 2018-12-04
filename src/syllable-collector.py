@@ -67,6 +67,7 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
     for slc, ends in slcs:
         f, t, spec = scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
         dt = len(t)/len(slc)
+        print(dt)
         conv = [min(int(round(e*dt)), len(t)-1) for e in ends]
         marked = numpy.copy(spec)
         print(conv, marked.shape)
