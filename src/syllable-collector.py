@@ -13,9 +13,9 @@ from sampler import create_keepset
 SAMPLES = 5
 ADDITIONAL_SAMPLES = 20
 
-NPERSEG = 256
-NOVERLAP = 255
-NFFT = 256
+NPERSEG = 128
+NOVERLAP = 127
+NFFT = 128
 
 def load(npy):
     i = 0
