@@ -174,7 +174,7 @@ def main(npy):
         for i, axis in enumerate(axes[0,1:]):
             axis.set_title("Sample %d" % i)
         pyplot.savefig(fname, bbox_inches="tight")
-        fig.clf()
+        fig.cla()
         #input("Saved one")
 
 if __name__ == "__main__":
