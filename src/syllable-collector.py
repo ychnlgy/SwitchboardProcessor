@@ -11,6 +11,7 @@ from matplotlib import pyplot
 from sampler import create_keepset
 
 SAMPLES = 5
+ADDITIONAL_SAMPLES = 20
 
 NPERSEG = 256
 NOVERLAP = 255
@@ -64,7 +65,7 @@ def slice_audio(syllables, wave):
 def to_spectrogram(audio_slices, rate, n=SAMPLES):
     #assert len(audio_slices) > n
     random.shuffle(audio_slices)
-    slcs = audio_slices[:n]
+    slcs = audio_slices[:n+ADDITIONAL_SAMPLES]
     for slc in slcs:
         yield scipy.signal.spectrogram(slc, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NFFT)
 
@@ -81,8 +82,14 @@ def average_spectrograms(specs):
     assert longest is not None
     for arr in others:
         if arr is not None:
-            longest[:arr.shape[0],:arr.shape[1]] += arr[:,:]
+            longest[-arr.shape[0]:,:arr.shape[1]] += arr[:,:]
     return longest/(len(others)+1)
+
+def fill_spec(shape, spec):
+    out = numpy.zeros(shape)
+    out = numpy.min(spec)
+    out[-spec.shape[0]:, :spec.shape[1]] = spec[:,:]
+    return out
 
 def main(npy):
     keepset = create_keepset()
@@ -126,12 +133,20 @@ def main(npy):
             t_map = {}
             f_map = {}
             for k, (f, t, spec) in enumerate(to_spectrogram(slcs, rate), 1):
-                axes[j, k].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot")
                 specs.append(spec)
                 t_map[spec.shape[1]] = t
                 f_map[spec.shape[0]] = f
+                if k <= SAMPLES:
+                    draw.append(spec)
+            
             avg = average_spectrograms(specs)
-            axes[j, 0].pcolormesh(t_map[avg.shape[1]], f_map[avg.shape[0]], 10*numpy.log10(avg), cmap="hot")
+            t = t_map[avg.shape[1]]
+            f = f_map[avg.shape[0]]
+            axes[j, 0].pcolormesh(t, f, 10*numpy.log10(avg), cmap="hot", vmax=1)
+            for k in range(1, 1+SAMPLES):
+                spec = fill_spec(avg.shape, draw[k])
+                axes[j, k].pcolormesh(t, f, 10*numpy.log10(spec), cmap="hot", vmax=1)
+            
         axes[0, 0].set_title("Average")
         for i, axis in enumerate(axes[0,1:]):
             axis.set_title("Sample %d" % i)

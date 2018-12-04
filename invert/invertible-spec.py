@@ -13,8 +13,10 @@ def load(fname):
 def save(fname, rate, data):
     scipy.io.wavfile.write(fname, rate, data)
 
-def spectrogram(rate, data, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NPERSEG):
-    return scipy.signal.stft(data, fs=rate, nperseg=nperseg, noverlap=noverlap, nfft=nfft)
+def spectrogram(totaltime, rate, spec, nperseg=NPERSEG):
+    freq = numpy.arange(spec.shape[1])/nperseg*rate/2
+    time = numpy.arange(spec.shape[0])*(totaltime/spec.shape[0])
+    return freq, time
 
 def inverse_spec(rate, spec, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NPERSEG):
     return scipy.signal.istft(spec, fs=rate, nperseg=nperseg, noverlap=noverlap, nfft=nfft)
@@ -28,14 +30,60 @@ def from_spectrogram(rate, spec, nperseg=NPERSEG, noverlap=NOVERLAP, nfft=NPERSE
         x = scipy.signal.istft(Z, rate, nperseg=nperseg, noverlap=noverlap, nfft=nfft)[1]
     return numpy.real(x)
 
-def main():
-    rate, data = load("timit-trainexample.wav")
-    spec = pretty_spectrogram(data, step_size=1)
-    #spec[:,-100:] = numpy.min(spec)
-    pyplot.imshow(spec, cmap="hot", interpolation="nearest", aspect="auto")
-    pyplot.savefig("spec.png")
+def shift_block(slc, ti, tj, fi, fj, dmax):
+    mid = (tj + ti)//2
+    std = tj-mid
+    pyplot.plot(slc[mid])
+    pyplot.savefig("original-mid.png")
+    pyplot.clf()
     
-    datap = invert_pretty_spectrogram(spec, step_size=1, n_iter=10)
+    low = numpy.min(slc)
+    for t in range(ti, tj):
+        v = 1 - ((t - mid)/std)**2
+        d = int(round(v * dmax))
+        if d:
+            shift(slc[t], fi, fj, d, low)
+    
+    pyplot.plot(slc[mid])
+    pyplot.savefig("altered-mid.png")
+    pyplot.clf()
+
+def shift(slc, fi, fj, d, lowest):
+    add = splice(slc, fi, fj, d, lowest)
+    insert_spliced(add, slc, fi+d, fj+d)
+
+def splice(slc, fi, fj, d, lowest):
+    yj = slc[fj]
+    yi = slc[fi]
+    m = (yj - yi)/(fj - fi)
+    intp = numpy.arange(fj-fi) * m + yi
+    vals = slc[fi:fj] - intp
+    slc[fj-abs(d):fj] = intp[-abs(d):]
+    return vals
+
+def insert_spliced(add, slc, fi, fj):
+    slc[fi:fj] = (slc[fi:fj] + add)
+
+def get_index_of_freq(freq, rate, nperseg=NPERSEG):
+    return int(round(freq*2*nperseg/rate))
+
+def main():
+    rate, data = load("happy.wav")
+    #f, t, spec = scipy.signal.spectrogram(data, fs=rate, nperseg=NPERSEG, noverlap=NOVERLAP)
+    spec = pretty_spectrogram(data, step_size=1)
+    f, t = spectrogram(len(data)/rate, rate, spec)
+    
+    i = get_index_of_freq(1700, rate)
+    j = get_index_of_freq(2500, rate)
+    
+    shift_block(spec, 4879, 9200, i, j, -50)
+    
+    #spec[:,-100:] = numpy.min(spec)
+    pyplot.pcolormesh(t, f, spec.T, cmap="hot", vmax=1)
+    pyplot.colorbar()
+    pyplot.savefig("spec.png")
+    pyplot.show()
+    datap = invert_pretty_spectrogram(spec, step_size=1, n_iter=4)
     save("reconstruct.wav", rate, datap)
     
     #stat(spec)
@@ -53,7 +101,7 @@ def main():
 if __name__ == "__main__":
 
     import matplotlib
-    matplotlib.use("agg")
+    #matplotlib.use("agg")
     from matplotlib import pyplot
 
     def plot(f, t, spec, name):
