@@ -15,7 +15,7 @@ ADDITIONAL_SAMPLES = 20
 
 NPERSEG = 256
 NOVERLAP = 255
-NFFT = 512
+NFFT = 256
 
 def load(npy):
     i = 0
@@ -70,7 +70,7 @@ def to_spectrogram(audio_slices, rate, n=SAMPLES):
         conv = [min(int(round(e*dt)), len(t)-1) for e in ends]
         marked = numpy.copy(spec)
         for c in conv:
-            marked[:,c-50:c+51] = EPS
+            marked[:,c-100:c+101] = EPS
         print(marked.shape)
         yield f, t, spec, marked
 
